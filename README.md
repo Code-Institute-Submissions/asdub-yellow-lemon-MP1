@@ -1,7 +1,4 @@
-# Code Institute
+# Yellow Lemon - Milestone Project 1 
 
-Welcome USER_NAME,
-
-We have preinstalled all of the tools you need to get started.
-
-Happy coding!
+This is a webiste for a fictional band called 'Yellow Lemon'. <br>
+I'll be using HTML/ CSS to build this site. And will later delpoy it on Gitub Pages once complete. 
