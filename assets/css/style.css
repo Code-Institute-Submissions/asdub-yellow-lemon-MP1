@@ -1,3 +1,7 @@
+/***** FONTS *****/
+@import url("https://use.typekit.net/wlw8oea.css");
+
+
 
 /***** GLOBAL SETTINGS ****/
 :root {
@@ -11,12 +15,39 @@
 
 body {
     margin: var(--theme-margin);
+    font-family: "roboto", sans-serif;
+    font-size: 1.05rem;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 section {
     border-radius: 3px;
 }
 
+.yellow-more-btn {
+    padding: 8px 20px;
+    border-radius: 33px;
+    background: var(--theme-yellow);
+    color: var(--theme-black);
+    border: 0;
+    font-family: 'roboto', sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: 0 var(--theme-margin) 0 70%;
+    bottom: calc((var(--theme-margin))*2);
+}
 
 
 /***** MENU LAYOUT *****/
@@ -65,7 +96,7 @@ header {
 .band-sessions {
      grid-area: sessions;
      margin-top: var(--theme-margin);
-     background-color: pink;
+     background-color: var(--theme-white);
 }
 
 .band-news {
@@ -88,11 +119,29 @@ footer {
     background-color: grey;
 }
 
+/***** LOGO *****/
+.menu-logo {
+    font-family: 'effra', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    padding: calc((var(--theme-margin))*2) 0 0 calc((var(--theme-margin))*2);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu-logo .red-lemon {
+    color: var(--theme-red);
+    -webkit-text-stroke: var(--theme-black);
+    -webkit-text-stroke-width: 1px;
+    font-size: 120%;
+}
 
 /***** HERO ALBUM - HOME *****/
 
 .hero-album {
-    background: url("../images/yellow.jpeg") no-repeat center center fixed; 
+    background: url("../images/yellow.jpeg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -124,22 +173,57 @@ footer {
 
 /***** BAND SESSIONS - HOME *****/
 
-
-.band-sessions-video-container {
-    position: relative;
-    padding-bottom: 56.25%; 
-}
-
-.band-sessions-video-container iframe {
-    position: absolute;
+.band-sessions-container {
+    border-radius: 3px;
+    background: url("../images/yellowstudio.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    height: 70%;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
-.band-sessions-video-overlay {
-    position: absolute;
-    color: var(--theme-yellow)
+.band-sessions-overlay {
+    background: rgba(0,0,0,0.4);
+    height: 100%;
+    color: var(--theme-white);
+    font-size: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.band-sessions-overlay h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 90%;
+    padding: calc((var(--theme-margin))*2);
+}
+
+.band-sessions-overlay h2 {
+    font-family: 'effra', sans-serif;
+    letter-spacing: 0.025em;
+    line-height: 1em;
+    font-weight: bold;
+    padding-left: calc((var(--theme-margin))*2);
+    margin-top: auto; 
+}
+
+.band-sessions-overlay i {
+    color: var(--theme-yellow);
+}
+
+.band-sessions-overlay p {
+    padding: 0 0 calc((var(--theme-margin))*2) calc((var(--theme-margin))*2);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 90%;
+    color: var(--theme-yellow);
+}
+
+.band-sessions-text {
+    padding: 0 0 calc((var(--theme-margin))*2) calc((var(--theme-margin))*2);
+    font-size: 90%;
+    padding-top: 5px;
 }
 
