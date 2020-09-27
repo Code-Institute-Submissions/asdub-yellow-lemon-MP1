@@ -3,17 +3,17 @@ window.onscroll = function() {
     var nav = document.getElementById('navbar'),
         menu = document.getElementById('mobilemenu');
     if ( window.pageYOffset > 40 ) {
-        nav.style.gridTemplateRows = "8vh";
-        nav.style.transition = "all 0.3s ease";
-        nav.style.fontSize = "70%";
-        menu.style.transform = "scale(0.75)";
-        menu.style.transition = "all 0.3s ease";
+        nav.style.transition = "all 0.2s ease";
+        nav.style.height = "75px";
+        nav.style.fontSize = "75%";
+        menu.style.width = "12vw";
+        menu.style.transition = "all 0.2s ease";    
     } else {
-        nav.style.gridTemplateRows = "12vh";
-        nav.style.transition = "all 0.3s ease";
+        nav.style.transition = "all 0.2s ease";
+        nav.style.height = "100px";
         nav.style.fontSize = "100%";
-        menu.style.transform = "scale(1)";
-        menu.style.transition = "all 0.3s ease";
+        menu.style.width = "15vw";
+        menu.style.transition = "all 0.2s ease";
     }
     
 }
