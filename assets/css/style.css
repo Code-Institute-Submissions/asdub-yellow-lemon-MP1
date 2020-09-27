@@ -65,6 +65,7 @@ section {
     z-index: 1;
     box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
     height: 100px;
+    overflow: hidden;
 }
 
 .menu-logo {
@@ -91,6 +92,16 @@ section {
     margin-left: auto;
     display: flex;
     margin-right: var(--theme-margin);
+    transition: all 0.2s ease;
+}
+
+.spotify-headphones {
+    font-size: 1.6rem;
+    transition: all 0.2s ease;
+}
+
+.spotify-headphones-active {
+    color: #1DB954;
 }
 
 
@@ -146,7 +157,7 @@ section {
 .nav-menu-overlay {
     display: none;
     position: fixed;
-    width: 50vw;
+    width: calc(40vw - var(--theme-margin));
     background: #191919;
     opacity: 0.9;
     border-radius: 3px;
@@ -154,6 +165,8 @@ section {
     margin-top: var(--theme-margin);
     margin-right: var(--theme-margin);
     padding: 20px 0;
+    z-index: 1;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .nav-menu-overlay-display {
@@ -199,7 +212,35 @@ section {
     text-decoration: underline;
 }
 
+/***** SPOTIFY *****/
 
+.spotify-overlay {
+    display: none;
+    position: fixed;
+    width: calc(60vw - calc((var(--theme-margin))*3));
+    background: var(--theme-black);
+    opacity: 0.9;
+    border-radius: 3px;
+    left: 0;
+    margin: var(--theme-margin) var(--theme-margin) 0 var(--theme-margin);
+    padding: var(--theme-margin);
+    z-index: 1;
+}
+
+.spotify-overlay iframe {
+    border: #000;
+    border-radius: 3px; 
+    width: 100%; 
+    height: 200px;
+    
+}
+
+.spotify-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 /***** LAYOUT *****/
@@ -253,9 +294,9 @@ footer {
     font-family: 'effra', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 1.2em;
-    padding: calc((var(--theme-margin))*2) 0 0 calc((var(--theme-margin))*2);
-    margin: calc((var(--theme-margin))*2) 0 calc((var(--theme-margin))*2) 0;
+    line-height: 1.3em;
+    padding: calc(var(--theme-margin)*2);
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -265,7 +306,7 @@ footer {
     color: var(--theme-red);
     -webkit-text-stroke: var(--theme-black);
     -webkit-text-stroke-width: 1px;
-    font-size: 120%;
+    font-size: auto;
 }
 
 /***** HERO ALBUM - HOME *****/
@@ -282,13 +323,48 @@ footer {
 }
 
 .hero-album-overlay {
-    height: 15vh;
+    height: 12vh;
     width: 70%;
     max-width: 600px;
     background: rgba(244, 123, 112, 0.85);
     margin-bottom: 10vh;
     display: flex; 
     align-items: flex-end
+}
+
+.hero-album-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 70%;
+}
+
+.hero-album-text h2 {
+    align-self: center;
+    font-family: rockwell, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: calc(var(--theme-margin)/2) 0 0 calc(var(--theme-margin)*3);
+}
+
+.hero-album-text h3 {
+    align-self: flex-start;
+    font-size: 100%;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.015rem;
+    color: var(--theme-white);
+    padding-left: calc(var(--theme-margin)*3);
+}
+
+.hero-album-text span {
+    align-self: flex-end;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--theme-white);
+    letter-spacing: 0.015rem;
+    font-size: 90%;
 }
 
 .hero-play {
@@ -299,6 +375,15 @@ footer {
     margin-left: auto;
     margin-right: -50px;
     margin-bottom: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-play i {
+    color: var(--theme-white);
+    font-size: 2rem;
+    padding-left: 2px;
 }
 
 /***** BAND SESSIONS - HOME *****/
