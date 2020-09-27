@@ -52,7 +52,7 @@ section {
 
 /***** MENU LAYOUT *****/
 
-header {
+#navbar {
     position: sticky;
     top: var(--theme-margin);
     display: grid;
@@ -63,6 +63,7 @@ header {
     background-color: var(--theme-yellow);
     border-radius: 3px;
     z-index: 1;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
 }
 
 .menu-logo {
@@ -72,6 +73,86 @@ header {
 .nav-container {
     grid-area: nav;
 }
+
+/***** Mobile Menu *****/ 
+/* Credit: https://uxdesign.cc/the-menu-210bec7ad80c) */
+
+#mobilemenu {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+    width: 15vw;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    transform-origin: top left;
+}
+
+.opened {
+    background:var(--theme-black) !important;
+    border-radius: 3px 3px 0 0;
+    margin-bottom: -1px;
+    
+}
+
+.line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+
+.line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+}
+
+.line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+
+.opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+    stroke: var(--theme-white);
+}
+
+.opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+    stroke: var(--theme-white);
+}
+
+.opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+    stroke: var(--theme-white);
+}
+
+.nav-menu-overlay {
+    display: none;
+    width: 50vw;
+    height: 40vh;
+    background: #191919;
+    border-radius: 3px 0 3px 3px;
+    
+}
+
+.nav-menu-overlay-display {
+    display: block;
+} 
+
 
 /***** LAYOUT *****/
 
