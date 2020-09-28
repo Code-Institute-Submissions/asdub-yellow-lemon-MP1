@@ -31,6 +31,18 @@ section {
     border-radius: 3px;
 }
 
+.container-animate {
+    animation: fadeIn .25s ease-in-out;
+}
+    @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    }
+
 .yellow-more-btn {
     padding: 8px 20px;
     border-radius: 33px;
@@ -166,7 +178,6 @@ section {
     margin-right: var(--theme-margin);
     padding: 20px 0;
     z-index: 2;
-    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .nav-menu-overlay-display {
@@ -225,16 +236,7 @@ section {
     margin: var(--theme-margin) var(--theme-margin);
     padding: var(--theme-margin);
     z-index: 1;
-    animation: fadein 0.5s ease-in-out;
 }
-    @keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-    }
 
 .spotify-close-background {
     background: var(--theme-yellow);
@@ -251,7 +253,7 @@ section {
 }
 
 #spotify-close {
-    color: var(--theme-black);  
+    color: var(--theme-red);  
     font-size: 2rem;
     z-index: 3;
 }
@@ -372,7 +374,7 @@ footer {
     font-family: rockwell, sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding: calc(var(--theme-margin)/2) 0 0 calc(var(--theme-margin)*3);
+    padding: 0 0 0 calc(var(--theme-margin)*3);
 }
 
 .hero-album-text h3 {
@@ -383,7 +385,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 0.015rem;
     color: var(--theme-white);
-    padding-left: calc(var(--theme-margin)*3);
+    padding: 0 0 0 calc(var(--theme-margin)*3);
 }
 
 .hero-album-text span {
