@@ -10,21 +10,21 @@
 </head>
 <body>
     <header id="navbar">
-            <div class="menu-logo">
-                <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
-            </div>
-            <div class="nav-container">
+        <div class="menu-logo">
+            <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
+        </div>
+        <div class="nav-container">
             <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones"></i>
                 <div class="nav-menu">
-                        <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
-                            <svg width="100%" height="100%" viewBox="0 0 100 100">
+                    <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
+                        <svg width="100%" height="100%" viewBox="0 0 100 100">
                             <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
                             <path class="line line2" d="M 20,50 H 80" />
                             <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
-                            </svg>
-                        </button>
-                    </div>
+                        </svg>
+                    </button>
                 </div>
+            </div>
      </header>
     <div id="menuoverlay" class="nav-menu-overlay container-animate">
         <ul class="nav-items">
@@ -60,44 +60,133 @@
         <section class="band-sessions">
             <div class="band-sessions-container">
                 <div class="band-sessions-overlay">
-                    <h3>Lemon Lockdown <i class="fas fa-lemon" aria-hidden="true"></i></h3>
-                    <h2>Studio Sessions</h2>
-                    <p>Updated Weekly</p>
+                    <h3>
+                        Lemon Lockdown 
+                            <i class="fas fa-lemon" aria-hidden="true"></i>
+                    </h3>
+                    <h2>
+                        Studio Sessions
+                    </h2>
+                    <p>
+                        Updated Weekly
+                    </p>
                 </div>
-                <p class="band-sessions-text">Join us each week for a look and listen behind the scenes at yellow studios.</p>
-                <a href="#" class="yellow-more-btn">More</a>
+                <div class="band-sessions-content-container">
+                    <p class="band-sessions-text">
+                        Join us each week for a look and listen behind the scenes at yellow studios.
+                    </p>
+                    <a href="#" class="yellow-more-btn">More &gt;</a>
+                </div>
+                <div class="section-footer">
+                    <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
+                </div>
             </div>
         </section>
 
         <section class="band-news">
-        
-                <article class="band-news-post">
-
-                </article>
-                <article class="band-news-post">
-
-                </article>
-        
+            <div class="section-container">
+                <h2 class="section-title">
+                    <span>Band News</span>
+                </h2>
+                <div class="band-news-post-layout">
+                    <article class="band-news-post">
+                        <div class="band-news-post-container">
+                            <h3 class="section-subtitle">Cancelled Gigs</h3>
+                            <span>MONDAY November 16th, 2020</span>
+                            <div class="band-news-image-container">
+                            </div>
+                            <p>
+                                <span>Yellow lemon</span> would like to thank our fans for their 
+                                Continued patience and support during these 
+                                Uncertain times. It has been… 
+                            </p>
+                            <a href="#" class="yellow-more-btn">More &gt;</a>
+                        </div>
+                    </article>
+                    <article class="band-news-post">
+                        <div class="band-news-post-container">
+                            <h3 class="section-subtitle">Cancelled Gigs</h3>
+                            <span>MONDAY November 16th, 2020</span>
+                            <div class="band-news-image-container">
+                            </div>
+                            <p>
+                                <span>Yellow lemon</span> would like to thank our fans for their 
+                                Continued patience and support during these 
+                                Uncertain times. It has been… 
+                            </p>
+                            <a href="#" class="yellow-more-btn">More &gt;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="section-footer">
+                <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
+            </div>
         </section>
 
         <section class="band-events">
             <div class="covid-alert">
+                <div class="covid-alert-icon">
+                    <img src="assets/svg/covid.svg" alt="Coronavirus Icon">
+                </div>
+                <div class="covid-alert-content">
+                    <span>
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Important Update
+                    </span>
+                    <p>
+                        Due to Covid-19 restrictions - all events 
+                        are currently postponed.
+                    </p>
+                </div>
             </div>
-            <div class="band-events-container">
-                <div class="band-events-listings">
-                    <div class="band-events item">
-                    
+            <div class="section-container events-container">
+                <h2 class="section-title invert-dark">
+                    <span>Events</span>
+                </h2>
+                <div class="band-events-content">
+                    <p class="invert-dark">
+                        <span>Keep up to date</span> 
+                        on all our scheduled and upcoming Gigs including our 
+                        <span class="lemonade-text">Lemonade</span> tour. 
+                    </p>
+                    <p class="band-events-merch-text invert-dark">
+                        <span>
+                            Attended one of out previous gigs?
+                            <span>Not enough Lemons?</span>
+                        </span>
+                        Check out our 
+                        <a href="/merchandise.html">
+                            <span>Official Yellow Lemon</span>
+                            merch here! 
+                        </a>
+                    </p>
+                </div>
+                <div class="band-events-post-layout">
+                    <div class="band-events-item">
+                        <div class="band-events-post-container">
+
+                        </div>
                     </div>
-                    <div class="band-events item">
-                    
+                    <div class="band-events-item">
+                        <div class="band-events-post-container">
+
+                        </div>
                     </div>
-                    <div class="band-events item">
-                    
+                    <div class="band-events-item">
+                        <div class="band-events-post-container">
+
+                        </div>
                     </div>
-                    <div class="band-events item">
-                    
+                    <div class="band-events-item">
+                        <div class="band-events-post-container">
+
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="section-footer">
+                <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
             </div>
         </section>
 
@@ -110,11 +199,11 @@
             </div>
         </section>
 
-     <footer>
+        <footer>
 
-    </footer>
-</div>
+        </footer>
+    </div>
 </body>
-<script src="assets/js/menubar.js"></script>
-<script src="assets/js/menuoverlay.js"></script>
+    <script src="assets/js/menubar.js"></script>
+    <script src="assets/js/menuoverlay.js"></script>
 </html>

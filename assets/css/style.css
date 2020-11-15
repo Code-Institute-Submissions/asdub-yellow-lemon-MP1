@@ -1,7 +1,6 @@
 /***** FONTS *****/
 @import url("https://use.typekit.net/wlw8oea.css");
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap');
 
 /***** GLOBAL SETTINGS ****/
 :root {
@@ -21,10 +20,24 @@ body {
 
 h1,h2,h3,h4 {
     margin: 0;
+    font-size: inherit;
+    letter-spacing: 0.025em;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
 }
 
 p {
     margin: 0;
+    font-size: 14px;
+    line-height: 1.3em;
+    letter-spacing: 0.0025em;
+    color: rgba(51, 51, 51, 1);
 }
 
 section {
@@ -50,22 +63,49 @@ section {
     color: var(--theme-black);
     border: 0;
     font-family: 'roboto', sans-serif;
-    font-size: 100%;
+    font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
     position: relative;
     display: block;
-    margin: 0 var(--theme-margin) 0 70%;
-    bottom: calc((var(--theme-margin))*2);
+    margin-left: auto;
 }
 
+.invert-dark {
+   color: var(--theme-white);
+}
+
+.lemonade-text {
+    font-family: "rockwell", sans-serif;
+}
+
+/***** SECTION DEFAULTS *****/
+
+.section-container {
+    padding: calc(var(--theme-margin)*4) calc(var(--theme-margin)*2);
+}
+
+.section-title {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.section-title span {
+    border-bottom: 3px solid var(--theme-yellow);
+    padding: 0 0 var(--theme-margin) 0;
+}
+
+.section-subtitle {
+    font-size: 20px;
+    text-transform: uppercase;
+}
 
 /***** MENU LAYOUT *****/
 
 #navbar {
-    position: sticky;
+    position: fixed;
     top: var(--theme-margin);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -77,9 +117,9 @@ section {
     z-index: 1;
     box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
     height: 100px;
+    width: calc(100% - (var(--theme-margin))*2);
     overflow: hidden;
 }
-
 
 .menu-logo {
     grid-area: logo;
@@ -99,7 +139,7 @@ section {
 
 #mobilemenu {
     background: none;
-    width: 75px;
+    width: 55px;
     border: 0;
     cursor: pointer;
     margin-left: auto;
@@ -173,6 +213,7 @@ section {
     background: #191919;
     opacity: 0.9;
     border-radius: 3px;
+    top: calc(100px + var(--theme-margin));
     right: 0;
     margin-top: var(--theme-margin);
     margin-right: var(--theme-margin);
@@ -199,18 +240,19 @@ section {
     margin: calc((var(--theme-margin))*2) calc((var(--theme-margin))*2);
     font-family: 'effra', sans-serif;
     text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
 }
 
 .nav-items, 
 .nav-items a:visited {
     color: var(--theme-white);
-    font-size: 105%;
+    transform: scale(1.05);
     font-weight: bold;
 }
 
 .nav-items-small, .nav-items-small a:visited {
     color: var(--theme-yellow);
-    font-size: 70%
+    font-size: 70%;
 }
 
 .nav-items a {
@@ -227,7 +269,7 @@ section {
 
 .spotify-overlay {
     display: none;
-    position: sticky;
+    position: fixed;
     top: 0;
     background: var(--theme-black);
     opacity: 0.9;
@@ -235,6 +277,7 @@ section {
     left: 0;
     margin: var(--theme-margin) var(--theme-margin);
     padding: var(--theme-margin);
+    width: calc(100% - (var(--theme-margin))*4);
     z-index: 1;
 }
 
@@ -277,16 +320,17 @@ section {
 
 .main-grid-container {
     display: grid;
+    margin-top: calc(var(--theme-margin)*2);
     grid-template-columns: 1fr;
-    grid-template-rows: 48vh 40vh 100vh 100vh 80vh 20vh;
+    grid-auto-rows: 100px minmax(250px, auto) minmax(350px, auto) auto 100vh 80vh 20vh;
     grid-template-areas:
+    " . "
     "hero"
     "sessions"
     "news"
     "events"
     "follow"
-    "footer";
-    margin-top: var(--theme-margin);
+    "footer"; 
 }
 
 .hero-album {
@@ -301,12 +345,10 @@ section {
 
 .band-news {
     grid-area: news;
-    background-color: orange;
 }
 
 .band-events {
     grid-area: events;
-    background-color: black;
 }
 
 .band-follow {
@@ -324,12 +366,13 @@ footer {
     font-family: 'effra', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 1.3em;
+    line-height: 1em;
     padding: calc(var(--theme-margin)*2);
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    font-size: 1.8rem;
 }
 
 .menu-logo .red-lemon {
@@ -337,6 +380,23 @@ footer {
     -webkit-text-stroke: var(--theme-black);
     -webkit-text-stroke-width: 1px;
     font-size: auto;
+}
+
+/***** SECTION FOOTER *****/
+
+.section-footer {
+    margin: 0 var(--theme-margin);
+    border-bottom: 1px solid var(--theme-yellow);
+}
+.yellow-lemon {
+    /***** Section Footer Icon *****/
+    color: var(--theme-white);
+    text-shadow: 1px 0 0 var(--theme-yellow),0 1px 0 var(--theme-yellow),-1px 0 0 var(--theme-yellow),0 -1px 0 var(--theme-yellow);
+    font-size: 2rem;
+}
+
+.section-footer .yellow-lemon {
+    padding: 0 0 var(--theme-margin) 0;
 }
 
 /***** HERO ALBUM - HOME *****/
@@ -371,7 +431,8 @@ footer {
 
 .hero-album-text h2 {
     align-self: center;
-    font-family: rockwell, sans-serif;
+    font-family: "rockwell", sans-serif;
+    font-size: 130%;
     font-weight: 400;
     font-style: normal;
     padding: 0 0 0 calc(var(--theme-margin)*3);
@@ -379,7 +440,6 @@ footer {
 
 .hero-album-text h3 {
     align-self: flex-start;
-    font-size: 100%;
     font-weight: bold;
     font-style: italic;
     text-transform: uppercase;
@@ -419,30 +479,30 @@ footer {
 /***** BAND SESSIONS - HOME *****/
 
 .band-sessions-container {
-    border-radius: 3px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100%;
+}
+
+.band-sessions-overlay {
+    background: rgba(0,0,0,0.4);
+    color: var(--theme-white);
+    font-size: inherit;
+    display: flex;
+    flex-direction: column;
     background: url("../images/yellowstudio.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;  
-    height: 70%;
-    top: 0;
-}
-
-.band-sessions-overlay {
-    background: rgba(0,0,0,0.4);
-    height: 100%;
-    color: var(--theme-white);
-    font-size: inherit;
-    display: flex;
-    flex-direction: column;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: calc(var(--theme-margin)*2);
 }
 
 .band-sessions-overlay h3 {
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 90%;
-    padding: calc((var(--theme-margin))*2);
 }
 
 .band-sessions-overlay h2 {
@@ -450,7 +510,6 @@ footer {
     letter-spacing: 0.025em;
     line-height: 1em;
     font-weight: bold;
-    padding-left: calc((var(--theme-margin))*2);
     margin-top: auto; 
 }
 
@@ -459,16 +518,131 @@ footer {
 }
 
 .band-sessions-overlay p {
-    padding: 0 0 calc((var(--theme-margin))*2) calc((var(--theme-margin))*2);
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 90%;
     color: var(--theme-yellow);
 }
 
-.band-sessions-text {
-    padding: 0 0 calc((var(--theme-margin))*2) calc((var(--theme-margin))*2);
-    font-size: 90%;
-    padding-top: 5px;
+.band-sessions-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: calc((var(--theme-margin))*2);
 }
 
+/***** BAND NEWS - HOME *****/
+
+.band-news-post {
+    box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.2);
+    background: #fafafa;
+    border-radius: 3px;
+}
+
+.band-news-post-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 2rem;
+     margin: 2rem 0;
+}
+
+.band-news-post-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.band-news-post-container > span{
+    font-size: 12px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.band-news-post-container > span,
+.band-news-post-container p {
+    padding: var(--theme-margin) 0;
+}
+
+.band-news-post-container p span{
+  font-weight: 600;
+}
+
+.band-news-image-container {
+    background: url(https://img.youtube.com/vi/4D2qcbu26gs/hqdefault.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+}
+
+/***** EVENTS - HOME *****/
+
+/** Events Covid Alert **/
+.covid-alert {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin: calc(var(--theme-margin)*4) 0 var(--theme-margin) 0;
+    background: var(--theme-red);
+    border-radius: 3px;
+}
+
+.covid-alert-content {
+    padding-left: 1rem;
+}
+
+.covid-alert-content,
+.covid-alert-content p {
+    color: var(--theme-white);
+}
+
+.covid-alert-content i {
+    color: var(--theme-yellow);
+}
+
+.events-container {
+    background: #191919;
+    border-radius: 3px;
+}
+
+.band-events {
+    
+}
+
+.band-events-content {
+    margin: 2rem 0;
+    padding: 0 1rem
+}
+
+.band-events-content > p > span {
+    text-transform: uppercase;
+}
+
+.band-events-content > p > span:nth-child(2) {
+    text-transform: capitalize;
+}
+
+.band-events-merch-text {
+    padding: 1rem 0 0 0;
+}
+
+p.band-events-merch-text.invert-dark > span {
+    font-weight: 500;
+    text-transform: none;
+}
+
+p.band-events-merch-text.invert-dark > span > span {
+    color: var(--theme-yellow);
+    text-transform: capitalize;
+}
+
+p.band-events-merch-text.invert-dark > a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 2px dotted var(--theme-yellow);
+}
+
+p.band-events-merch-text.invert-dark > a > span {
+    font-weight: 500;
+    font-style: italic;
+}
