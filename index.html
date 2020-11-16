@@ -26,16 +26,18 @@
                 </div>
             </div>
      </header>
-    <div id="menuoverlay" class="nav-menu-overlay container-animate">
+    <div id="menuunderlay" onclick=" menuUnderlay()" class="nav-menu-underlay nav-display container-animate"></div>
+    <div id="menuoverlay" class="nav-menu-overlay nav-display container-animate">
         <ul class="nav-items">
-            <li><a href="#">The Band</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Follow</a></li>
-            <li><a href="#">Merch</a></li>
+            <li><a id="nav-active" href="/">Home</a></li>
+            <li><a href="the-band.html">The Band</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#follow">Follow</a></li>
+            <li><a href="merchandise.html">Merch</a></li>
         </ul>
         <ul class="nav-items-small">
-        <li><a href="#"><span>Private & Corporate Events</span></a></li>
+            <li><a href="/bag-some-lemons.html"><span>Private & Corporate Events</span></a></li>
         </ul>
         <div class="nav-listen"></div>
 	</div>
@@ -83,7 +85,7 @@
             </div>
         </section>
 
-        <section class="band-news">
+        <section id="news" class="band-news">
             <div class="section-container">
                 <h2 class="section-title">
                     <span>Band News</span>
@@ -124,7 +126,7 @@
             </div>
         </section>
 
-        <section class="band-events">
+        <section id="events" class="band-events">
             <div class="covid-alert">
                 <div class="covid-alert-icon">
                     <img src="assets/svg/covid.svg" alt="Coronavirus Icon">
@@ -270,7 +272,7 @@
             </div>
         </section>
 
-        <section class="band-follow">
+        <section id="follow" class="band-follow">
             <div class="section-container band-follow-container">
                 <div class="band-follow-hero">
                     <span class="follow-hero-heading-a">Follow</span>

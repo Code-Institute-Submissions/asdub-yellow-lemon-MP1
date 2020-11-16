@@ -1,7 +1,23 @@
 function menuOverlay() {
-   var overlay = document.getElementById('menuoverlay') ;
-   overlay.classList.toggle('nav-menu-overlay-display');
+   var overlay = document.getElementById('menuoverlay'),
+        underlay = document.getElementById('menuunderlay'),
+        menu = document.getElementById('mobilemenu');
+   overlay.classList.toggle('nav-active');
+   underlay.classList.toggle('nav-active');
 }
+
+function menuUnderlay() {
+   var overlay = document.getElementById('menuoverlay'),
+        underlay = document.getElementById('menuunderlay'),
+        menu = document.getElementById('mobilemenu');
+   overlay.classList.toggle('nav-active');
+   underlay.classList.toggle('nav-active');
+   menu.classList.remove('opened');
+}
+
+
+
+  
 
 function spotifyOverlay() {
    var spotify = document.getElementById('spotify'),
