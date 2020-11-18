@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Yellow Lemon | Offical Merchandise</title>
+</head>
+    <body>
+        <header id="navbar">
+            <div class="menu-logo">
+                <a href="/">
+                    <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
+                </a>
+            </div>
+            <div class="nav-container">
+                <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones"></i>
+                    <div class="nav-menu">
+                        <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
+                            <svg width="100%" height="100%" viewBox="0 0 100 100">
+                                <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                                <path class="line line2" d="M 20,50 H 80" />
+                                <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+        </header>
+        <div id="menuunderlay" onclick="menuUnderlay()" class="nav-menu-underlay nav-display container-animate"></div>
+        <div id="menuoverlay" class="nav-menu-overlay nav-display container-animate">
+            <ul class="nav-items">
+                <li><a href="/">Home</a></li>
+                <li><a id="nav-active" href="the-band.html">The Band</a></li>
+                <li><a href="/#news">News</a></li>
+                <li><a href="/#events">Events</a></li>
+                <li><a href="sessions.html">Sessions</a></li>
+                <li><a href="/#follow">Follow</a></li>
+                <li><a href="merchandise.html">Merch</a></li>
+            </ul>
+            <ul class="nav-items-small">
+                <li><a href="/bag-some-lemons.html"><span>Private & Corporate Events</span></a></li>
+            </ul>
+            <div class="nav-listen"></div>
+        </div>
+        <div id="spotify" class="spotify-overlay container-animate">
+        <div onclick="spotifyOverlay()" class="spotify-close-background"><i id="spotify-close" class="fas fa-times"></i></div>
+            <iframe src="https://open.spotify.com/embed/playlist/5a2OuIJ1kEttA8X3PaewlI" allow="encrypted-media"></iframe>
+        </div>
+        <div class="the-band-grid-container">
+            <div class="merch-hero">
+                <img src="assets/svg/merch-hero.svg" alt="Offical Yellow Lemon T-Shirt">
+            </div>
+                <section class="the-band">
+                    <div class="section-container black-container">
+                        <h2 class="section-title invert-dark">
+                            <span>Merch</span>
+                        </h2>
+                        <div class="band-content-layout merch-layout">
+                            <div class="band-content-group">
+                                <div class="band-content-item">
+                                    <div class="band-content-container">
+                                        <div class="band-content-image">
+                                            <img src="assets/svg/merch-tshirt.svg" alt="Yellow lemon t-shrit">
+                                        </div>
+                                        <div class="band-content-text merch">
+                                            <h2>Yellow lemon t-shirt</h2>
+                                            <span>100% cotton / Lemon yellow</span>
+                                            <p class="invert-dark">
+                                                Stylish yellow 100% cotton t-shirt 
+                                                Featuring Yellow Lemon type logo and 
+                                                lemons. Screen printed.  
+                                            </p>
+                                        </div>
+                                        <div class="band-content-link merch">
+                                            <a class="yellow-btn" href="https://stonerosesstore.com/products/stone-roses-olive-logo-t-shirt-srs" target="_blank">Buy ></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="band-content-divider-upper">
+                                    <hr class="white-divider">
+                                </div>
+                                <div class="band-content-item">
+                                    <div class="band-content-container">
+                                        <div class="band-content-image">
+                                            <img src="assets/svg/merch-mask.svg" alt="Yellow lemon face mask">
+                                        </div>
+                                        <div class="band-content-text merch">
+                                            <h2>Face Masks</h2>
+                                            <span>100% organic cotton / pack of 5</span>
+                                            <p class="invert-dark">
+                                                Organic cotton washable face masks. 
+                                                Colour is lemon yellow with a single 
+                                                red lemon graphic.
+                                            </p>
+                                        </div>
+                                        <div class="band-content-link merch">
+                                            <a class="yellow-btn" href="https://stonerosesstore.com/products/stone-roses-multi-colour-logo-scarf-srs" target="_blank">Buy ></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="band-content-divider-upper">
+                                    <hr class="white-divider">
+                                </div>
+                                <div class="band-content-item">
+                                    <div class="band-content-container">
+                                        <div class="band-content-image merch">
+                                            <img src="assets/svg/merch-mug.svg" alt="Yellow lemon coffee mug">
+                                        </div>
+                                        <div class="band-content-text merch">
+                                            <h2>Yellow lemon mug</h2>
+                                            <span>350ml coffee mug (12oz)</span>
+                                            <p class="invert-dark">
+                                                Make everyone in the office jealous. 
+                                                With this stunning lemon yellow mug. 
+                                                Complete with red lemons.  
+                                            </p>
+                                        </div>
+                                        <div class="band-content-link merch">
+                                            <a class="yellow-btn" href="https://stonerosesstore.com/products/fools-gold-mug-srs" target="_blank">Buy ></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page-content the-band-content-lower merch">
+                            <p class="invert-dark"> 
+                                <span>OFFICAL MERCHANDISE</span><br>
+                                Only available via Yellow Lemon.<br>
+                                Selection updated regularly
+                            </p>
+                            <p class="invert-dark">
+                                <i class="fas fa-holly-berry"></i>
+                                <span>Yellow Lemon 2020 Christmas Cards are now fully sold out</span>
+                                <i class="fas fa-holly-berry"></i>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <footer class="page-footer">
+                <div class="section-container footer-container">
+                    <div class="footer-content">
+                        <span>Getting in touch</span>
+                        <p class="invert-dark">
+                            For coprorate & private events please 
+                            <a href="/bag-some-lemons.html">visit here.</a>
+                        </p>
+                    </div>
+                    <div class="copyright-footer invert-dark">
+                        <i class="fas fa-lemon yellow-lemon black-lemon" aria-hidden="true"></i>
+                        <div class="copyright-footer-inner">
+                            <span>Copyright 2020. All rights reserved</span>
+                            <div class="copyright-links-container">
+                                <a href="https://wikiedu.org/terms-of-service/" target="_blank">Terms of Service.</a>
+                                <a href="https://wikiedu.org/privacy-policy/" target="_blank">Privacy Policy</a>
+                            </div> 
+                        <div>
+                    </div>
+                </div>
+                </footer>
+        </div>
+        <script src="assets/js/menubar.js"></script>
+        <script src="assets/js/menuoverlay.js"></script>
+    </body>
+</html>

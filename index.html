@@ -7,325 +7,328 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Yellow Lemon | Offical</title>
 </head>
-<body>
-    <header id="navbar">
-        <div class="menu-logo">
-            <a href="/">
-                <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
-            </a>
+    <body>
+        <header id="navbar">
+            <div class="menu-logo">
+                <a href="/">
+                    <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
+                </a>
+            </div>
+            <div class="nav-container">
+                <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones"></i>
+                    <div class="nav-menu">
+                        <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
+                            <svg width="100%" height="100%" viewBox="0 0 100 100">
+                                <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                                <path class="line line2" d="M 20,50 H 80" />
+                                <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+        </header>
+        <div id="menuunderlay" onclick="menuUnderlay()" class="nav-menu-underlay nav-display container-animate"></div>
+        <div id="menuoverlay" class="nav-menu-overlay nav-display container-animate">
+            <ul class="nav-items">
+                <li><a class="nav-active" href="#home">Home</a></li>
+                <li><a href="the-band.html">The Band</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="sessions.html">Sessions</a></li>
+                <li><a href="#follow">Follow</a></li>
+                <li><a href="merchandise.html">Merch</a></li>
+            </ul>
+            <ul class="nav-items-small">
+                <li><a href="/bag-some-lemons.html"><span>Private & Corporate Events</span></a></li>
+            </ul>
         </div>
-        <div class="nav-container">
-            <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones"></i>
-                <div class="nav-menu">
-                    <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
-                        <svg width="100%" height="100%" viewBox="0 0 100 100">
-                            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
-                            <path class="line line2" d="M 20,50 H 80" />
-                            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
-                        </svg>
-                    </button>
+        <div id="spotify" class="spotify-overlay container-animate">
+        <div onclick="spotifyOverlay()" class="spotify-close-background"><i id="spotify-close" class="fas fa-times" aria-label="Spotify Close"></i></div>
+            <iframe src="https://open.spotify.com/embed/playlist/5a2OuIJ1kEttA8X3PaewlI" allow="encrypted-media"></iframe>
+        </div>
+        <div id="home" class="main-grid-container">
+            <section class="hero-album">
+                <div class="hero-album-overlay">
+                    <div class="hero-album-text">
+                        <h3>Latest Release</h3>
+                        <h2>Lemonade</h2>
+                        <span>Listen Now</span>
+                    </div>
+                    <div onclick="spotifyOverlay()" class="hero-play" aria-label="Play latest release">
+                        <i class="fas fa-play"></i>
+                    </div>
                 </div>
-            </div>
-     </header>
-    <div id="menuunderlay" onclick=" menuUnderlay()" class="nav-menu-underlay nav-display container-animate"></div>
-    <div id="menuoverlay" class="nav-menu-overlay nav-display container-animate">
-        <ul class="nav-items">
-            <li><a class="nav-active" href="#home">Home</a></li>
-            <li><a href="the-band.html">The Band</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="sessions.html">Sessions</a></li>
-            <li><a href="#follow">Follow</a></li>
-            <li><a href="merchandise.html">Merch</a></li>
-        </ul>
-        <ul class="nav-items-small">
-            <li><a href="/bag-some-lemons.html"><span>Private & Corporate Events</span></a></li>
-        </ul>
-	</div>
-    <div id="spotify" class="spotify-overlay container-animate">
-    <div onclick="spotifyOverlay()" class="spotify-close-background"><i id="spotify-close" class="fas fa-times"></i></div>
-        <iframe src="https://open.spotify.com/embed/playlist/5a2OuIJ1kEttA8X3PaewlI" allow="encrypted-media"></iframe>
-    </div>
-    <div id="home" class="main-grid-container">
-        <section class="hero-album">
-            <div class="hero-album-overlay">
-                <div class="hero-album-text">
-                    <h3>Latest Release</h3>
-                    <h2>Lemonade</h2>
-                    <span>Listen Now</span>
-                </div>
-                <div onclick="spotifyOverlay()" class="hero-play">
-                    <i class="fas fa-play"></i>
-                </div>
-            </div>
-        </section> 
+            </section> 
 
-        <section class="band-sessions">
-            <div class="band-sessions-container">
-                <div class="band-sessions-overlay">
-                    <h3>
-                        Lemon Lockdown 
-                            <i class="fas fa-lemon" aria-hidden="true"></i>
-                    </h3>
-                    <h2>
-                        Studio Sessions
-                    </h2>
-                    <p>
-                        Updated Weekly
-                    </p>
+            <section class="band-sessions">
+                <div class="band-sessions-container">
+                    <div class="band-sessions-overlay">
+                        <h3>
+                            Lemon Lockdown 
+                                <i class="fas fa-lemon" aria-hidden="true"></i>
+                        </h3>
+                        <h2>
+                            Studio Sessions
+                        </h2>
+                        <p>
+                            Updated Weekly
+                        </p>
+                    </div>
+                    <div class="band-sessions-content-container">
+                        <p class="band-sessions-text">
+                            Join us each week for a look and listen behind the scenes at yellow studios.
+                        </p>
+                        <a href="sessions.html" class="yellow-btn">More &gt;</a>
+                    </div>
                 </div>
-                <div class="band-sessions-content-container">
-                    <p class="band-sessions-text">
-                        Join us each week for a look and listen behind the scenes at yellow studios.
-                    </p>
-                    <a href="sessions.html" class="yellow-more-btn">More &gt;</a>
-                </div>
-            </div>
-        </section>
-         <div class="section-footer in-layout">
-            <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
-        </div>
-        <section id="news" class="band-news">
-            <div class="section-container">
-                <h2 class="section-title">
-                    <span>Band News</span>
-                </h2>
-                <div class="band-news-post-layout">
-                    <article class="band-news-post">
-                        <div class="band-news-post-container">
-                            <h3 class="section-subtitle">Studio Sessions now weekly</h3>
-                            <span>November 1st, 2020</span>
-                            <div class="band-news-image-container">
-                                <img src="https://img.youtube.com/vi/4D2qcbu26gs/hqdefault.jpg" alt="Yellow Lemon News - Studio Session">
-                            </div>
-                            <p>
-                                <span>Yellow lemon have just announced</span> that 
-                                their online only studio sessions are now to be
-                                released each week.
-                            </p>
-                            <a href="news/online-only-studio-sessions-01-11-2020.html" class="yellow-more-btn">More &gt;</a>
-                        </div>
-                    </article>
-                    <article class="band-news-post">
-                        <div class="band-news-post-container">
-                            <h3 class="section-subtitle">Cancelled Gigs</h3>
-                            <span>March 6th, 2020</span>
-                             <div class="band-news-image-container">
-                                <img src="https://img.youtube.com/vi/wD6Pq0bSMPo/hqdefault.jpg" alt="MYellow Lemon News - Cancelled Gigs">
-                            </div>
-                           <p>
-                                <span>Yellow lemon</span> would like to thank our fans for their 
-                                Continued patience and support during these 
-                                Uncertain times. It has been… 
-                            </p>
-                            <a href="news/cancelled-gigs-06-03-2020.html" class="yellow-more-btn">More &gt;</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="section-footer">
+            </section>
+            <div class="section-footer in-layout">
                 <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
             </div>
-        </section>
+            <section id="news" class="band-news">
+                <div class="section-container">
+                    <h2 class="section-title">
+                        <span>Band News</span>
+                    </h2>
+                    <div class="band-news-post-layout">
+                        <article class="band-news-post">
+                            <div class="band-news-post-container">
+                                <h3 class="section-subtitle">Studio Sessions now weekly</h3>
+                                <span>November 1st, 2020</span>
+                                <div class="band-news-image-container">
+                                    <img src="https://img.youtube.com/vi/4D2qcbu26gs/hqdefault.jpg" alt="Yellow Lemon News - Studio Session">
+                                </div>
+                                <p>
+                                    <span>Yellow lemon have just announced</span> that 
+                                    their online only studio sessions are now to be
+                                    released each week.
+                                </p>
+                                <a href="news/online-only-studio-sessions-01-11-2020.html" class="yellow-btn">More &gt;</a>
+                            </div>
+                        </article>
+                        <article class="band-news-post">
+                            <div class="band-news-post-container">
+                                <h3 class="section-subtitle">Cancelled Gigs</h3>
+                                <span>March 6th, 2020</span>
+                                <div class="band-news-image-container">
+                                    <img src="https://img.youtube.com/vi/wD6Pq0bSMPo/hqdefault.jpg" alt="MYellow Lemon News - Cancelled Gigs">
+                                </div>
+                            <p>
+                                    <span>Yellow lemon</span> would like to thank our fans for their 
+                                    Continued patience and support during these 
+                                    Uncertain times. It has been… 
+                                </p>
+                                <a href="news/cancelled-gigs-06-03-2020.html" class="yellow-btn">More &gt;</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="section-footer">
+                    <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
+                </div>
+            </section>
 
-        <section id="events" class="band-events">
-            <div class="covid-alert">
-                <div class="covid-alert-icon">
-                    <img src="assets/svg/covid.svg" alt="Coronavirus Icon">
-                </div>
-                <div class="covid-alert-content">
-                    <span>
-                        <i class="fas fa-exclamation-triangle"></i>
-                        Important Update
-                    </span>
-                    <p>
-                        Due to Covid-19 restrictions - all events 
-                        are currently postponed.
-                    </p>
-                </div>
-            </div>
-            <div class="section-container events-container">
-                <h2 class="section-title invert-dark">
-                    <span>Events</span>
-                </h2>
-                <div class="band-events-content">
-                    <p class="invert-dark">
-                        <span>Keep up to date</span> 
-                        on all our scheduled and upcoming Gigs including our 
-                        <span class="lemonade-text">Lemonade</span> tour. 
-                    </p>
-                    <p class="band-events-merch-text invert-dark">
+            <section id="events" class="band-events">
+                <div class="covid-alert">
+                    <div class="covid-alert-icon">
+                        <img src="assets/svg/covid.svg" alt="Coronavirus Icon">
+                    </div>
+                    <div class="covid-alert-content">
                         <span>
-                            Attended one of out previous gigs?
-                            <span>Not enough Lemons?</span>
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Important Update
                         </span>
-                        Check out our 
-                        <a href="/merchandise.html">
-                            <span>Official Yellow Lemon</span>
-                            merch here! 
-                        </a>
-                    </p>
+                        <p>
+                            Due to Covid-19 restrictions - all events 
+                            are currently postponed.
+                        </p>
+                    </div>
                 </div>
-                <div class="band-events-post-layout">
-                    <div class="events-title-container">
-                        <h3 class="events-title">2020 Tour Dates</h3>
-                        <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
+                <div class="section-container black-container">
+                    <h2 class="section-title invert-dark">
+                        <span>Events</span>
+                    </h2>
+                    <div class="band-events-content">
+                        <p class="invert-dark">
+                            <span>Keep up to date</span> 
+                            on all our scheduled and upcoming Gigs including our 
+                            <span class="lemonade-text">Lemonade</span> tour. 
+                        </p>
+                        <p class="band-events-merch-text invert-dark">
+                            <span>
+                                Attended one of out previous gigs?
+                                <span>Not enough Lemons?</span>
+                            </span>
+                            Check out our 
+                            <a href="/merchandise.html">
+                                <span>Official Yellow Lemon</span>
+                                merch here! 
+                            </a>
+                        </p>
                     </div>
-                    <div class="band-events-group">
-                         <span>November</span>
-                        <div class="band-events-item">
-                            <div class="band-events-post-container">
-                                <div class="band-events-post-date">
-                                    <p>17<span>th</span></p>
+                    <div class="band-events-post-layout">
+                        <div class="events-title-container">
+                            <h3 class="events-title">2020 Tour Dates</h3>
+                            <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
+                        </div>
+                        <div class="band-events-group">
+                            <span>November</span>
+                            <div class="band-events-item">
+                                <div class="band-events-post-container">
+                                    <div class="band-events-post-date">
+                                        <p>17<span>th</span></p>
+                                    </div>
+                                    <div class="band-content-divider-upper">
+                                        <hr class="yellow-divider">
+                                    </div>
+                                    <div class="band-events-post-details">
+                                        <p>The <span class="lemonade-text">Lemonade</span> Tour</p>
+                                        <p>Vicar Street <span>/</span> <span>Dublin</span></p>
+                                        <p>Doors open - <span>7pm</span>
+                                    </div>
+                                    <div class="band-content-divider-lower">
+                                         <hr class="yellow-divider">
+                                    </div>
+                                    <div class="band-events-post-link">
+                                        <a  class="black-btn" href="https://www.ticketmaster.ie/abba-orchestral-dublin-27-02-2021/event/18005852BADE29B4" target="_blank">Tickets</a>
+                                    </div>
                                 </div>
-                                <div class="band-event-post-divider-upper">
-                                    <hr class="event-post-divider">
-                                </div>
-                                <div class="band-events-post-details">
-                                    <p>The <span class="lemonade-text">Lemonade</span> Tour</p>
-                                    <p>Vicar Street <span>/</span> <span>Dublin</span></p>
-                                    <p>Doors open - <span>7pm</span>
-                                </div>
-                                <div class="band-event-post-divider-lower">
-                                    <hr class="event-post-divider">
-                                </div>
-                                <div class="band-events-post-link">
-                                    <a  class="black-btn" href="/" target="_blank">Tickets</a>
+                            </div>
+                            <div class="band-events-item">
+                                <div class="band-events-post-container">
+                                    <div class="band-events-post-date">
+                                        <p>18<span>th</span></p>
+                                    </div>
+                                    <div class="band-content-divider-upper">
+                                         <hr class="yellow-divider">
+                                    </div>
+                                    <div class="band-events-post-details">
+                                        <p>The <span class="lemonade-text">Lemonade</span> Tour</p>
+                                        <p>Vicar Street <span>/</span> <span>Dublin</span></p>
+                                        <p>Doors open - <span>7pm</span>
+                                    </div>
+                                    <div class="band-content-divider-lower">
+                                         <hr class="yellow-divider">
+                                    </div>
+                                    <div class="band-events-post-link">
+                                        <a class="black-btn" href="https://www.ticketmaster.ie/abba-orchestral-dublin-27-02-2021/event/18005852BADE29B4" target="_blank">Tickets</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="band-events-item">
-                            <div class="band-events-post-container">
-                                <div class="band-events-post-date">
-                                    <p>18<span>th</span></p>
-                                </div>
-                                 <div class="band-event-post-divider-upper">
-                                    <hr class="event-post-divider">
-                                </div>
-                                <div class="band-events-post-details">
-                                    <p>The <span class="lemonade-text">Lemonade</span> Tour</p>
-                                    <p>Vicar Street <span>/</span> <span>Dublin</span></p>
-                                    <p>Doors open - <span>7pm</span>
-                                </div>
-                                 <div class="band-event-post-divider-lower">
-                                    <hr class="event-post-divider">
-                                </div>
-                                <div class="band-events-post-link">
-                                    <a class="black-btn" href="/" target="_blank">Tickets</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="band-events-group">
-                        <span>December</span>
-                        <div class="band-events-item">
-                             <div class="band-events-post-container">
-                                <div class="band-events-post-date">
-                                    <p>12<span>th</span></p>
-                                </div>
-                                 <div class="band-event-post-divider-upper">
-                                    <hr class="event-post-divider">
-                                </div>
-                                <div class="band-events-post-details">
-                                    <p>The <span class="lemonade-text">Lemonade</span> Tour</p>
-                                    <p>Vicar Street <span>/</span> <span>Dublin</span></p>
-                                    <p>Doors open - <span>7pm</span>
-                                </div>
-                                 <div class="band-event-post-divider-lower">
-                                    <hr class="event-post-divider">
-                                </div>
-                                <div class="band-events-post-link">
-                                    <a class="black-btn" href="/" target="_blank">Tickets</a>
-                                </div>
+                        <div class="band-events-group">
+                            <span>December</span>
+                            <div class="band-events-item">
+                                <div class="band-events-post-container">
+                                    <div class="band-events-post-date">
+                                        <p>12<span>th</span></p>
+                                    </div>
+                                    <div class="band-content-divider-upper">
+                                         <hr class="yellow-divider">
+                                    </div>
+                                    <div class="band-events-post-details">
+                                        <p>The <span class="lemonade-text">Lemonade</span> Tour</p>
+                                        <p>Vicar Street <span>/</span> <span>Dublin</span></p>
+                                        <p>Doors open - <span>7pm</span>
+                                    </div>
+                                    <div class="band-content-divider-lower">
+                                         <hr class="yellow-divider">
+                                    </div>
+                                    <div class="band-events-post-link">
+                                        <a class="black-btn" href="https://www.ticketmaster.ie/abba-orchestral-dublin-27-02-2021/event/18005852BADE29B4" target="_blank">Tickets</a>
+                                    </div>
 
-                            </div>
-                        </div>
-                        <div class="band-events-item">
-                            <div class="band-events-post-container">
-                                <div class="band-events-post-date">
-                                    <p>14<span>th</span></p>
-                                </div>
-                                 <div class="band-event-post-divider-upper">
-                                    <hr class="event-post-divider">
-                                </div>
-                                <div class="band-events-post-details">
-                                    <p>The <span class="lemonade-text">Lemonade</span> Tour</p>
-                                    <p>Vicar Street <span>/</span> <span>Dublin</span></p>
-                                    <p>Doors open - <span>7pm</span>
-                                </div>
-                                 <div class="band-event-post-divider-lower">
-                                    <hr class="event-post-divider">
-                                </div>
-                                <div class="band-events-post-link">
-                                    <a class="black-btn" href="/" target="_blank">Tickets</a>
                                 </div>
                             </div>
+                            <div class="band-events-item">
+                                <div class="band-events-post-container">
+                                    <div class="band-events-post-date">
+                                        <p>14<span>th</span></p>
+                                    </div>
+                                    <div class="band-content-divider-upper">
+                                         <hr class="yellow-divider">
+                                    </div>
+                                    <div class="band-events-post-details">
+                                        <p>The <span class="lemonade-text">Lemonade</span> Tour</p>
+                                        <p>Vicar Street <span>/</span> <span>Dublin</span></p>
+                                        <p>Doors open - <span>7pm</span>
+                                    </div>
+                                    <div class="band-content-divider-lower">
+                                         <hr class="yellow-divider">
+                                    </div>
+                                    <div class="band-events-post-link">
+                                        <a class="black-btn" href="https://www.ticketmaster.ie/abba-orchestral-dublin-27-02-2021/event/18005852BADE29B4" target="_blank">Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="yellow-divider">
+                        <div class="linked-footer sessions-recent-link">
+                            <a class="section-footer-link" href="https://www.ticketmaster.ie/search?q=yellow+lemon" target="_blank">
+                                More dates
+                                <i class="fas fa-arrow-circle-right"></i>
+                            </a>
                         </div>
                     </div>
-                    <hr class="event-post-divider">
-                    <div class="band-events-post-footer">
-                        <a href="/" target="_blank">More dates</a>
+                    <div class="section-footer black linked-footer">
+                        <a class="section-footer-link invert-dark" href="/bag-some-lemons.html">Book Yellow Lemon <i class="fas fa-arrow-circle-right"></i></a>
+                        <i class="fas fa-lemon yellow-lemon black-lemon" aria-hidden="true"></i>
                     </div>
                 </div>
-                <div class="section-footer linked-footer">
-                    <a class="section-footer-link invert-dark" href="/get-in-touch.html">Book Yellow Lemon <i class="fas fa-arrow-circle-right"></i></a>
-                    <i class="fas fa-lemon yellow-lemon black-lemon" aria-hidden="true"></i>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="follow" class="band-follow">
-            <div class="section-container band-follow-container">
-                <div class="band-follow-hero">
-                    <span class="follow-hero-heading-a">Follow</span>
-                    <span class="follow-hero-heading-b">Yellow</span>
-                    <span class="follow-hero-heading-c">Lemon</span>
-                    <img  class="follow-hero-svg-white" src="assets/svg/sax.svg" alt="Follow Yellow Lemon - Sax">
-                    <img class="follow-hero-svg-red" src="assets/svg/follow-lemon.svg" alt="Follow Yellow Lemon">
+            <section id="follow" class="band-follow">
+                <div class="section-container band-follow-container">
+                    <div class="band-follow-hero">
+                        <span class="follow-hero-heading-a">Follow</span>
+                        <span class="follow-hero-heading-b">Yellow</span>
+                        <span class="follow-hero-heading-c">Lemon</span>
+                        <img  class="follow-hero-svg-white" src="assets/svg/sax.svg" alt="Follow Yellow Lemon - Sax">
+                        <img class="follow-hero-svg-red" src="assets/svg/follow-lemon.svg" alt="Follow Yellow Lemon">
+                    </div>
+                    <div class="band-follow-content">
+                        <p>
+                            <span>For the latest</span> yellow lemon content and
+                            a behind the scenes look at the band on their 
+                            <span class="lemonade-text">Lemonade</span> tour and 
+                            at live events.
+                        </p>
+                        <div class="social-media-icons">
+                            <span>Follow us on</span>
+                            <div class="social-media-icons-container">
+                                <i class="fab fa-twitter-square"></i>
+                                <i class="fab fa-youtube-square"></i>
+                                <i class="fab fa-instagram-square"></i>
+                                <i class="fab fa-facebook-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="white-divider">
                 </div>
-                <div class="band-follow-content">
-                    <p>
-                        <span>For the latest</span> yellow lemon content and
-                        a behind the scenes look at the band on their 
-                        <span class="lemonade-text">Lemonade</span> tour and 
-                        at live events.
-                    </p>
-                    <div class="social-media-icons">
-                        <span>Follow us on</span>
-                        <div class="social-media-icons-container">
-                            <i class="fab fa-twitter-square"></i>
-                            <i class="fab fa-youtube-square"></i>
-                            <i class="fab fa-instagram-square"></i>
-                            <i class="fab fa-facebook-square"></i>
+            </section>
+            <footer class="page-footer">
+                <div class="section-container footer-container">
+                    <div class="footer-content">
+                        <span>Getting in touch</span>
+                        <p class="invert-dark">
+                            For coprorate & private events please 
+                            <a href="/bag-some-lemons.html">visit here.</a>
+                        </p>
+                    </div>
+                    <div class="copyright-footer invert-dark">
+                        <i class="fas fa-lemon yellow-lemon black-lemon" aria-hidden="true"></i>
+                        <div class="copyright-footer-inner">
+                            <span>Copyright 2020. All rights reserved</span>
+                            <div class="copyright-links-container">
+                                <a href="https://wikiedu.org/terms-of-service/" target="_blank">Terms of Service |</a>
+                                <a href="https://wikiedu.org/privacy-policy/" target="_blank">Privacy Policy</a>
+                            </div> 
                         </div>
                     </div>
                 </div>
-                <hr class="white-divider">
-            </div>
-        </section>
-        <footer class="page-footer">
-            <div class="section-container footer-container">
-                <div class="footer-content">
-                    <span>Getting in touch</span>
-                    <p class="invert-dark">
-                        For coprorate & private events please 
-                        <a href="/get-in-touch.html">visit here.</a>
-                    </p>
-                </div>
-                <div class="copyright-footer invert-dark">
-                    <i class="fas fa-lemon yellow-lemon black-lemon" aria-hidden="true"></i>
-                    <div class="copyright-footer-inner">
-                        <span>Copyright 2020. All rights reserved</span>
-                        <div class="copyright-links-container">
-                            <a href="/" target="_blank">Terms of Service.</a>
-                            <a href="/" target="_blank">Privacy Policy</a>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <script src="assets/js/menubar.js"></script>
-    <script src="assets/js/menuoverlay.js"></script>
-</body>
+            </footer>
+        </div>
+        <script src="assets/js/menubar.js"></script>
+        <script src="assets/js/menuoverlay.js"></script>
+    </body>
 </html>

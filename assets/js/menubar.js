@@ -9,7 +9,7 @@ window.onscroll = function() {
         if ( window.pageYOffset > 50 ) {
             nav.style.transition = "all 0.2s ease";
             nav.style.height = "75px";
-            logo.style.fontSize = "75%";
+            logo.style.fontSize = "85%";
             menu.style.width = "50px";
             overlay.style.top = "calc(76px + var(--theme-margin))";
             spotifyOverlay.style.top = "calc(76px + var(--theme-margin))";

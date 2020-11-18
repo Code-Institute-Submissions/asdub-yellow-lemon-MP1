@@ -65,7 +65,7 @@ section {
     }
     }
 
-.yellow-more-btn {
+.yellow-btn {
     padding: 8px 20px;
     border-radius: 33px;
     background: var(--theme-yellow);
@@ -78,15 +78,16 @@ section {
     text-decoration: none;
     text-align: center;
     position: relative;
-    display: block;
+   
     margin-left: auto;
     transition: all 0.2s ease-in-out;
 }
 
-.yellow-more-btn:hover,
-.yellow-more-btn:focus,
-.yellow-more-btn:active {
+.yellow-btn:hover,
+.yellow-btn:focus,
+.yellow-btn:active {
      background: var(--theme-red);
+     font-weight: 500;
 }
 
 .black-btn {
@@ -112,6 +113,24 @@ section {
 .black-btn:active {
     background: var(--theme-red);
     color: var(--theme-black);
+    font-weight: 500;
+}
+
+.red-text-link,
+.red-text-link:visited {
+    color: var(--theme-red);
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.red-text-link:hover,
+.red-text-link:focus{
+    border-bottom: 1px solid var(--theme-red);
+}
+
+.red-text-link:active{
+    border-bottom: 1px solid var(--theme-red);
 }
 
 .section-title.invert-dark {
@@ -124,6 +143,16 @@ section {
 
 .lemonade-text {
     font-family: "rockwell", sans-serif;
+}
+
+hr.white-divider {
+    border: none;  
+    border-bottom: 1px solid var(--theme-white); 
+}
+
+hr.yellow-divider {
+    border: none;  
+    border-bottom: 2px solid var(--theme-yellow); 
 }
 
 /***** SECTION DEFAULTS *****/
@@ -458,6 +487,7 @@ section {
 
 .band-news {
     grid-area: news;
+    background: #fafafa;
 }
 
 .band-events {
@@ -477,7 +507,7 @@ footer {
 
 /***** LOGO *****/
 .menu-logo {
-    font-family: 'effra', sans-serif;
+    font-family: 'Effra', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1em;
@@ -503,8 +533,13 @@ footer {
 }
 
 .section-footer {
-    margin: 0 var(--theme-margin);
+    padding: 0 var(--theme-margin);
     border-bottom: 1px solid var(--theme-yellow);
+    background: #fafafa;
+}
+
+.section-footer.black {
+     background:var(--theme-black);
 }
 
 .linked-footer {
@@ -524,12 +559,16 @@ footer {
 }
 
 .section-footer-link {
-    font-size: 18px;
+    font-size: 16px;
     align-self: center;
-    color: var(--theme-white);
+    color: var(--theme-black);
     text-transform: uppercase;
     letter-spacing: 0.025em;
 }
+.section-footer-link.invert-dark {
+     color: var(--theme-white);
+}
+
 
 .yellow-lemon {
     /***** Section Footer Icon *****/
@@ -675,7 +714,10 @@ footer {
 .band-sessions-content-container {
     display: flex;
     flex-direction: column;
-    padding: calc((var(--theme-margin))*2);
+    padding: calc((var(--theme-margin))*2) calc((var(--theme-margin))*2) calc((var(--theme-margin))*4) calc((var(--theme-margin))*2);
+    border-bottom: 1px solid rgba(102,102,102,0.2);
+    border-left: 1px solid rgba(102,102,102,0.2);
+    border-right: 1px solid rgba(102,102,102,0.2);
 }
 
 /***** BAND NEWS - HOME *****/
@@ -696,6 +738,7 @@ footer {
 
 .band-news-post-container {
     display: flex;
+    border: 1px solid rgba(102,102,102,0.15);
     flex-direction: column;
     padding: 1rem;
 }
@@ -727,7 +770,7 @@ footer {
     flex-direction: row;
     align-items: center;
     padding: 0.5rem 1rem;
-    margin: calc(var(--theme-margin)*4) 0 var(--theme-margin) 0;
+    margin: calc(var(--theme-margin)*4)0 var(--theme-margin) 0;
     background: var(--theme-red);
     border-radius: 3px;
 }
@@ -745,7 +788,7 @@ footer {
     color: var(--theme-yellow);
 }
 
-.events-container {
+.black-container {
     background: #191919;
     border-radius: 3px;
 }
@@ -828,8 +871,8 @@ p.band-events-merch-text.invert-dark > a > span {
     padding: 0.5rem;
     margin: 1rem 0;
     border-radius: 3px;
-    border-bottom: 1px solid;
-    border-color: rgba(112, 112, 112, 0.15);
+    border: 1px solid;
+    border-color: rgba(102, 102, 102, 0.15);
     background: var(--theme-white);
     box-shadow: 2.5px -5px 10px -5px rgba(0,0,0,0.3);
 }
@@ -841,7 +884,7 @@ p.band-events-merch-text.invert-dark > a > span {
     grid-template-areas: 
         "date lineu lineu"
         "date content content"
-        "linel linel link";
+        "  .  link link";
     padding: 1rem 0;
 }
 
@@ -857,12 +900,15 @@ p.band-events-merch-text.invert-dark > a > span {
     grid-area: link;
 }
 
-.band-event-post-divider-upper {
+.band-content-divider-upper {
     grid-area: lineu;
 }
 
-.band-event-post-divider-lower {
-    grid-area: linel;  
+.band-content-divider-lower {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 .band-events-post-date {
@@ -885,14 +931,9 @@ p.band-events-merch-text.invert-dark > a > span {
     font-size: 10px;
 }
 
-.band-event-post-divider-upper,
-.band-event-post-divider-lower {
-    margin: 0 calc(var(--theme-margin)*2);
-}
-
-hr.event-post-divider {
-    border: none;  
-    border-bottom: 2px solid var(--theme-yellow); 
+.band-content-divider-upper,
+.band-content-divider-lower {
+    margin: 0 calc(var(--theme-margin)*4);
 }
 
 .band-events-post-details p:nth-child(1) {
@@ -1046,11 +1087,6 @@ hr.event-post-divider {
     transform: scale(1.15);
 }
 
-hr.white-divider {
-    border: none;  
-    border-bottom: 1px solid var(--theme-white); 
-}
-
 /***** FOOTER - HOME *****/
 
 .footer-content {
@@ -1086,6 +1122,10 @@ hr.white-divider {
     flex-direction: column;
 }
 
+.copyright-footer-inner a {
+    text-decoration: none;
+}
+
 .copyright-links-container {
     display: flex;
     flex-direction: row;
@@ -1108,6 +1148,76 @@ hr.white-divider {
 .page-content p span {
     text-transform: uppercase;
     font-weight: 500;
+}
+
+
+/** Template for inner content on pages **/
+.band-content-layout {
+    
+    max-height: 40vh;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    background: rgba(51,51,51,0.5);
+    border-radius: 3px;
+    padding: 1rem;
+    box-shadow: inset 0 0 3px;
+}
+
+.band-content-group {
+    margin: 0.5rem 0 0 0;
+}
+
+.band-content-group > span {
+    text-transform: uppercase;
+}
+
+.band-content-container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: auto;
+    column-gap: 0.5rem;
+    grid-template-areas: 
+        "img content"
+        "img content"
+        "img content"
+        " . link";
+}
+
+.band-content-item {
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background: transparent
+}
+
+.band-content-image {
+    grid-area: img;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.band-content-image img {
+    width: 100%
+}
+
+.band-content-text {
+    grid-area: content;
+}
+
+.band-content-link {
+    grid-area: link;
+    margin: 0.5rem 0 0 0;
+    text-align: right;
+}
+
+.band-content-text > h2 {
+    color: var(--theme-white);
+}
+
+.band-content-text > span {
+    color: var(--theme-yellow);
+    font-size: 16px;
+    padding: 0.3rem 0; 
 }
 
 /***** THE BAND - PAGES *****/
@@ -1148,91 +1258,6 @@ hr.white-divider {
     grid-area: footer;
 }
 
-.the-band-members-layout {
-    max-height: 40vh;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-    background: rgba(51,51,51,0.5);
-    border-radius: 3px;
-    padding: 1rem;
-    box-shadow: inset 0 0 3px;
-}
-
-.the-band-members-group {
-    margin: 0.5rem 0 0 0;
-}
-
-.the-band-members-group > span {
-    text-transform: uppercase;
-}
-
-.the-band-member-container {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: auto;
-    column-gap: 0.5rem;
-    grid-template-areas: 
-        "img content"
-        "img content"
-        "img content"
-        " . link";
-}
-
-.the-band-members-item {
-    padding: 0.5rem;
-    margin: 1rem 0;
-    background: transparent
-}
-
-.the-band-member-image {
-    grid-area: img;
-}
-
-.the-band-member-image img {
-    width: 100%
-}
-
-.the-band-member-content {
-    grid-area: content;
-}
-
-.the-band-member-link {
-    grid-area: link;
-    margin: 0.5rem 0 0 0;
-    text-align: right;
-}
-
-.red-text-link,
-.red-text-link:visited {
-    color: var(--theme-red);
-    font-size: 14px;
-    text-transform: uppercase;
-    transition: all 0.2s ease;
-}
-
-.red-text-link:hover,
-.red-text-link:focus{
-    border-bottom: 1px solid var(--theme-red);
-}
-
-.red-text-link:active{
-    border-bottom: 1px solid var(--theme-red);
-}
-
-.the-band-member-content > h2 {
-    color: var(--theme-white);
-}
-
-.the-band-member-content > span {
-    color: var(--theme-yellow);
-    font-size: 16px;
-    padding: 0.3rem 0; 
-}
-
-hr.the-band-member-divider {
-    border: none;  
-    border-bottom: 1px solid var(--theme-white); 
-}
 
 /***** SESSIONS - PAGES *****/
 /** sessions.html **/ 
@@ -1301,7 +1326,7 @@ hr.the-band-member-divider {
     font-size: 14px;
 }
 
-.the-band-members-layout.recent-sessions-layout {
+.band-content-layout.recent-sessions-layout {
     margin: 1rem 0;
     background: rgba(51,51,51,0.5);
     padding: 0 var(--theme-margin) 0 0;
@@ -1327,6 +1352,61 @@ hr.the-band-member-divider {
 .session-play.recent-play i {
     font-size: inherit;
     color: var(--theme-yellow);
+}
+
+/***** NEWS ARTICLE - Page *****/ 
+
+.news-article-grid-container {
+    display: grid;
+    margin-top: calc(var(--theme-margin)*2);
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100px minmax(250px, auto) auto;
+    grid-template-areas:
+    " . "
+    "article"
+    "footer"; 
+}
+
+.band-news-single-post {
+    grid-area: article;
+}
+
+.linked-footer.single-post {
+    padding: 0 calc(var(--theme-margin)*4) calc(var(--theme-margin)*2);
+}
+
+/***** MERCHANDISE - Page *****/
+/** merchandise.html **/ 
+
+.merch-hero {
+    grid-area: hero;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    padding: 1rem;
+}
+
+.merch img {
+    width: 100%
+}
+
+.band-content-text.merch h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.band-content-link.merch,
+.band-content-layout.merch-layout {
+    margin: 1rem 0 0 0;
+}
+
+.page-content.the-band-content-lower.merch p {
+    color: var(--theme-yellow);
+}
+
+.page-content.the-band-content-lower.merch p span {
+    color: var(--theme-white);
 }
 
 
