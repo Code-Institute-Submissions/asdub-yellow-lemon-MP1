@@ -11,7 +11,9 @@
 <body>
     <header id="navbar">
         <div class="menu-logo">
-            <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
+            <a href="/">
+                <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
+            </a>
         </div>
         <div class="nav-container">
             <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones"></i>
@@ -31,9 +33,10 @@
         <ul class="nav-items">
             <li><a href="/">Home</a></li>
             <li><a id="nav-active" href="the-band.html">The Band</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#follow">Follow</a></li>
+            <li><a href="/#news">News</a></li>
+            <li><a href="/#events">Events</a></li>
+            <li><a href="sessions.html">Sessions</a></li>
+            <li><a href="/#follow">Follow</a></li>
             <li><a href="merchandise.html">Merch</a></li>
         </ul>
         <ul class="nav-items-small">
@@ -69,7 +72,7 @@
                     </div>
                     <div class="the-band-members-layout">
                         <div class="the-band-members-group">
-                            <span class="invert-dark">Meet the band.</span>
+                            <span class="invert-dark">Meet the band</span>
                             <div class="the-band-members-item">
                                 <div class="the-band-member-container">
                                     <div class="the-band-member-image">
@@ -138,29 +141,41 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <footer class="page-footer">
-                <div class="section-container">
-                    <div class="footer-content">
-                        <span>Getting in touch</span>
-                        <p class="invert-dark">
-                            For coprorate & private events please 
-                            <a href="/get-in-touch.html">visit here.</a>
+                    <div class="page-content the-band-content-lower">
+                        <p class="invert-dark"> 
+                            <span>BAND HISTORY</span><br>
+                           Formed in Manchester in 1983. One of the pioneering groups of the 
+                           Madchester movement in the late 1980s and early 1990s, the band's 
+                           classic and most prominent lineup consisted of vocalist Ian Brown, g
+                           uitarist John Squire, bassist Mani and drummer Reni.
                         </p>
-                        </div>
-                        <div class="copyright-footer invert-dark">
-                            <i class="fas fa-lemon yellow-lemon black-lemon" aria-hidden="true"></i>
-                            <div class="copyright-footer-inner">
-                                <span>Copyright 2020. All rights reserved</span>
-                                <div class="copyright-links-container">
-                                    <a href="/" target="_blank">Terms of Service.</a>
-                                    <a href="/" target="_blank">Privacy Policy</a>
-                                </div> 
-                            <div>
+                       <div class="linked-footer">
+                            <a class="section-footer-link invert-dark" href="https://en.wikipedia.org/wiki/The_Stone_Roses" target="_blank">Read more <i class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
-            </footer>
+                </div>
+            </section>
+             <footer class="page-footer">
+            <div class="section-container footer-container">
+                <div class="footer-content">
+                    <span>Getting in touch</span>
+                    <p class="invert-dark">
+                        For coprorate & private events please 
+                        <a href="/get-in-touch.html">visit here.</a>
+                    </p>
+                </div>
+                <div class="copyright-footer invert-dark">
+                    <i class="fas fa-lemon yellow-lemon black-lemon" aria-hidden="true"></i>
+                    <div class="copyright-footer-inner">
+                        <span>Copyright 2020. All rights reserved</span>
+                        <div class="copyright-links-container">
+                            <a href="/" target="_blank">Terms of Service.</a>
+                            <a href="/" target="_blank">Privacy Policy</a>
+                        </div> 
+                    <div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
     <script src="assets/js/menubar.js"></script>

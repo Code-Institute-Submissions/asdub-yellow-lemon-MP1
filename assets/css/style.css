@@ -17,15 +17,15 @@ html {
 
 
 body {
-    margin: var(--theme-margin);
     font-family: "roboto", sans-serif;
     font-size: 1.05rem;
+    margin: var(--theme-margin);
 }
 
 h1,h2,h3,h4 {
-    margin: 0;
     font-size: inherit;
     letter-spacing: 0.025em;
+    margin: 0;
 }
 
 h2 {
@@ -36,7 +36,8 @@ h3 {
     font-size: 16px;
 }
 
-a {
+a,
+a:-webkit-any-link {
     text-decoration: none;
 }
 
@@ -79,6 +80,13 @@ section {
     position: relative;
     display: block;
     margin-left: auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.yellow-more-btn:hover,
+.yellow-more-btn:focus,
+.yellow-more-btn:active {
+     background: var(--theme-red);
 }
 
 .black-btn {
@@ -96,6 +104,18 @@ section {
     position: relative;
     display: block;
     margin-left: auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.black-btn:hover,
+.black-btn:focus,
+.black-btn:active {
+    background: var(--theme-red);
+    color: var(--theme-black);
+}
+
+.section-title.invert-dark {
+   color: var(--theme-white);
 }
 
 .invert-dark {
@@ -113,8 +133,12 @@ section {
 }
 
 .section-title {
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
+}
+
+.section-container h2 {
+    color: var(--theme-black);
 }
 
 .section-title span {
@@ -146,10 +170,33 @@ section {
     overflow: hidden;
 }
 
+/** Black Menu **/
+#navbar.black {
+    background-color: var(--theme-black);
+}
+
+#navlogo.black,
+.spotify-headphones.black {
+    color: var(--theme-yellow);
+}
+
+#mobilemenu > svg > path.line.line1.black,
+#mobilemenu > svg > path.line.line2.black,
+#mobilemenu > svg > path.line.line3.black {
+    stroke: var(--theme-yellow);
+}
+
+/** **/
+
 .menu-logo {
     grid-area: logo;
     font-size: inherit;
 }
+
+.menu-logo a {
+    color: var(--theme-black);
+}
+
 
 .nav-container {
     grid-area: nav;
@@ -179,9 +226,13 @@ section {
 }
 
 .spotify-headphones-active {
-    color: #1DB954;
+    color: #1DB954 !important;
 }
 
+.spotify-headphones:hover,
+.spotify-headphones:focus {
+    color: #1DB954;
+}
 
 .opened {
     opacity: 0.9;
@@ -279,13 +330,14 @@ section {
 .nav-items-small {
     margin: calc((var(--theme-margin))*2) calc((var(--theme-margin))*2);
     font-family: 'effra', sans-serif;
+    letter-spacing: 0.025em;
     text-transform: uppercase;
 }
 
 .nav-items a, 
 .nav-items a:visited {
     color: var(--theme-white);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
 }
@@ -310,10 +362,12 @@ section {
     color: var(--theme-red);
 }
 
-#nav-active {
+#menuoverlay > ul.nav-items > li > a.nav-active,
+#menuoverlay > ul.nav-items > li > a.nav-current {
     color: var(--theme-red);
     border-color: var(--theme-red);
 }
+
 
 .nav-items a:hover,
 .nav-items a:focus,
@@ -354,8 +408,8 @@ section {
 }
 
 #spotify-close {
-    color: var(--theme-red);  
-    font-size: 2rem;
+    color: var(--theme-black);  
+    font-size: 1.6rem;
     z-index: 3;
 }
 
@@ -380,11 +434,12 @@ section {
     display: grid;
     margin-top: calc(var(--theme-margin)*2);
     grid-template-columns: 1fr;
-    grid-auto-rows: 100px minmax(250px, auto) minmax(350px, auto) auto auto auto auto;
+    grid-auto-rows: 100px minmax(250px, auto) minmax(300px, auto) auto auto auto auto auto;
     grid-template-areas:
     " . "
     "hero"
     "sessions"
+    "foot"
     "news"
     "events"
     "follow"
@@ -417,9 +472,7 @@ section {
 
 footer {
     grid-area: footer;
-    background-color: var(--theme-black);
     margin: var(--theme-margin) 0 0 0;
-    border-radius: 3px;
 }
 
 /***** LOGO *****/
@@ -446,6 +499,10 @@ footer {
 /***** SECTION FOOTER *****/
 
 .section-footer {
+    grid-area: foot;
+}
+
+.section-footer {
     margin: 0 var(--theme-margin);
     border-bottom: 1px solid var(--theme-yellow);
 }
@@ -454,6 +511,16 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+}
+
+.linked-footer a {
+    transition: all 0.2s ease;
+}
+
+.linked-footer a:hover,
+.inked-footer a:focus,
+.inked-footer a:active {
+    color: var(--theme-red);
 }
 
 .section-footer-link {
@@ -550,7 +617,8 @@ footer {
     align-items: center;
 }
 
-.hero-play i {
+.hero-play i,
+.session-play i {
     color: var(--theme-white);
     font-size: 2rem;
     padding-left: 2px;
@@ -587,6 +655,7 @@ footer {
 
 .band-sessions-overlay h2 {
     font-family: 'effra', sans-serif;
+    font-size: 24px;
     letter-spacing: 0.025em;
     line-height: 1em;
     font-weight: bold;
@@ -645,13 +714,9 @@ footer {
   font-weight: 600;
 }
 
-.band-news-image-container {
-    background: url(https://img.youtube.com/vi/4D2qcbu26gs/hqdefault.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.band-news-image-container img {
     height: 200px;
+    width: 100%
 }
 
 /***** EVENTS - HOME *****/
@@ -731,6 +796,7 @@ p.band-events-merch-text.invert-dark > a > span {
     background: var(--theme-white);
     border-radius: 3px;
     padding: 1rem;
+    box-shadow: inset 0 0 3px;
 }
 
 .events-title-container {
@@ -976,6 +1042,7 @@ hr.event-post-divider {
 .social-media-icons-container i:focus,
 .social-media-icons-container i:active {
     font-size: 2.4rem;
+    color: var(--theme-red);
     transform: scale(1.15);
 }
 
@@ -988,6 +1055,11 @@ hr.white-divider {
 
 .footer-content {
     margin: 2rem 0;
+}
+
+.section-container.footer-container {
+    border-radius: 3px;
+    background-color: var(--theme-black);
 }
 
 .footer-content span {
@@ -1022,7 +1094,7 @@ hr.white-divider {
 
 .copyright-footer span,
 .copyright-footer a {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 /***** GLOBAL PAGE SETTINGS *****/
@@ -1069,7 +1141,7 @@ hr.white-divider {
 }
 
 .the-band-content p {
-    margin: 2rem 0 0.5rem 0;
+    margin: 2rem 0 1rem 0;
 }
 
 .page-footer {
@@ -1080,9 +1152,10 @@ hr.white-divider {
     max-height: 40vh;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
-    background: transparent;
+    background: rgba(51,51,51,0.5);
     border-radius: 3px;
-    padding: 0 1rem 1rem 1rem;
+    padding: 1rem;
+    box-shadow: inset 0 0 3px;
 }
 
 .the-band-members-group {
@@ -1129,10 +1202,6 @@ hr.white-divider {
     text-align: right;
 }
 
-.background-dark {
-    background: var(--theme-black);
-}
-
 .red-text-link,
 .red-text-link:visited {
     color: var(--theme-red);
@@ -1150,7 +1219,7 @@ hr.white-divider {
     border-bottom: 1px solid var(--theme-red);
 }
 
-.the-band-member-content h2 {
+.the-band-member-content > h2 {
     color: var(--theme-white);
 }
 
@@ -1163,4 +1232,132 @@ hr.white-divider {
 hr.the-band-member-divider {
     border: none;  
     border-bottom: 1px solid var(--theme-white); 
+}
+
+/***** SESSIONS - PAGES *****/
+/** sessions.html **/ 
+
+.sessions-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100px auto auto auto;
+    grid-template-areas:
+        " . "
+        "sess"
+        "content"
+        "footer";
+}
+
+.latest-session {
+    grid-area: sess;
+    background: var(--theme-red);
+}
+
+.session-title {
+    color: var(--theme-white);
+    font-size:24px;
+}
+
+.latest-video-featured-thumbnail {
+    background-image: url('https://img.youtube.com/vi/BBsazIACpYM/hqdefault.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+    position: relative;
+    height: 170px;
+}
+
+.session-play {
+    position: absolute;
+    height: 12vh;
+    width: 12vh;
+    top: calc(50% - 6vh);
+    left: calc(50% - 6vh);
+    border-radius: 50%;
+    background: rgba(51,51,51,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.band-sessions-overlay.latest-video-featured-thumbnail h2,
+.sessions-container {
+    color: var(--theme-white);
+}
+
+.sessions-container {
+    margin: 1rem 0 0 0;
+}
+
+.sessions-container-content p {
+    margin: 0.5rem 0;
+}
+
+.sessions-container-content span {
+    border-top: 1px solid var(--theme-white);
+    padding: 3px 0 0 0;
+    font-size: 14px;
+}
+
+.the-band-members-layout.recent-sessions-layout {
+    margin: 1rem 0;
+    background: rgba(51,51,51,0.5);
+    padding: 0 var(--theme-margin) 0 0;
+}
+
+.linked-footer.sessions-recent-link {
+    flex-direction: column;
+    padding: 0.5rem 0;
+    font-size: 16px;
+}
+
+.recent-session-thumbnail-container {
+    position: relative;
+}
+
+.session-play.recent-play {
+    height: 6vh;
+    width: 6vh;
+    top: calc(50% - 3vh);
+    left: calc(50% - 3vh);
+}
+
+.session-play.recent-play i {
+    font-size: inherit;
+    color: var(--theme-yellow);
+}
+
+
+
+/***** RESPONSIVE *****/
+
+/** Desktop 1200px+ **/
+@media only screen and (min-width: 1200px) {
+    .section-footer.in-layout {
+        display: none;
+    }
+    .section-container {
+        padding: calc(var(--theme-margin)*8) calc(var(--theme-margin)*4);
+    }
+    .main-grid-container {
+        display: grid;
+        margin-top: calc(var(--theme-margin)*2);
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-rows: 100px minmax(400px, auto) minmax(400px, auto) auto auto auto auto;
+        grid-template-areas:
+            " . . . . ."
+            "hero hero hero sessions sessions"
+            "news news news news     news    "
+            "events events events events events"
+            "follow follow follow follow follow"
+            "footer footer footer footer footer";
+    }
+    .band-news-post-layout {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4rem;
+        margin: 1rem 0;
+        padding: 0 6rem 0 0;
+    }
 }

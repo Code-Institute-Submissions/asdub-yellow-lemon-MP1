@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Yellow Lemon | Studio Sessions</title>
+</head>
+<body>
+    <header id="navbar" class="black">
+        <div class="menu-logo black">
+            <a href="/">
+                <h1 id="navlogo" class="black">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
+            </a>
+        </div>
+        <div class="nav-container">
+            <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones black"></i>
+                <div class="nav-menu">
+                    <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
+                        <svg width="100%" height="100%" viewBox="0 0 100 100">
+                            <path class="line line1 black" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                            <path class="line line2 black" d="M 20,50 H 80" />
+                            <path class="line line3 black" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+     </header>
+    <div id="menuunderlay" onclick=" menuUnderlay()" class="nav-menu-underlay nav-display container-animate"></div>
+    <div id="menuoverlay" class="nav-menu-overlay nav-display container-animate">
+        <ul class="nav-items">
+            <li><a href="/">Home</a></li>
+            <li><a href="the-band.html">The Band</a></li>
+            <li><a href="/#news">News</a></li>
+            <li><a href="/#events">Events</a></li>
+            <li><a id="nav-active" href="sessions.html">Sessions</a></li>
+            <li><a href="/#follow">Follow</a></li>
+            <li><a href="merchandise.html">Merch</a></li>
+        </ul>
+        <ul class="nav-items-small">
+            <li><a href="/bag-some-lemons.html"><span>Private & Corporate Events</span></a></li>
+        </ul>
+        <div class="nav-listen"></div>
+	</div>
+    <div id="spotify" class="spotify-overlay container-animate">
+    <div onclick="spotifyOverlay()" class="spotify-close-background"><i id="spotify-close" class="fas fa-times"></i></div>
+        <iframe src="https://open.spotify.com/embed/playlist/5a2OuIJ1kEttA8X3PaewlI" allow="encrypted-media"></iframe>
+    </div>
+    <div class="sessions-grid-container">
+        <section class="latest-session">
+            <div class="section-container">
+                <h2 class="section-title invert-dark">
+                    Studio Sessions
+                    <i class="fas fa-headphones-alt black"></i>
+                </h2>
+                <span>Updated Weekly</span>
+                    <div class="sessions-container">
+                        <a href="https://www.youtube.com/watch?v=BBsazIACpYM" target="_blank">
+                            <div class="band-sessions-overlay latest-video-featured-thumbnail">
+                                <h3>
+                                    Lemon Lockdown 
+                                    <i class="fas fa-lemon" aria-hidden="true"></i>
+                                </h3>
+                                <h2 class="">
+                                     Studio Sessions #6
+                                </h2>
+                                <p>
+                                    With one of the corrs
+                                </p>
+                                <div class="session-play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="sessions-container-content">
+                            <p>
+                                This week we have one of the Corrs in the studio. 
+                                Is it one of the good ones? Lets find out..
+                            </p>
+                            <span>November 21st, 2020</span>
+                        </div>
+                    </div>
+                    
+            </div>
+        </section>
+            <section class="the-band">
+                <div class="section-container events-container">
+                    <h2 class="section-title invert-dark">
+                        <span>Most recent sessions</span>
+                    </h2>
+                    <div class="the-band-members-layout recent-sessions-layout">
+                        <div class="the-band-members-group">
+                            <div class="the-band-members-item">
+                                <div class="the-band-member-container">
+                                    <div class="the-band-member-image">
+                                        <div class="recent-session-thumbnail-container">
+                                        <a href="https://www.youtube.com/watch?v=7NrLBlw9WZE" target="_blank">
+                                            <img src="https://img.youtube.com/vi/7NrLBlw9WZE/hqdefault.jpg" alt="Most Recent Studio Session - 5">
+                                            <div class="session-play recent-play">
+                                                <i class="fas fa-play"></i>
+                                            </div>
+                                        </a>
+                                        </div>
+                                    </div>
+                                    <div class="the-band-member-content">
+                                        <span>November 14th</span>
+                                        <h2>Studio Sessions #5</h2>
+                                        <span>John on drums</span>
+                                        <p class="invert-dark">
+                                            Band member John plays some
+                                            drums!  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="band-event-post-divider-upper">
+                                <hr class="the-band-member-divider">
+                            </div>
+                            <div class="the-band-members-item">
+                                <div class="the-band-member-container">
+                                    <div class="the-band-member-image">
+                                        <a href="https://www.youtube.com/watch?v=ct-qa6SjRZo" target="_blank">
+                                            <div class="recent-session-thumbnail-container">
+                                                <img src="https://img.youtube.com/vi/ct-qa6SjRZo/hqdefault.jpg" alt="Most Recent Studio Session - 4">
+                                                <div class="session-play recent-play">
+                                                    <i class="fas fa-play"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="the-band-member-content">
+                                        <span>November 7th</span>
+                                        <h2>Studio Sessions #4</h2>
+                                        <span>John on drums</span>
+                                        <p class="invert-dark">
+                                            Band member John plays some
+                                            drums!  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="band-event-post-divider-upper">
+                                <hr class="the-band-member-divider">
+                            </div>
+                            <div class="the-band-members-item">
+                                <div class="the-band-member-container">
+                                    <div class="the-band-member-image">
+                                        <a href="https://www.youtube.com/watch?v=wD6Pq0bSMPo" target="_blank">
+                                            <div class="recent-session-thumbnail-container">
+                                                <img src="https://img.youtube.com/vi/wD6Pq0bSMPo/hqdefault.jpg" alt="Most Recent Studio Session - 3">
+                                                <div class="session-play recent-play">
+                                                    <i class="fas fa-play"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="the-band-member-content">
+                                        <span>November 1st</span>
+                                        <h2>Studio Sessions #3</h2>
+                                        <span>John on drums</span>
+                                        <p class="invert-dark">
+                                            Band member John plays some
+                                            drums!  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="band-event-post-divider-upper">
+                                <hr class="the-band-member-divider">
+                            </div>
+                            <div class="linked-footer sessions-recent-link">
+                                <a class="section-footer-link invert-dark" href="https://www.youtube.com/channel/UC5CYzrt7W8bGXeMiVcXgbvg" target="_blank">
+                                    View more on YouTube 
+                                    <i class="fas fa-arrow-circle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <footer class="page-footer">
+            <div class="section-container footer-container">
+                <div class="footer-content">
+                    <span>Getting in touch</span>
+                    <p class="invert-dark">
+                        For coprorate & private events please 
+                        <a href="/get-in-touch.html">visit here.</a>
+                    </p>
+                </div>
+                <div class="copyright-footer invert-dark">
+                    <i class="fas fa-lemon yellow-lemon black-lemon" aria-hidden="true"></i>
+                    <div class="copyright-footer-inner">
+                        <span>Copyright 2020. All rights reserved</span>
+                        <div class="copyright-links-container">
+                            <a href="/" target="_blank">Terms of Service.</a>
+                            <a href="/" target="_blank">Privacy Policy</a>
+                        </div> 
+                    <div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+    <script src="assets/js/menubar.js"></script>
+    <script src="assets/js/menuoverlay.js"></script>
+</html>

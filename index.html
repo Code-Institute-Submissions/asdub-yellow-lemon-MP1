@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
-    
     <title>Yellow Lemon | Offical</title>
 </head>
 <body>
     <header id="navbar">
         <div class="menu-logo">
-            <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
+            <a href="/">
+                <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
+            </a>
         </div>
         <div class="nav-container">
             <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones"></i>
@@ -29,23 +30,23 @@
     <div id="menuunderlay" onclick=" menuUnderlay()" class="nav-menu-underlay nav-display container-animate"></div>
     <div id="menuoverlay" class="nav-menu-overlay nav-display container-animate">
         <ul class="nav-items">
-            <li><a id="nav-active" href="/">Home</a></li>
+            <li><a class="nav-active" href="#home">Home</a></li>
             <li><a href="the-band.html">The Band</a></li>
             <li><a href="#news">News</a></li>
             <li><a href="#events">Events</a></li>
+            <li><a href="sessions.html">Sessions</a></li>
             <li><a href="#follow">Follow</a></li>
             <li><a href="merchandise.html">Merch</a></li>
         </ul>
         <ul class="nav-items-small">
             <li><a href="/bag-some-lemons.html"><span>Private & Corporate Events</span></a></li>
         </ul>
-        <div class="nav-listen"></div>
 	</div>
     <div id="spotify" class="spotify-overlay container-animate">
     <div onclick="spotifyOverlay()" class="spotify-close-background"><i id="spotify-close" class="fas fa-times"></i></div>
         <iframe src="https://open.spotify.com/embed/playlist/5a2OuIJ1kEttA8X3PaewlI" allow="encrypted-media"></iframe>
     </div>
-    <div class="main-grid-container">
+    <div id="home" class="main-grid-container">
         <section class="hero-album">
             <div class="hero-album-overlay">
                 <div class="hero-album-text">
@@ -77,14 +78,13 @@
                     <p class="band-sessions-text">
                         Join us each week for a look and listen behind the scenes at yellow studios.
                     </p>
-                    <a href="#" class="yellow-more-btn">More &gt;</a>
-                </div>
-                <div class="section-footer">
-                    <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
+                    <a href="sessions.html" class="yellow-more-btn">More &gt;</a>
                 </div>
             </div>
         </section>
-
+         <div class="section-footer in-layout">
+            <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
+        </div>
         <section id="news" class="band-news">
             <div class="section-container">
                 <h2 class="section-title">
@@ -93,30 +93,32 @@
                 <div class="band-news-post-layout">
                     <article class="band-news-post">
                         <div class="band-news-post-container">
-                            <h3 class="section-subtitle">Cancelled Gigs</h3>
-                            <span>MONDAY November 16th, 2020</span>
+                            <h3 class="section-subtitle">Studio Sessions now weekly</h3>
+                            <span>November 1st, 2020</span>
                             <div class="band-news-image-container">
+                                <img src="https://img.youtube.com/vi/4D2qcbu26gs/hqdefault.jpg" alt="Yellow Lemon News - Studio Session">
                             </div>
                             <p>
-                                <span>Yellow lemon</span> would like to thank our fans for their 
-                                Continued patience and support during these 
-                                Uncertain times. It has been… 
+                                <span>Yellow lemon have just announced</span> that 
+                                their online only studio sessions are now to be
+                                released each week.
                             </p>
-                            <a href="#" class="yellow-more-btn">More &gt;</a>
+                            <a href="news/online-only-studio-sessions-01-11-2020.html" class="yellow-more-btn">More &gt;</a>
                         </div>
                     </article>
                     <article class="band-news-post">
                         <div class="band-news-post-container">
                             <h3 class="section-subtitle">Cancelled Gigs</h3>
-                            <span>MONDAY November 16th, 2020</span>
-                            <div class="band-news-image-container">
+                            <span>March 6th, 2020</span>
+                             <div class="band-news-image-container">
+                                <img src="https://img.youtube.com/vi/wD6Pq0bSMPo/hqdefault.jpg" alt="MYellow Lemon News - Cancelled Gigs">
                             </div>
-                            <p>
+                           <p>
                                 <span>Yellow lemon</span> would like to thank our fans for their 
                                 Continued patience and support during these 
                                 Uncertain times. It has been… 
                             </p>
-                            <a href="#" class="yellow-more-btn">More &gt;</a>
+                            <a href="news/cancelled-gigs-06-03-2020.html" class="yellow-more-btn">More &gt;</a>
                         </div>
                     </article>
                 </div>
@@ -266,7 +268,7 @@
                     </div>
                 </div>
                 <div class="section-footer linked-footer">
-                    <a class="section-footer-link" href="/get-in-touch.html">Book Yellow Lemon <i class="fas fa-arrow-circle-right"></i></a>
+                    <a class="section-footer-link invert-dark" href="/get-in-touch.html">Book Yellow Lemon <i class="fas fa-arrow-circle-right"></i></a>
                     <i class="fas fa-lemon yellow-lemon black-lemon" aria-hidden="true"></i>
                 </div>
             </div>
@@ -301,8 +303,8 @@
                 <hr class="white-divider">
             </div>
         </section>
-        <footer>
-            <div class="section-container">
+        <footer class="page-footer">
+            <div class="section-container footer-container">
                 <div class="footer-content">
                     <span>Getting in touch</span>
                     <p class="invert-dark">
@@ -318,12 +320,12 @@
                             <a href="/" target="_blank">Terms of Service.</a>
                             <a href="/" target="_blank">Privacy Policy</a>
                         </div> 
-                    <div>
+                    </div>
                 </div>
             </div>
         </footer>
     </div>
-</body>
     <script src="assets/js/menubar.js"></script>
     <script src="assets/js/menuoverlay.js"></script>
+</body>
 </html>
