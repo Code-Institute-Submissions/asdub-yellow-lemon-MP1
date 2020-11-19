@@ -733,7 +733,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     row-gap: 2rem;
-     margin: 2rem 0;
+    margin: 2rem 0;
 }
 
 .band-news-post-container {
@@ -874,10 +874,14 @@ p.band-events-merch-text.invert-dark > a > span {
 
 .band-events-group {
     margin: 2rem 0 0 0;
+    position: relative;
+    display: grid;
 }
 
 .band-events-group > span {
     font-size: 24px;
+    position: absolute;
+    top: -20px;
 }
 
 .band-events-item {
@@ -1182,13 +1186,14 @@ p.band-events-merch-text.invert-dark > a > span {
 
 .band-content-group > span {
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .band-content-container {
     display: grid;
     grid-template-columns: 35% 65%;
     grid-template-rows: auto;
-    column-gap: 0.5rem;
+    column-gap: 1rem;
     grid-template-areas: 
         "img content"
         "img content"
@@ -1206,15 +1211,20 @@ p.band-events-merch-text.invert-dark > a > span {
     grid-area: img;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .band-content-image img {
-    width: 100%
+    max-width: 100%;
+    max-height: 210px;
+    object-fit: contain;
 }
 
 .band-content-text {
     grid-area: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .band-content-link {
@@ -1276,6 +1286,7 @@ p.band-events-merch-text.invert-dark > a > span {
 /** sessions.html **/ 
 
 .sessions-grid-container {
+    background: var(--theme-red);
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: 100px auto auto auto;
@@ -1288,7 +1299,6 @@ p.band-events-merch-text.invert-dark > a > span {
 
 .latest-session {
     grid-area: sess;
-    background: var(--theme-red);
 }
 
 .session-title {
@@ -1522,6 +1532,26 @@ p.band-events-merch-text.invert-dark > a > span {
 
 /** Tablet 768px+ **/
 @media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .yellow-btn {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+    .black-btn {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .red-text-link, .red-text-link:visited {
+        font-size: 18px;
+    }
     .band-news-image-container {
         display: block;
     }
@@ -1530,7 +1560,12 @@ p.band-events-merch-text.invert-dark > a > span {
     }
     .section-container {
         padding: calc(var(--theme-margin)*4) calc(var(--theme-margin)*4);
+    }
+    .section-container.black-container.home {
         margin: calc(var(--theme-margin)*4) 0 0 0;
+    }
+    .section-title {
+        font-size: 22px;
     }
     .main-grid-container {
         display: grid;
@@ -1568,6 +1603,76 @@ p.band-events-merch-text.invert-dark > a > span {
     .covid-alert {
         margin: calc(var(--theme-margin)*4)0 auto 0;
         width: 50%;
+    }
+    .band-events-group {
+       grid-template-columns: 1fr 1fr;
+       column-gap: 2rem;
+    }
+    .section-container.band-follow-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .sessions-grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 100px auto auto auto;
+        grid-template-areas:
+            " . . . "
+            "sess sess . "
+            "content content content"
+            "footer footer footer";
+    }
+    .latest-video-featured-thumbnail {
+        height: 270px;
+    }
+    .band-content-text > span {
+        font-size: 18px;
+    }
+    .band-content-group.sessions > div.band-content-divider-upper {
+        display: none;
+    }
+    .band-content-group.sessions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .band-content-group.sessions > div.band-content-item {
+        padding: 1rem;
+        margin: 0.5rem;
+        border: 1px solid rgba(102, 102, 102, 0.3);
+    }
+    .band-news-post-layout.single-post {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin: 2rem 2rem;
+    }
+    .band-news-image-container.single-post img {
+        height: 350px;
+    }
+    .the-band-hero {
+        padding: 1rem 0 0 0;
+    }
+    .band-content-text.merch h2 {
+        font-size: 22px;
+    }
+    .contact-hero {
+        padding: 2rem 0;
+    }
+    .contact-hero-content h1 {
+        font-size: 32px;
+    }
+    .contact-hero-content span {
+        font-size: 24px;
+    }
+    .contact-form-item > label {
+        font-size: 16px;
+    }
+    .footer-content span {
+        font-size: 16px;
+    }
+    .copyright-footer span, .copyright-footer a {
+        font-size: 14px;
     }
 }
 
