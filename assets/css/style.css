@@ -452,7 +452,6 @@ hr.yellow-divider {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 
@@ -479,9 +478,9 @@ hr.yellow-divider {
 }
 
 .band-sessions {
-     grid-area: sessions;
-     margin-top: var(--theme-margin);
-     background-color: var(--theme-white);
+    grid-area: sessions;
+    margin: var(--theme-margin) 0 calc(var(--theme-margin)*4) 0;
+    background-color: var(--theme-white);
 }
 
 .band-news {
@@ -665,9 +664,9 @@ footer {
 /***** BAND SESSIONS - HOME *****/
 
 .band-sessions-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .band-sessions-overlay {
@@ -683,6 +682,7 @@ footer {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     padding: calc(var(--theme-margin)*2);
+    height: 100%;
 }
 
 .band-sessions-overlay h3 {
@@ -723,8 +723,9 @@ footer {
 /***** BAND NEWS - HOME *****/
 
 .band-news-post {
-    box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.2);
     background: #fafafa;
+    box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.2);
+    border: 1px solid rgba(102,102,102,0.15);
 }
 
 .band-news-post-layout {
@@ -737,7 +738,6 @@ footer {
 
 .band-news-post-container {
     display: flex;
-    border: 1px solid rgba(102,102,102,0.15);
     border-radius: 3px;
     flex-direction: column;
     padding: 1rem;
@@ -769,8 +769,17 @@ footer {
 /***** EVENTS - HOME *****/
 
 /** Events Covid Alert **/
-.covid-alert {
+
+.covid-alert.inner {
+    display: none;
+}
+
+.covid-alert.outer {
     display: flex;
+}
+
+.covid-alert {
+  
     flex-direction: row;
     align-items: center;
     padding: 0.5rem 1rem;
@@ -1510,6 +1519,57 @@ p.band-events-merch-text.invert-dark > a > span {
 
 
 /***** RESPONSIVE *****/
+
+/** Tablet 768px+ **/
+@media only screen and (min-width: 768px) {
+    .band-news-image-container {
+        display: block;
+    }
+    .section-footer.in-layout {
+        display: none;
+    }
+    .section-container {
+        padding: calc(var(--theme-margin)*4) calc(var(--theme-margin)*4);
+        margin: calc(var(--theme-margin)*4) 0 0 0;
+    }
+    .main-grid-container {
+        display: grid;
+        margin-top: calc(var(--theme-margin)*2);
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 100px minmax(350px, auto) auto auto auto auto auto;
+        grid-template-areas:
+            " . . "
+            "hero sessions"
+            "news news"
+            "events events"
+            "follow follow"
+            "footer footer";
+    }
+    .hero-album {
+        margin: 1rem;
+        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.2);
+    }
+    .band-sessions {
+        margin: 1rem;
+        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.2);
+    }
+    .band-news-post-layout {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+        margin: 1rem 0;
+    }
+    .covid-alert.outer {
+        display: none;
+    }
+
+    .covid-alert.inner {
+        display: flex;
+    }
+    .covid-alert {
+        margin: calc(var(--theme-margin)*4)0 auto 0;
+        width: 50%;
+    }
+}
 
 /** Desktop 1200px+ **/
 @media only screen and (min-width: 1200px) {
