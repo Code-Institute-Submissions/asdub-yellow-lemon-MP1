@@ -740,6 +740,7 @@ footer {
     background: #fafafa;
     box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.2);
     border: 1px solid rgba(102,102,102,0.15);
+    border-radius: 3px;
 }
 
 .band-news-post-layout {
@@ -752,7 +753,6 @@ footer {
 
 .band-news-post-container {
     display: flex;
-    border-radius: 3px;
     flex-direction: column;
     padding: 1rem;
 }
@@ -1293,6 +1293,9 @@ p.band-events-merch-text.invert-dark > a > span {
 
 .page-footer {
     grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 
@@ -1321,21 +1324,21 @@ p.band-events-merch-text.invert-dark > a > span {
 }
 
 .latest-video-featured-thumbnail {
-    background-image: url('https://img.youtube.com/vi/BBsazIACpYM/hqdefault.jpg');
+    background: url('https://img.youtube.com/vi/BBsazIACpYM/hqdefault.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;   
     position: relative;
-    height: 170px;
+    height: 230px;
 }
 
 .session-play {
     position: absolute;
-    height: 12vh;
-    width: 12vh;
-    top: calc(50% - 6vh);
-    left: calc(50% - 6vh);
+    height: 80px;
+    width: 80px;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
     border-radius: 50%;
     background: rgba(51,51,51,0.8);
     display: flex;
@@ -1634,10 +1637,10 @@ p.band-events-merch-text.invert-dark > a > span {
             "footer footer footer";
     }
     .latest-video-featured-thumbnail {
-        height: 270px;
+        height: 35vh;
     }
     .band-content-text > span {
-        font-size: 18px;
+        font-size: 16px;
     }
     .merch-hero {
         padding: 2rem 1rem;
@@ -1670,9 +1673,6 @@ p.band-events-merch-text.invert-dark > a > span {
     .band-content-link {
         margin: 0.5rem 2rem 0 0;
     }
-    .band-content-text.merch h2 {
-        font-size: 22px;
-    }
     .contact-hero {
         padding: 2rem 0;
     }
@@ -1689,6 +1689,9 @@ p.band-events-merch-text.invert-dark > a > span {
 
 /** Large Tablet/ Small Desktop 992px+ **/
 @media only screen and (min-width: 992px) {
+    body {
+        height: 100vh;
+    }
      /** Desktop Menu **/
     #navbar {
         grid-template-columns: 30% 70%;
@@ -1735,7 +1738,47 @@ p.band-events-merch-text.invert-dark > a > span {
     .display-desktop {
         display: block;
     }
+    .yellow-btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .red-text-link, .red-text-link:visited {
+        font-weight: 600;
+    }
+    /** Page Layouts **/
+    .the-band-grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 100px auto auto auto;
+        grid-template-areas:
+        " . . "
+        "hero content"
+        "footer footer";
+        min-height: 100%;
+    }
+    .the-band {
+        margin: 1rem 2rem 1rem 0;
+        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.25);
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .section-container.black-container {
+        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.25);
+    }
     /** Band Page **/
+    .the-band-grid-container.band-layout {
+        background: var(--theme-yellow);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 100px minmax(200px, auto) auto auto;
+        grid-template-areas:
+            " . "
+            "hero"
+            "content"
+            "footer";
+        min-height: 100%
+    }
     .section-container.black-container.the-band-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1776,9 +1819,6 @@ p.band-events-merch-text.invert-dark > a > span {
     .menu-logo.band-layout {
         display: none;
     }
-    .the-band-grid-container {
-        grid-auto-rows: 100px auto auto auto;
-    }
     .band-content-layout.band-layout {
         background: transparent;
         box-shadow: none;
@@ -1792,10 +1832,65 @@ p.band-events-merch-text.invert-dark > a > span {
     .the-band-hero {
         padding: 1rem 2rem;
     }
+    .the-band.band-about-layout {
+        margin: 0;
+    }
     /** Sessions Page **/
+    .sessions-grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 100px auto auto;
+        grid-template-areas:
+            " . ."
+            "sess content"
+            "footer footer";
+        min-height: 100%;
+    }
     .latest-video-featured-thumbnail {
-    height: 320px;
-
+        height: 30vh;
+    }
+    .band-content-group.sessions {
+        grid-template-columns: 1fr;
+    }
+    .latest-session {
+        margin: 1rem 0 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        max-height: 600px;
+        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.25);
+    }
+    .the-band.sessions-layout {
+        margin: 1rem 2rem 1rem 0;
+        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.25);
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        max-height: 600px;
+    }
+    .latest-session {
+        background: var(--theme-white);
+    }
+    .sessions-container {
+        max-height: 40vh;
+    }
+    .section-container.sessions > h2 {
+        color: var(--theme-black);
+    }
+    /** Merchandise Page **/
+    .merch-hero {
+        margin: 1rem 0 1rem 2rem;
+        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.25);
+        border-radius: 3px;
+        border: 1px solid rgba(102,102,102,0.15);
+    }
+    /** News Article Page **/
+    .band-news-image-container.single-post img {
+        max-width: 600px;
+    }
+    /** Get in touch Page **/
+    .contact-hero {
+        align-items: center;
+    }
 }
 
 /** Desktop 1200px+ **/
