@@ -4,7 +4,7 @@ This is a webiste for a fictional band called 'Yellow Lemon'. <br>
 
 **View a live version of the website** [here](https://asdub.github.io/yellow-lemon-MP1/)
 
-## Site aim & purpose
+### Site aim & purpose
 *User Experience*
  - Primary users will be fans, wishing to learn about,
     - bands history
@@ -15,9 +15,19 @@ This is a webiste for a fictional band called 'Yellow Lemon'. <br>
 - The website owners have highlighted,
     - selling more of their music & merchandise
     - getting more gigs 
- 
 
- ### Summary
+### Design & Planning
+Rather than use a framework, I decided to use CSS grids in order to create a unique experience for the user. 
+The site is meant to create an easy to use and playful envirmoment for fans to enjoy client content. 
+While at the same time providing the client with a platform to showcase their latest music, advertise their 
+events and sell theiur merchandise.
+
+**Site Mock-Ups/ Wire Frames**
+Mobile, Tablet & Desktop mockups  - [View in full here]()
+
+
+
+### Summary
  The site meets the aims of both user & client.<br>
  Through a heavily brand focused theme and experience, users can view informaiton on band members, 
  both their history and the groups. And view upcomming events. <br>
@@ -27,5 +37,29 @@ This is a webiste for a fictional band called 'Yellow Lemon'. <br>
  And an area to showcase their [latest merchandise](https://asdub.github.io/yellow-lemon-MP1/merchandise.html) for sale. <br>
 
  While not on the orginal brief, a dedicated area - [Sessions](https://asdub.github.io/yellow-lemon-MP1/sessions.html)
- for the group to keep in touch and their fans updated during lockdown
+ for the group to keep in touch and their fans updated during lockdown.
 
+### Frameworks
+[Font Awesome](https://fontawesome.com/) is the the only external library used. 
+
+Layouts were created using CSS Grid. 
+
+### Testing
+- All links on the site have been tested. 
+- Menu and popups checked on mobile & desktop. 
+- Site viewed in mobile, tablet, deskop resolutions with different aspect ratios to confirm layout rendering. 
+- CSS has been checked with an [autoprefixer](https://github.com/autoprefixer/autoprefixer.github.io) for MS grid compatibility. 
+- HTML & CSS validated with W3C Validator. 
+
+**Following issues discovered and still outstanding**
+1. Issue with active menu item. 
+2. In some tablet aspect ratios images can become horizontally stretched. 
+
+
+
+### Deployment
+The site has been deployed on Github pages. 
+The process is very very straight forward - [all the information needed is here](https://pages.github.com/) 
+
+**Site URL:**<br>
+[all the information needed is here](https://asdub.github.io/yellow-lemon-MP1) 
