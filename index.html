@@ -14,8 +14,21 @@
                     <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
                 </a>
             </div>
-            <div class="nav-container">
-                <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones"></i>
+            <nav class="nav-container">
+                     <div id="menudesktop" class="nav-menu-desktop">
+                        <ul class="nav-items-desktop">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="the-band.html">The Band</a></li>
+                            <li><a href="#news">News</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="sessions.html">Sessions</a></li>
+                            <li><a href="#follow">Follow</a></li>
+                            <li><a href="merchandise.html">Merch</a></li>
+                            <li><a href="/bag-some-lemons.html"><span>Get in touch</span></a></li>
+                            <li></li><i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones"></i></li>
+                        </ul>
+                    </div>
+                    <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones small"></i>
                     <div class="nav-menu">
                         <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
                             <svg width="100%" height="100%" viewBox="0 0 100 100">
@@ -25,7 +38,7 @@
                             </svg>
                         </button>
                     </div>
-                </div>
+                </nav>
         </header>
         <div id="menuunderlay" onclick="menuUnderlay()" class="nav-menu-underlay nav-display container-animate"></div>
         <div id="menuoverlay" class="nav-menu-overlay nav-display container-animate">
@@ -43,7 +56,9 @@
             </ul>
         </div>
         <div id="spotify" class="spotify-overlay container-animate">
-        <div onclick="spotifyOverlay()" class="spotify-close-background"><i id="spotify-close" class="fas fa-times" aria-label="Spotify Close"></i></div>
+            <div onclick="spotifyOverlay()" class="spotify-close-background">
+                <i id="spotify-close" class="fas fa-times" aria-label="Spotify Close"></i>
+            </div>
             <iframe src="https://open.spotify.com/embed/playlist/5a2OuIJ1kEttA8X3PaewlI" allow="encrypted-media"></iframe>
         </div>
         <div id="home" class="main-grid-container">

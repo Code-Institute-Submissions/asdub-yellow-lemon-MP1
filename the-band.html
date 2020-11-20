@@ -9,14 +9,27 @@
     <title>Yellow Lemon | The Band</title>
 </head>
     <body>
-        <header id="navbar">
-            <div class="menu-logo">
+        <header id="navbar" class="band-layout">
+            <div class="menu-logo band-layout">
                 <a href="/">
                     <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
                 </a>
             </div>
-            <div class="nav-container">
-                <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones"></i>
+            <nav class="nav-container">
+                     <div id="menudesktop" class="nav-menu-desktop">
+                        <ul class="nav-items-desktop">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/the-band.html">The Band</a></li>
+                            <li><a href="/#news">News</a></li>
+                            <li><a href="/#events">Events</a></li>
+                            <li><a href="sessions.html">Sessions</a></li>
+                            <li><a href="/#follow">Follow</a></li>
+                            <li><a href="/merchandise.html">Merch</a></li>
+                            <li><a href="/bag-some-lemons.html"><span>Get in touch</span></a></li>
+                            <li></li><i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones"></i></li>
+                        </ul>
+                    </div>
+                    <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones small"></i>
                     <div class="nav-menu">
                         <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
                             <svg width="100%" height="100%" viewBox="0 0 100 100">
@@ -26,18 +39,18 @@
                             </svg>
                         </button>
                     </div>
-                </div>
+                </nav>
         </header>
         <div id="menuunderlay" onclick="menuUnderlay()" class="nav-menu-underlay nav-display container-animate"></div>
         <div id="menuoverlay" class="nav-menu-overlay nav-display container-animate">
             <ul class="nav-items">
                 <li><a href="/">Home</a></li>
-                <li><a href="the-band.html">The Band</a></li>
+                <li><a href="/the-band.html">The Band</a></li>
                 <li><a href="/#news">News</a></li>
                 <li><a href="/#events">Events</a></li>
-                <li><a href="sessions.html">Sessions</a></li>
+                <li><a href="/sessions.html">Sessions</a></li>
                 <li><a href="/#follow">Follow</a></li>
-                <li><a href="merchandise.html">Merch</a></li>
+                <li><a href="/merchandise.html">Merch</a></li>
             </ul>
             <ul class="nav-items-small">
                 <li><a href="/bag-some-lemons.html"><span>Private & Corporate Events</span></a></li>
@@ -49,10 +62,11 @@
         </div>
         <div class="the-band-grid-container">
             <div class="the-band-hero">
-                <img src="assets/svg/the-band.svg" alt="The Band - Yellow Lemon">
+                <img class="display-mobile" src="assets/svg/the-band.svg" alt="The Band - Yellow Lemon">
+                <img class="display-desktop"src="assets/svg/yellow-lemon-logo.svg" alt="Yellow lemon Logo">
             </div>
                 <section class="the-band">
-                    <div class="section-container black-container">
+                    <div class="section-container black-container the-band-container">
                         <h2 class="section-title invert-dark">
                             <span>The Band</span>
                         </h2>
@@ -69,7 +83,7 @@
                                 Discover more about each band member.  
                             </p>
                         </div>
-                        <div class="band-content-layout">
+                        <div class="band-content-layout band-layout">
                             <div class="band-content-group">
                                 <span class="invert-dark">Meet the band</span>
                                 <div class="band-content-item">
@@ -86,8 +100,7 @@
                                             </p>
                                             <p class="invert-dark">
                                                 With violinist Stéphane Grappelli, Reinhardt formed the Paris-based 
-                                                Quintette du Hot Club de France in 1934. The group was among the first 
-                                                to play jazz that featured the guitar as a lead instrument.
+                                                Quintette du Hot Club de France in 1934.
                                             </p>
                                         </div>
                                         <div class="band-content-link">
@@ -168,7 +181,7 @@
                                 
                             </div>
                         </div>
-                        <div class="page-content the-band-content-lower">
+                        <div class="page-content the-band-content-lower band-layout">
                             <p class="invert-dark"> 
                                 <span>BAND HISTORY</span><br>
                             Formed in Manchester in 1983. One of the pioneering groups of the 
@@ -176,7 +189,7 @@
                             classic and most prominent lineup consisted of vocalist Ian Brown, 
                             guitarist John Squire, bassist Mani and drummer Reni.
                             </p>
-                        <div class="linked-footer">
+                        <div class="linked-footer band-layout">
                                 <a class="section-footer-link invert-dark" href="https://en.wikipedia.org/wiki/The_Stone_Roses" target="_blank">Read more <i class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
