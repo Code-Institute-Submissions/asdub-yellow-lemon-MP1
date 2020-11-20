@@ -49,7 +49,11 @@ p {
     letter-spacing: 0.0025em;
     color: rgba(51, 51, 51, 1);
 }
-
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 section {
     border-radius: 3px;
 }
@@ -777,7 +781,7 @@ footer {
 }
 
 .band-news-image-container img {
-    height: 200px;
+    height: 150px;
     width: 100%
 }
 
@@ -1381,13 +1385,14 @@ p.band-events-merch-text.invert-dark > a > span {
 
 .recent-session-thumbnail-container {
     position: relative;
+    width: fit-content;
 }
 
 .session-play.recent-play {
-    height: 6vh;
-    width: 6vh;
-    top: calc(50% - 3vh);
-    left: calc(50% - 3vh);
+    height: 40px;
+    width: 40px;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
 }
 
 .session-play.recent-play i {
@@ -1427,6 +1432,10 @@ p.band-events-merch-text.invert-dark > a > span {
 .band-content-link.single-post a,
 .band-news-post-container p > a {
     text-decoration: underline;
+}
+
+.band-news-content-container.single-post {
+    padding: 1rem 0 0 0;
 }
 
 /***** MERCHANDISE - Page *****/
@@ -1542,6 +1551,11 @@ p.band-events-merch-text.invert-dark > a > span {
 
 .contact-form-item > textarea {
     height: calc(70px - var(--theme-margin));
+}
+
+.contact-form-button {
+    margin: 1rem 0;
+    margin-left: auto;
 }
 
 
@@ -1666,7 +1680,7 @@ p.band-events-merch-text.invert-dark > a > span {
         margin: 2rem 2rem;
     }
     .band-news-image-container.single-post img {
-        height: 350px;
+        height: 300px;
     }
     .the-band-hero {
         padding: 1rem 0 0 0;
@@ -1748,6 +1762,7 @@ p.band-events-merch-text.invert-dark > a > span {
     }
     /** Page Layouts **/
     .the-band-grid-container {
+        background: var(--theme-white);
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 100px auto auto auto;
@@ -1904,7 +1919,7 @@ p.band-events-merch-text.invert-dark > a > span {
         padding: 1rem 0 1rem 2rem;
     }
     .nav-container {
-        padding: 0 1rem 0 0;
+        padding: 0 2rem 0 0;
     }
     .band-news-image-container {
         display: block;
@@ -1994,10 +2009,69 @@ p.band-events-merch-text.invert-dark > a > span {
         grid-column-end: 5
     }
      /** Follow - Home **/ 
+    .band-follow {
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
     .band-follow-content {
         margin: 2rem 4rem;
     }
     .social-media-icons-container i {
         font-size: 3.4rem;
     }
+    /** The Band Page **/
+    .the-band-hero {
+        max-width: 90rem;
+        justify-self: center;
+    }
+    .the-band.band-about-layout {
+        margin: 0 2rem;
+        max-width: 90rem;
+        justify-self: center;
+    }
+    /** Sessions Page **/
+    .latest-session {
+        margin: 4rem 0 4rem 4rem;
+    }
+    .the-band.sessions-layout {
+        margin: 4rem 4rem 4rem 0;
+    }
+    /** Merchandise Page **/
+    .merch-hero {
+        margin: 4rem 0 4rem 4rem;
+    }
+    .the-band {
+        margin: 4rem 4rem 4rem 0;
+    }
+    /** Band News Article Page **/
+    .band-news-post-container.single-post {
+        display: grid;
+        padding: 2rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 2rem;
+    }
+    .band-news-post-container.single-post h3 {
+        grid-column-start: 1;
+        grid-column-end: 3
+    }
+     .band-news-post-container.single-post > span {
+        grid-column-start: 1;
+        grid-column-end: 3
+    }
+    .band-news-image-container.single-post {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .band-news-content-container.single-post {
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
 }
