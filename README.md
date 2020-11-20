@@ -2,7 +2,7 @@
 
 This is a webiste for a fictional band called 'Yellow Lemon'. <br>
 
-**View a live version of the webiste** [here](https://asdub.github.io/yellow-lemon-MP1/)
+**View a live version of the website** [here](https://asdub.github.io/yellow-lemon-MP1/)
 
 ## Site aim & purpose
 *User Experience*
@@ -26,6 +26,6 @@ This is a webiste for a fictional band called 'Yellow Lemon'. <br>
  Provide fans with details on their [upcomming events](https://asdub.github.io/yellow-lemon-MP1/#events), with external links to booking partners.<br> 
  And an area to showcase their [latest merchandise](https://asdub.github.io/yellow-lemon-MP1/merchandise.html) for sale. <br>
 
- While not on the orginal brief, a dedicated area -[Sessions](https://asdub.github.io/yellow-lemon-MP1/sessions.html)
+ While not on the orginal brief, a dedicated area - [Sessions](https://asdub.github.io/yellow-lemon-MP1/sessions.html)
  for the group to keep in touch and their fans updated during lockdown
 
