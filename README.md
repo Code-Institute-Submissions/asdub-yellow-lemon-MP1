@@ -17,7 +17,7 @@ This is a webiste for a fictional band called 'Yellow Lemon'. <br>
     - getting more gigs 
 
 ### Design & Planning
-![logo]: https://github.com/asdub/yellow-lemon-MP1/blob/master/assets/svg/yellow-lemon-logo.svg "Yellow Lemon Logo"
+![logo](https://github.com/asdub/yellow-lemon-MP1/blob/master/assets/svg/yellow-lemon-logo.svg "Yellow Lemon Logo")
 Rather than use a framework, I decided to use CSS grids in order to create a unique experience for the user. 
 The site is meant to create an easy to use and playful envirmoment for fans to enjoy client content. 
 While at the same time providing the client with a platform to showcase their latest music, advertise their 
@@ -25,7 +25,7 @@ events and sell theiur merchandise.
 
 **Site Mock-Ups/ Wire Frames**
 
-![mockup]: https://github.com/asdub/yellow-lemon-MP1/blob/master/mockups_screenshot.png "Yellow Lemon Logo"
+![mockup](https://github.com/asdub/yellow-lemon-MP1/blob/master/mockups_screenshot.png "Yellow Lemon Logo")
 Mobile, Tablet & Desktop mockups  - [View in full here](https://xd.adobe.com/view/17b30f70-61ed-4e79-a028-648b3cdb0ab8-42e0/grid)
 
 
