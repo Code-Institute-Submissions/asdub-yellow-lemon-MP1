@@ -1,14 +1,18 @@
+/*
+Stylesheet for - https://asdub.github.io/yellow-lemon-MP1/ 
+*/
+
 /***** FONTS *****/
 @import url("https://use.typekit.net/wlw8oea.css");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,400&display=swap");
 
 /***** GLOBAL SETTINGS ****/
 :root {
-  --theme-yellow: #DFC548;
-  --theme-red: #F87B70;
-  --theme-black: #191919;
-  --theme-white: #fafafa;
-  --theme-margin: 5px;
+    --theme-yellow: #dfc548;
+    --theme-red: #f87b70;
+    --theme-black: #191919;
+    --theme-white: #fafafa;
+    --theme-margin: 5px;
 }
 
 html {
@@ -16,14 +20,16 @@ html {
     scroll-padding-top: 85px;
 }
 
-
 body {
     font-family: "roboto", sans-serif;
     font-size: 1.05rem;
     margin: var(--theme-margin);
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     font-size: inherit;
     letter-spacing: 0.025em;
     margin: 0;
@@ -59,16 +65,16 @@ section {
 }
 
 .container-animate {
-    animation: fadeIn .25s ease-in-out;
+    animation: fadeIn 0.25s ease-in-out;
 }
-    @keyframes fadeIn {
+@keyframes fadeIn {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
     }
-    }
+}
 
 .yellow-btn {
     padding: 8px 20px;
@@ -76,14 +82,14 @@ section {
     background: var(--theme-yellow);
     color: var(--theme-black);
     border: 0;
-    font-family: 'roboto', sans-serif;
+    font-family: "roboto", sans-serif;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
     position: relative;
-   
+
     margin-left: auto;
     transition: all 0.2s ease-in-out;
 }
@@ -91,8 +97,8 @@ section {
 .yellow-btn:hover,
 .yellow-btn:focus,
 .yellow-btn:active {
-     background: var(--theme-red);
-     font-weight: 500;
+    background: var(--theme-red);
+    font-weight: 500;
 }
 
 .black-btn {
@@ -101,7 +107,7 @@ section {
     background: var(--theme-black);
     color: var(--theme-white);
     border: 0;
-    font-family: 'roboto', sans-serif;
+    font-family: "roboto", sans-serif;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
@@ -130,20 +136,20 @@ section {
 }
 
 .red-text-link:hover,
-.red-text-link:focus{
+.red-text-link:focus {
     border-bottom: 1px solid var(--theme-red);
 }
 
-.red-text-link:active{
+.red-text-link:active {
     border-bottom: 1px solid var(--theme-red);
 }
 
 .section-title.invert-dark {
-   color: var(--theme-white);
+    color: var(--theme-white);
 }
 
 .invert-dark {
-   color: var(--theme-white);
+    color: var(--theme-white);
 }
 
 .lemonade-text {
@@ -151,13 +157,13 @@ section {
 }
 
 hr.white-divider {
-    border: none;  
-    border-bottom: 1px solid var(--theme-white); 
+    border: none;
+    border-bottom: 1px solid var(--theme-white);
 }
 
 hr.yellow-divider {
-    border: none;  
-    border-bottom: 2px solid var(--theme-yellow); 
+    border: none;
+    border-bottom: 2px solid var(--theme-yellow);
 }
 
 .display-desktop {
@@ -167,7 +173,7 @@ hr.yellow-divider {
 /***** SECTION DEFAULTS *****/
 
 .section-container {
-    padding: calc(var(--theme-margin)*4) calc(var(--theme-margin)*2);
+    padding: 20px 10px;
 }
 
 .section-title {
@@ -197,14 +203,13 @@ hr.yellow-divider {
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: 100%;
-    grid-template-areas:
-        "logo nav";
+    grid-template-areas: "logo nav";
     background-color: var(--theme-yellow);
     border-radius: 3px;
     z-index: 2;
     box-shadow: 0 1px 2px rgba(34, 25, 25, 0.2);
     height: 100px;
-    width: calc(100% - (var(--theme-margin))*2);
+    width: calc(100% - 10px);
     overflow: hidden;
 }
 
@@ -224,7 +229,7 @@ hr.yellow-divider {
     stroke: var(--theme-yellow);
 }
 
-.nav-menu-desktop.black a, 
+.nav-menu-desktop.black a,
 .nav-menu-desktop.black a:visited {
     color: var(--theme-yellow);
 }
@@ -240,7 +245,6 @@ hr.yellow-divider {
     color: var(--theme-black);
 }
 
-
 .nav-container {
     grid-area: nav;
     display: flex;
@@ -248,9 +252,8 @@ hr.yellow-divider {
     justify-content: flex-end;
 }
 
-/***** MOBILE MENU *****/ 
+/***** MOBILE MENU *****/
 /* Credit: https://uxdesign.cc/the-menu-210bec7ad80c) */
-
 
 #mobilemenu {
     background: none;
@@ -269,12 +272,12 @@ hr.yellow-divider {
 }
 
 .spotify-headphones-active {
-    color: #1DB954 !important;
+    color: #1db954 !important;
 }
 
 .spotify-headphones:hover,
 .spotify-headphones:focus {
-    color: #1DB954;
+    color: #1db954;
 }
 
 .opened {
@@ -327,12 +330,12 @@ hr.yellow-divider {
 
 .nav-menu-overlay {
     position: fixed;
-    width: calc(50vw - var(--theme-margin));
+    width: calc(50vw - 5px);
     max-width: 250px;
     background: #191919;
     opacity: 0.9;
     border-radius: 3px;
-    top: calc(100px + var(--theme-margin));
+    top: calc(100px + 5px);
     right: 0;
     margin-top: var(--theme-margin);
     margin-right: var(--theme-margin);
@@ -341,7 +344,7 @@ hr.yellow-divider {
 }
 
 .nav-menu-underlay {
-    content: ' ';
+    content: " ";
     position: fixed;
     top: 0;
     bottom: 0;
@@ -357,13 +360,12 @@ hr.yellow-divider {
 
 .nav-menu-desktop {
     display: none;
-} 
+}
 
 .nav-display.nav-active {
     display: flex;
     flex-direction: column;
 }
-
 
 .nav-menu-overlay ul {
     list-style-type: none;
@@ -374,15 +376,15 @@ hr.yellow-divider {
     text-decoration: none;
 }
 
-.nav-items, 
+.nav-items,
 .nav-items-small {
-    margin: calc((var(--theme-margin))*2) calc((var(--theme-margin))*2);
-    font-family: 'effra', sans-serif;
+    margin: 10px;
+    font-family: "effra", sans-serif;
     letter-spacing: 0.025em;
     text-transform: uppercase;
 }
 
-.nav-items a, 
+.nav-items a,
 .nav-items a:visited {
     color: var(--theme-white);
     font-size: 20px;
@@ -390,7 +392,8 @@ hr.yellow-divider {
     transition: all 0.2s ease-in-out;
 }
 
-.nav-items-small a, .nav-items-small a:visited {
+.nav-items-small a,
+.nav-items-small a:visited {
     color: var(--theme-yellow);
     font-size: 80%;
     transition: all 0.2s ease-in-out;
@@ -416,7 +419,6 @@ hr.yellow-divider {
     border-color: var(--theme-red);
 }
 
-
 .nav-items a:hover,
 .nav-items a:focus,
 .nav-items-small a:hover,
@@ -430,13 +432,13 @@ hr.yellow-divider {
 .spotify-overlay {
     display: none;
     position: fixed;
-    top: calc(100px + var(--theme-margin));
+    top: calc(100px + 5px);
     background: var(--theme-yellow);
     opacity: 0.9;
     border-radius: 3px;
     margin-top: var(--theme-margin);
     padding: var(--theme-margin);
-    width: calc(100% - (var(--theme-margin))*4);
+    width: calc(100% - 20px);
     z-index: 1;
 }
 
@@ -455,16 +457,16 @@ hr.yellow-divider {
 }
 
 #spotify-close {
-    color: var(--theme-black);  
+    color: var(--theme-black);
     font-size: 1.6rem;
     z-index: 3;
 }
 
 .spotify-overlay iframe {
     border: #000;
-    border-radius: 3px; 
-    width: 100%; 
-    height: calc(250px - var(--theme-margin)*2);
+    border-radius: 3px;
+    width: 100%;
+    height: calc(250px - 10px);
 }
 
 .spotify-display {
@@ -473,23 +475,22 @@ hr.yellow-divider {
     align-items: center;
 }
 
-
 /***** LAYOUT *****/
 
 .main-grid-container {
     display: grid;
-    margin-top: calc(var(--theme-margin)*2);
+    margin-top: 10px;
     grid-template-columns: 1fr;
     grid-auto-rows: 100px minmax(250px, auto) minmax(300px, auto) auto auto auto auto auto;
     grid-template-areas:
-    " . "
-    "hero"
-    "sessions"
-    "foot"
-    "news"
-    "events"
-    "follow"
-    "footer"; 
+        " . "
+        "hero"
+        "sessions"
+        "foot"
+        "news"
+        "events"
+        "follow"
+        "footer";
 }
 
 .hero-album {
@@ -498,7 +499,7 @@ hr.yellow-divider {
 
 .band-sessions {
     grid-area: sessions;
-    margin: var(--theme-margin) 0 calc(var(--theme-margin)*4) 0;
+    margin: 5px 0 20px 0;
     background-color: var(--theme-white);
 }
 
@@ -524,7 +525,7 @@ footer {
 
 /***** LOGO *****/
 .menu-logo {
-    font-family: 'Effra', sans-serif;
+    font-family: "Effra", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1em;
@@ -540,7 +541,7 @@ footer {
     color: var(--theme-red);
     -webkit-text-stroke: var(--theme-black);
     -webkit-text-stroke-width: 1px;
-    font-size: auto;
+    font-size: inherit;
 }
 
 /***** SECTION FOOTER *****/
@@ -556,7 +557,7 @@ footer {
 }
 
 .section-footer.black {
-     background:var(--theme-black);
+    background: var(--theme-black);
 }
 
 .linked-footer {
@@ -583,19 +584,18 @@ footer {
     letter-spacing: 0.025em;
 }
 .section-footer-link.invert-dark {
-     color: var(--theme-white);
+    color: var(--theme-white);
 }
-
 
 .yellow-lemon {
     /***** Section Footer Icon *****/
     color: var(--theme-white);
-    text-shadow: 1px 0 0 var(--theme-yellow),0 1px 0 var(--theme-yellow),-1px 0 0 var(--theme-yellow),0 -1px 0 var(--theme-yellow);
+    text-shadow: 1px 0 0 var(--theme-yellow), 0 1px 0 var(--theme-yellow), -1px 0 0 var(--theme-yellow), 0 -1px 0 var(--theme-yellow);
     font-size: 2rem;
 }
 
 .black-lemon {
-     color: var(--theme-black);
+    color: var(--theme-black);
 }
 
 .section-footer .yellow-lemon {
@@ -605,11 +605,11 @@ footer {
 /***** HERO ALBUM - HOME *****/
 
 .hero-album {
-    background: url("../images/yellow.jpeg") no-repeat center center; 
+    background: url("../images/yellow.jpeg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;   
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -619,10 +619,11 @@ footer {
     height: 12vh;
     width: 70%;
     max-width: 600px;
-    background: linear-gradient(to bottom, rgba(232, 125, 111, 0.82), rgba(232, 125, 111, 0.90));
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 1));
+    border-top-right-radius: 3px;
     margin-bottom: 10vh;
-    display: flex; 
-    align-items: flex-end
+    display: flex;
+    align-items: flex-end;
 }
 
 .hero-album-text {
@@ -638,7 +639,7 @@ footer {
     font-size: 130%;
     font-weight: 400;
     font-style: normal;
-    padding: 0 0 0 calc(var(--theme-margin)*3);
+    padding: 0 0 0 15px;
 }
 
 .hero-album-text h3 {
@@ -647,15 +648,15 @@ footer {
     font-style: italic;
     text-transform: uppercase;
     letter-spacing: 0.015rem;
-    color: var(--theme-white);
-    padding: 0 0 0 calc(var(--theme-margin)*3);
+    color: var(--theme-red);
+    padding: 0 0 0 15px;
 }
 
 .hero-album-text span {
     align-self: flex-end;
     text-transform: uppercase;
     font-weight: 500;
-    color: var(--theme-white);
+    color: var(--theme-red);
     letter-spacing: 0.015rem;
     font-size: 90%;
 }
@@ -671,6 +672,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease-in-out;
 }
 
 .hero-play i,
@@ -678,6 +680,16 @@ footer {
     color: var(--theme-white);
     font-size: 2rem;
     padding-left: 2px;
+}
+
+section.hero-album:focus > div > div > i,
+section.hero-album:hover > div > div > i {
+    color: var(--theme-black);
+}
+
+section.hero-album:hover > div > div:nth-child(2) {
+    background: var(--theme-yellow);
+    transform: scale(0.85);
 }
 
 /***** BAND SESSIONS - HOME *****/
@@ -693,14 +705,14 @@ footer {
     font-size: inherit;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.12), rgba(232, 125, 111, 0.50)), url("../images/yellowstudio.jpg") no-repeat center center;
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.12), rgba(232, 125, 111, 0.5)), url("../images/yellowstudio.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;  
+    background-size: cover;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    padding: calc(var(--theme-margin)*2);
+    padding: 10px;
     height: 100%;
 }
 
@@ -710,12 +722,12 @@ footer {
 }
 
 .band-sessions-overlay h2 {
-    font-family: 'effra', sans-serif;
+    font-family: "effra", sans-serif;
     font-size: 24px;
     letter-spacing: 0.025em;
     line-height: 1em;
     font-weight: bold;
-    margin-top: auto; 
+    margin-top: auto;
 }
 
 .band-sessions-overlay i {
@@ -731,7 +743,7 @@ footer {
 .band-sessions-content-container {
     display: flex;
     flex-direction: column;
-    padding: calc((var(--theme-margin))*2) calc((var(--theme-margin))*2) calc((var(--theme-margin))*4) calc((var(--theme-margin))*2);
+    padding: 10px 10px 20px 10px;
     border-bottom: 1px solid rgba(102, 102, 102, 0.2);
     border-left: 1px solid rgba(102, 102, 102, 0.2);
     border-right: 1px solid rgba(102, 102, 102, 0.2);
@@ -743,9 +755,10 @@ footer {
 
 .band-news-post {
     background: #fafafa;
-    box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.2);
-    border: 1px solid rgba(102,102,102,0.15);
+    box-shadow: 2.5px 5px 10px -5px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(102, 102, 102, 0.15);
     border-radius: 3px;
+    transition: all 0.2s ease-in-out;
 }
 
 .band-news-post-layout {
@@ -762,7 +775,7 @@ footer {
     padding: 1rem;
 }
 
-.band-news-post-container > span{
+.band-news-post-container > span {
     font-size: 12px;
     color: rgba(51, 51, 51, 1);
 }
@@ -772,8 +785,8 @@ footer {
     padding: var(--theme-margin) 0;
 }
 
-.band-news-post-container p span{
-  font-weight: 600;
+.band-news-post-container p span {
+    font-weight: 600;
 }
 
 .band-news-image-container {
@@ -781,14 +794,14 @@ footer {
 }
 
 .band-news-image-container img {
-    height: 150px;
-    width: 100%
+    height: 180px;
+    width: 100%;
+    border-radius: 3px;
 }
 
 /***** EVENTS - HOME *****/
 
 /** Events Covid Alert **/
-
 .covid-alert.inner {
     display: none;
 }
@@ -798,11 +811,10 @@ footer {
 }
 
 .covid-alert {
-  
     flex-direction: row;
     align-items: center;
     padding: 0.5rem 1rem;
-    margin: calc(var(--theme-margin)*4)0 var(--theme-margin) 0;
+    margin: 20px 0 5px 0;
     background: var(--theme-red);
     border-radius: 3px;
 }
@@ -884,7 +896,7 @@ p.band-events-merch-text.invert-dark > a > span {
     color: var(--theme-yellow);
     font-size: 20px;
     text-transform: uppercase;
-} 
+}
 
 .events-title-container i {
     font-size: 20px;
@@ -910,14 +922,20 @@ p.band-events-merch-text.invert-dark > a > span {
     border: 1px solid;
     border-color: rgba(102, 102, 102, 0.15);
     background: var(--theme-white);
-    box-shadow: 2.5px -5px 10px -5px rgba(0,0,0,0.3);
+    box-shadow: 2.5px -5px 10px -5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+}
+
+.band-events-item:hover,
+.band-events-item:focus {
+    transform: scale(1.02);
 }
 
 .band-events-post-container {
     display: grid;
     grid-template-columns: 15% 60% 25%;
     grid-template-rows: auto;
-    grid-template-areas: 
+    grid-template-areas:
         "date lineu lineu"
         "date content content"
         "  .  link link";
@@ -956,7 +974,7 @@ p.band-events-merch-text.invert-dark > a > span {
     height: 40px;
     width: 40px;
     background: var(--theme-white);
-    box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.25);
+    box-shadow: 2.5px 5px 10px -5px rgba(0, 0, 0, 0.25);
 }
 
 .band-events-post-date p {
@@ -969,7 +987,7 @@ p.band-events-merch-text.invert-dark > a > span {
 
 .band-content-divider-upper,
 .band-content-divider-lower {
-    margin: 0 calc(var(--theme-margin)*4);
+    margin: 0 20px;
 }
 
 .band-events-post-details p:nth-child(1) {
@@ -990,7 +1008,7 @@ p.band-events-merch-text.invert-dark > a > span {
 }
 
 .band-events-post-details p:nth-child(2) > span:nth-child(2) {
-   font-weight: 400;
+    font-weight: 400;
 }
 
 .band-events-post-details p:nth-child(3) {
@@ -1023,14 +1041,14 @@ p.band-events-merch-text.invert-dark > a > span {
 /***** FOLLOW - HOME *****/
 
 .band-follow-container {
-    padding: calc(var(--theme-margin)*8) calc(var(--theme-margin)*4);
+    padding: 40px 20px;
 }
 
 .band-follow-hero {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: 
+    grid-template-areas:
         "a a . . ."
         "b b . . ."
         ". c c . ."
@@ -1073,7 +1091,7 @@ p.band-events-merch-text.invert-dark > a > span {
 }
 
 .follow-hero-heading-a,
-.follow-hero-heading-b { 
+.follow-hero-heading-b {
     transform: translateX(-25%);
 }
 
@@ -1107,7 +1125,6 @@ p.band-events-merch-text.invert-dark > a > span {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    
 }
 
 .social-media-icons-container i,
@@ -1187,13 +1204,12 @@ p.band-events-merch-text.invert-dark > a > span {
     font-weight: 500;
 }
 
-
 /** Template for inner content on pages **/
 .band-content-layout {
     max-height: 40vh;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
-    background: rgba(51,51,51,0.5);
+    background: rgba(51, 51, 51, 0.5);
     border-radius: 3px;
     padding: 1rem;
     box-shadow: inset 0 0 3px;
@@ -1213,7 +1229,7 @@ p.band-events-merch-text.invert-dark > a > span {
     grid-template-columns: 35% 65%;
     grid-template-rows: auto;
     column-gap: 1rem;
-    grid-template-areas: 
+    grid-template-areas:
         "img content"
         "img content"
         "img content"
@@ -1223,7 +1239,7 @@ p.band-events-merch-text.invert-dark > a > span {
 .band-content-item {
     padding: 0.5rem;
     margin: 1rem 0;
-    background: transparent
+    background: transparent;
 }
 
 .band-content-image {
@@ -1259,11 +1275,11 @@ p.band-events-merch-text.invert-dark > a > span {
 .band-content-text > span {
     color: var(--theme-yellow);
     font-size: 12px;
-    padding: 0.3rem 0; 
+    padding: 0.3rem 0;
 }
 
 /***** THE BAND - PAGES *****/
-/** the-band.html **/ 
+/** the-band.html **/
 
 .the-band-grid-container {
     display: grid;
@@ -1285,11 +1301,11 @@ p.band-events-merch-text.invert-dark > a > span {
 }
 
 .the-band-hero img {
-    width: 100%
+    width: 100%;
 }
 
 .the-band {
-    grid-area: content; 
+    grid-area: content;
 }
 
 .the-band-content p {
@@ -1303,9 +1319,8 @@ p.band-events-merch-text.invert-dark > a > span {
     justify-content: flex-end;
 }
 
-
 /***** SESSIONS - PAGES *****/
-/** sessions.html **/ 
+/** sessions.html **/
 
 .sessions-grid-container {
     background: var(--theme-red);
@@ -1325,15 +1340,15 @@ p.band-events-merch-text.invert-dark > a > span {
 
 .session-title {
     color: var(--theme-white);
-    font-size:24px;
+    font-size: 24px;
 }
 
 .latest-video-featured-thumbnail {
-    background: url('https://img.youtube.com/vi/BBsazIACpYM/hqdefault.jpg') no-repeat center center;
+    background: url("https://img.youtube.com/vi/BBsazIACpYM/hqdefault.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;   
+    background-size: cover;
     position: relative;
     height: 230px;
 }
@@ -1345,11 +1360,11 @@ p.band-events-merch-text.invert-dark > a > span {
     top: calc(50% - 40px);
     left: calc(50% - 40px);
     border-radius: 50%;
-    background: rgba(51,51,51,0.8);
+    background: rgba(51, 51, 51, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    transition: all 0.2s ease-in-out;
 }
 
 .band-sessions-overlay.latest-video-featured-thumbnail h2,
@@ -1373,7 +1388,7 @@ p.band-events-merch-text.invert-dark > a > span {
 
 .band-content-layout.recent-sessions-layout {
     margin: 1rem 0;
-    background: rgba(51,51,51,0.5);
+    background: rgba(51, 51, 51, 0.5);
     padding: 0 var(--theme-margin) 0 0;
 }
 
@@ -1400,7 +1415,7 @@ p.band-events-merch-text.invert-dark > a > span {
     color: var(--theme-yellow);
 }
 
-/***** NEWS ARTICLE - Page *****/ 
+/***** NEWS ARTICLE - Page *****/
 
 .band-news-image-container.single-post {
     display: block;
@@ -1408,13 +1423,13 @@ p.band-events-merch-text.invert-dark > a > span {
 
 .news-article-grid-container {
     display: grid;
-    margin-top: calc(var(--theme-margin)*2);
+    margin-top: 10px;
     grid-template-columns: 1fr;
     grid-auto-rows: 100px minmax(250px, auto) auto;
     grid-template-areas:
-    " . "
-    "article"
-    "footer"; 
+        " . "
+        "article"
+        "footer";
 }
 
 .band-news-single-post {
@@ -1422,7 +1437,7 @@ p.band-events-merch-text.invert-dark > a > span {
 }
 
 .linked-footer.single-post {
-    padding: 0 calc(var(--theme-margin)*4) calc(var(--theme-margin)*2);
+    padding: 0 20px 0 10px;
 }
 
 .band-content-link.single-post {
@@ -1439,7 +1454,7 @@ p.band-events-merch-text.invert-dark > a > span {
 }
 
 /***** MERCHANDISE - Page *****/
-/** merchandise.html **/ 
+/** merchandise.html **/
 
 .merch-hero {
     grid-area: hero;
@@ -1451,7 +1466,7 @@ p.band-events-merch-text.invert-dark > a > span {
 }
 
 .merch img {
-    width: 100%
+    width: 100%;
 }
 
 .band-content-text.merch h2 {
@@ -1472,7 +1487,7 @@ p.band-events-merch-text.invert-dark > a > span {
 }
 
 /***** CONTACT - Page *****/
-/** get-in-touch.html **/ 
+/** get-in-touch.html **/
 
 .contact-hero {
     grid-area: hero;
@@ -1491,7 +1506,7 @@ p.band-events-merch-text.invert-dark > a > span {
 }
 
 .contact-hero-content h1 {
-    font-family: 'Effra', sans-serif;
+    font-family: "Effra", sans-serif;
     font-size: 20px;
 }
 
@@ -1502,14 +1517,14 @@ p.band-events-merch-text.invert-dark > a > span {
 }
 
 .contact-layout {
-     padding: 1rem;
+    padding: 1rem;
 }
 
 .contact-container > form {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    row-gap: calc(var(--theme-margin)*2);
+    row-gap: 10px;
 }
 
 .contact-form-item {
@@ -1536,7 +1551,7 @@ p.band-events-merch-text.invert-dark > a > span {
 
 .contact-form-item > input,
 .contact-form-item > textarea {
-    width: calc(100% - var(--theme-margin));
+    width: calc(100% - 5px);
     padding: 0 var(--theme-margin);
     background: transparent;
     border: 0;
@@ -1546,11 +1561,11 @@ p.band-events-merch-text.invert-dark > a > span {
 }
 
 .contact-form-item > input {
-    height: calc(35px - var(--theme-margin));
+    height: 30px;
 }
 
 .contact-form-item > textarea {
-    height: calc(70px - var(--theme-margin));
+    height: 65px;
 }
 
 .contact-form-button {
@@ -1558,19 +1573,19 @@ p.band-events-merch-text.invert-dark > a > span {
     margin-left: auto;
 }
 
-
 /***** RESPONSIVE *****/
 
 /** Tablet 768px+ **/
 @media only screen and (min-width: 768px) {
-    .nav-items a, 
+    /** Nav & Main Layout **/
+    .nav-items a,
     .nav-items a:visited {
         line-height: 2.3;
     }
     h2 {
         font-size: 20px;
     }
-    h3{
+    h3 {
         font-size: 18px;
     }
     .yellow-btn {
@@ -1611,16 +1626,20 @@ p.band-events-merch-text.invert-dark > a > span {
     }
     .hero-album {
         margin: 1rem 0.5rem 1rem 1rem;
-        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.2);
+        box-shadow: 2.5px 5px 10px -5px rgba(0, 0, 0, 0.2);
     }
     .band-sessions {
         margin: 1rem 1rem 1rem 0.5rem;
-        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.2);
+        box-shadow: 2.5px 5px 10px -5px rgba(0, 0, 0, 0.2);
     }
     .band-news-post-layout {
         grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
         margin: 1rem 0;
+    }
+    article.band-news-post:hover,
+    article.band-news-post:focus {
+        transform: scale(1.02);
     }
     .covid-alert.outer {
         display: none;
@@ -1629,12 +1648,12 @@ p.band-events-merch-text.invert-dark > a > span {
         display: flex;
     }
     .covid-alert {
-        margin: calc(var(--theme-margin)*4)0 auto 0;
+        margin: 20px 0 auto 0;
         width: 50%;
     }
     .band-events-group {
-       grid-template-columns: 1fr 1fr;
-       column-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
     }
     .section-container.band-follow-container {
         display: grid;
@@ -1654,6 +1673,15 @@ p.band-events-merch-text.invert-dark > a > span {
     .latest-video-featured-thumbnail {
         height: 35vh;
     }
+    .latest-video-featured-thumbnail:hover > div,
+    .latest-video-featured-thumbnail:focus > div {
+        background: var(--theme-yellow);
+        transform: scale(0.8);
+    }
+    .latest-video-featured-thumbnail:hover > div > i,
+    .latest-video-featured-thumbnail:focus > div > i {
+        color: var(--theme-black);
+    }
     .band-content-text > span {
         font-size: 16px;
     }
@@ -1672,6 +1700,11 @@ p.band-events-merch-text.invert-dark > a > span {
         padding: 1rem;
         margin: 0.5rem;
         border: 1px solid rgba(102, 102, 102, 0.3);
+        transition: all 0.2s ease-in-out;
+    }
+    .band-content-group.sessions > div.band-content-item:hover,
+    .band-content-group.sessions > div.band-content-item:focus {
+        transform: scale(1.02);
     }
     .band-news-post-layout.single-post {
         display: grid;
@@ -1681,6 +1714,8 @@ p.band-events-merch-text.invert-dark > a > span {
     }
     .band-news-image-container.single-post img {
         height: 300px;
+        max-width: 500px;
+        border-radius: 3px;
     }
     .the-band-hero {
         padding: 1rem 0 0 0;
@@ -1697,7 +1732,8 @@ p.band-events-merch-text.invert-dark > a > span {
     .contact-hero-content span {
         font-size: 20px;
     }
-    .copyright-footer span, .copyright-footer a {
+    .copyright-footer span,
+    .copyright-footer a {
         font-size: 14px;
     }
 }
@@ -1707,12 +1743,13 @@ p.band-events-merch-text.invert-dark > a > span {
     body {
         height: 100vh;
     }
-     /** Desktop Menu **/
+    /** Desktop Menu **/
     #navbar {
         grid-template-columns: 30% 70%;
     }
+    /** Nav & Main Layout **/
     .nav-menu,
-    .nav-menu-overlay, 
+    .nav-menu-overlay,
     .nav-menu-underlay {
         display: none;
     }
@@ -1743,6 +1780,7 @@ p.band-events-merch-text.invert-dark > a > span {
     .nav-menu-desktop a:active {
         padding: 0 0 5px 0;
         border-bottom: 6px solid var(--theme-red);
+        font-size: 16px;
     }
     .spotify-headphones.small {
         display: none;
@@ -1755,10 +1793,11 @@ p.band-events-merch-text.invert-dark > a > span {
     }
     .yellow-btn {
         padding: 8px 20px;
-        font-size: 14px;
+        font-size: 16px;
     }
-    .red-text-link, .red-text-link:visited {
-        font-weight: 600;
+    .red-text-link,
+    .red-text-link:visited {
+        font-weight: 500;
     }
     /** Page Layouts **/
     .the-band-grid-container {
@@ -1767,20 +1806,20 @@ p.band-events-merch-text.invert-dark > a > span {
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 100px auto auto auto;
         grid-template-areas:
-        " . . "
-        "hero content"
-        "footer footer";
+            " . . "
+            "hero content"
+            "footer footer";
         min-height: 100%;
     }
     .the-band {
         margin: 1rem 2rem 1rem 0;
-        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.25);
+        box-shadow: 2.5px 5px 10px -5px rgba(0, 0, 0, 0.25);
         display: flex;
         flex-direction: column;
         align-self: center;
     }
     .section-container.black-container {
-        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.25);
+        box-shadow: 2.5px 5px 10px -5px rgba(0, 0, 0, 0.25);
     }
     /** Band Page **/
     .the-band-grid-container.band-layout {
@@ -1793,7 +1832,7 @@ p.band-events-merch-text.invert-dark > a > span {
             "hero"
             "content"
             "footer";
-        min-height: 100%
+        min-height: 100%;
     }
     .section-container.black-container.the-band-container {
         display: grid;
@@ -1822,16 +1861,16 @@ p.band-events-merch-text.invert-dark > a > span {
     }
     .section-container.black-container.the-band-container > h2 > span {
         border-color: var(--theme-red);
-     }
+    }
     .linked-footer.band-layout a,
     .section-container.black-container.the-band-container > div > p {
-         color: var(--theme-black);
-     }
+        color: var(--theme-black);
+    }
     .linked-footer.band-layout a:hover,
     .linked-footer.band-layout a:focus,
     .linked-footer.band-layout a:active {
-         color: var(--theme-red);
-     }
+        color: var(--theme-red);
+    }
     .menu-logo.band-layout {
         display: none;
     }
@@ -1850,6 +1889,13 @@ p.band-events-merch-text.invert-dark > a > span {
     }
     .the-band.band-about-layout {
         margin: 0;
+    }
+    .invert-dark.band-layout {
+        color: var(--theme-black);
+    }
+    .red-text-link.band-layout {
+        color: var(--theme-black);
+        border-bottom: 2px solid var(--theme-red);
     }
     /** Sessions Page **/
     .sessions-grid-container {
@@ -1873,11 +1919,11 @@ p.band-events-merch-text.invert-dark > a > span {
         flex-direction: column;
         align-self: center;
         max-height: 600px;
-        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.25);
+        box-shadow: 2.5px 5px 10px -5px rgba(0, 0, 0, 0.25);
     }
     .the-band.sessions-layout {
         margin: 1rem 2rem 1rem 0;
-        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.25);
+        box-shadow: 2.5px 5px 10px -5px rgba(0, 0, 0, 0.25);
         display: flex;
         flex-direction: column;
         align-self: center;
@@ -1895,13 +1941,13 @@ p.band-events-merch-text.invert-dark > a > span {
     /** Merchandise Page **/
     .merch-hero {
         margin: 1rem 0 1rem 2rem;
-        box-shadow: 2.5px 5px 10px -5px rgba(0,0,0,0.25);
+        box-shadow: 2.5px 5px 10px -5px rgba(0, 0, 0, 0.25);
         border-radius: 3px;
-        border: 1px solid rgba(102,102,102,0.15);
+        border: 1px solid rgba(102, 102, 102, 0.15);
     }
     /** News Article Page **/
     .band-news-image-container.single-post img {
-        max-width: 600px;
+        max-width: 400px;
     }
     /** Get in touch Page **/
     .contact-hero {
@@ -1913,7 +1959,7 @@ p.band-events-merch-text.invert-dark > a > span {
 @media only screen and (min-width: 1200px) {
     /** Nav & Main Layout **/
     #navbar {
-    grid-template-columns: 40% 60%;
+        grid-template-columns: 40% 60%;
     }
     .menu-logo {
         padding: 1rem 0 1rem 2rem;
@@ -1945,10 +1991,9 @@ p.band-events-merch-text.invert-dark > a > span {
     }
     /** Spotify **/
     .spotify-overlay {
-        width: 25%; 
+        width: 25%;
         right: 0;
         margin: var(--theme-margin);
-
     }
     /** Page Layouts **/
     .section-container {
@@ -1959,7 +2004,7 @@ p.band-events-merch-text.invert-dark > a > span {
         margin: 2rem 1rem 2rem 2rem;
     }
     .band-sessions {
-        margin: 2rem 2rem 2rem 1rem
+        margin: 2rem 2rem 2rem 1rem;
     }
     .hero-album-overlay {
         width: 50%;
@@ -1973,15 +2018,15 @@ p.band-events-merch-text.invert-dark > a > span {
     .hero-album-text h2 {
         font-size: 32px;
     }
-     /** News - Home **/
+    /** News - Home **/
     .band-news-post-layout {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 2rem;
         margin: 1rem 0;
     }
-    /** Events - Home **/ 
+    /** Events - Home **/
     .covid-alert {
-        width: 40%; 
+        width: 40%;
     }
     .section-container.black-container.home {
         margin: 2rem 0 0 0;
@@ -2006,14 +2051,14 @@ p.band-events-merch-text.invert-dark > a > span {
     }
     .linked-footer.events-layout-home {
         grid-column-start: 1;
-        grid-column-end: 5
+        grid-column-end: 5;
     }
-     /** Follow - Home **/ 
+    /** Follow - Home **/
     .band-follow {
         min-height: 50vh;
         display: flex;
         flex-direction: column;
-        justify-content: center
+        justify-content: center;
     }
     .band-follow-content {
         margin: 2rem 4rem;
@@ -2055,11 +2100,11 @@ p.band-events-merch-text.invert-dark > a > span {
     }
     .band-news-post-container.single-post h3 {
         grid-column-start: 1;
-        grid-column-end: 3
+        grid-column-end: 3;
     }
-     .band-news-post-container.single-post > span {
+    .band-news-post-container.single-post > span {
         grid-column-start: 1;
-        grid-column-end: 3
+        grid-column-end: 3;
     }
     .band-news-image-container.single-post {
         display: flex;
@@ -2073,5 +2118,4 @@ p.band-events-merch-text.invert-dark > a > span {
         grid-row-start: 3;
         grid-row-end: 4;
     }
-    
 }

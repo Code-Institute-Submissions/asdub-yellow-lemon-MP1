@@ -48,12 +48,21 @@ Layouts were created using CSS Grid.
 - All links on the site have been tested. 
 - Menu and popups checked on mobile & desktop. 
 - Site viewed in mobile, tablet, deskop resolutions with different aspect ratios to confirm layout rendering. 
-- CSS has been checked with an [autoprefixer](https://github.com/autoprefixer/autoprefixer.github.io) for MS grid compatibility. 
 - HTML & CSS validated with W3C Validator. 
 
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+
+
 **Following issues discovered and still outstanding**
-1. Issue with active menu item. 
-2. In some tablet aspect ratios images can become horizontally stretched. 
+- [ ] Issue with active menu item. 
+- [ ] In some tablet aspect ratios images can become horizontally stretched. 
 
 
 
@@ -61,5 +70,5 @@ Layouts were created using CSS Grid.
 The site has been deployed on Github pages. 
 The process is very very straight forward - [all the information needed is here](https://pages.github.com/) 
 
-**Site URL:**<br>
-[all the information needed is here](https://asdub.github.io/yellow-lemon-MP1) 
+**Site URL:**
+[https://asdub.github.io/yellow-lemon-MP1](https://asdub.github.io/yellow-lemon-MP1) 

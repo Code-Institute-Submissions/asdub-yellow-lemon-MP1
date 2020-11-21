@@ -1,44 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+            integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../assets/css/style.css" />
         <title>Yellow Lemon | Offical</title>
     </head>
     <body>
-       <header id="navbar">
+        <header id="navbar">
             <div class="menu-logo">
                 <a href="../">
-                    <h1 id="navlogo">Yellow<br/>Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i></h1>
+                    <h1 id="navlogo">
+                        Yellow<br />
+                        Lemon <i class="fas fa-lemon red-lemon" aria-hidden="true"></i>
+                    </h1>
                 </a>
             </div>
             <nav class="nav-container">
-                    <div id="menudesktop" class="nav-menu-desktop">
-                        <ul class="nav-items-desktop">
-                            <li><a href="../">Home</a></li>
-                            <li><a href="../the-band.html">The Band</a></li>
-                            <li><a href="../#news">News</a></li>
-                            <li><a href="../#events">Events</a></li>
-                            <li><a href="../sessions.html">Sessions</a></li>
-                            <li><a href="../#follow">Follow</a></li>
-                            <li><a href="../merchandise.html">Merch</a></li>
-                            <li><a href="../bag-some-lemons.html"><span>Get in touch</span></a></li>
-                            <li><i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones"></i></li>
-                        </ul>
-                    </div>
-                    <i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones small"></i>
-                    <div class="nav-menu">
-                        <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
-                            <svg width="100%" height="100%" viewBox="0 0 100 100">
-                                <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
-                                <path class="line line2" d="M 20,50 H 80" />
-                                <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
-                            </svg>
-                        </button>
-                    </div>
-                </nav>
+                <div id="menudesktop" class="nav-menu-desktop">
+                    <ul class="nav-items-desktop">
+                        <li><a href="../">Home</a></li>
+                        <li><a href="../the-band.html">The Band</a></li>
+                        <li><a href="../#news">News</a></li>
+                        <li><a href="../#events">Events</a></li>
+                        <li><a href="../sessions.html">Sessions</a></li>
+                        <li><a href="../#follow">Follow</a></li>
+                        <li><a href="../merchandise.html">Merch</a></li>
+                        <li>
+                            <a href="../bag-some-lemons.html"><span>Get in touch</span></a>
+                        </li>
+                        <li><i onclick="spotifyOverlay()" id="headphones" class="fas fa-headphones-alt spotify-headphones" title="Spotify Open"></i></li>
+                    </ul>
+                </div>
+                <i onclick="spotifyOverlay()" id="headphones-sm" class="fas fa-headphones-alt spotify-headphones small" title="Spotify Open"></i>
+                <div class="nav-menu">
+                    <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
+                        <svg width="100%" height="100%" viewBox="0 0 100 100">
+                            <path
+                                class="line line1"
+                                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+                            />
+                            <path class="line line2" d="M 20,50 H 80" />
+                            <path
+                                class="line line3"
+                                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+                            />
+                        </svg>
+                    </button>
+                </div>
+            </nav>
         </header>
         <div id="menuunderlay" onclick="menuUnderlay()" class="nav-menu-underlay nav-display container-animate"></div>
         <div id="menuoverlay" class="nav-menu-overlay nav-display container-animate">
@@ -52,11 +68,13 @@
                 <li><a href="/merchandise.html">Merch</a></li>
             </ul>
             <ul class="nav-items-small">
-                <li><a href="/bag-some-lemons.html"><span>Private & Corporate Events</span></a></li>
+                <li>
+                    <a href="/bag-some-lemons.html"><span>Private & Corporate Events</span></a>
+                </li>
             </ul>
         </div>
         <div id="spotify" class="spotify-overlay container-animate">
-        <div onclick="spotifyOverlay()" class="spotify-close-background"><i id="spotify-close" class="fas fa-times"></i></div>
+            <div onclick="spotifyOverlay()" class="spotify-close-background"><i id="spotify-close" class="fas fa-times"></i></div>
             <iframe src="https://open.spotify.com/embed/playlist/5a2OuIJ1kEttA8X3PaewlI" allow="encrypted-media"></iframe>
         </div>
         <div class="news-article-grid-container">
@@ -67,29 +85,24 @@
                     </h2>
                     <div class="band-news-post-layout single-post">
                         <article class="band-news-post">
-                             <div class="band-news-post-container single-post">
+                            <div class="band-news-post-container single-post">
                                 <h3 class="section-subtitle">Studio Sessions now weekly</h3>
                                 <span>November 1st, 2020</span>
                                 <div class="band-news-image-container single-post">
-                                    <img src="https://img.youtube.com/vi/4D2qcbu26gs/hqdefault.jpg" alt="Yellow Lemon News - Studio Session">
+                                    <img src="https://img.youtube.com/vi/4D2qcbu26gs/hqdefault.jpg" alt="Yellow Lemon News - Studio Session" />
                                 </div>
                                 <div class="band-news-content-container single-post">
+                                    <p><span>Yellow lemon have just announced</span> that their online only studio sessions are now to be released each week.</p>
                                     <p>
-                                        <span>Yellow lemon have just announced</span> that 
-                                        their online only studio sessions are now to be
-                                        released each week.
-                                    </p>
-                                    <p>
-                                        It’s probably no surprise but we’re going to have to put back the Lemonade shows until April 2021,” the band said in a statement. 
-                                        After talking with the promoters and venues it’s become clear that there’s no way of putting on the shows we’d like to do while
-                                        still guaranteeing the safety of the audience. Please hold on to your tickets as they’ll remain valid for the rescheduled dates.”
+                                        It’s probably no surprise but we’re going to have to put back the Lemonade shows until April 2021,” the band said in a statement. After talking with the promoters and venues it’s become clear that
+                                        there’s no way of putting on the shows we’d like to do while still guaranteeing the safety of the audience. Please hold on to your tickets as they’ll remain valid for the rescheduled dates.”
                                     </p>
                                 </div>
                             </div>
                         </article>
                     </div>
                 </div>
-                 <div class="linked-footer single-post">
+                <div class="linked-footer single-post">
                     <a class="section-footer-link" href="../#news"><i class="fas fa-arrow-circle-left"></i> Back to news</a>
                 </div>
             </section>
@@ -98,7 +111,7 @@
                     <div class="footer-content">
                         <span>Getting in touch</span>
                         <p class="invert-dark">
-                            For coprorate & private events please 
+                            For coprorate & private events please
                             <a href="../bag-some-lemons.html">visit here.</a>
                         </p>
                     </div>
@@ -109,8 +122,8 @@
                             <div class="copyright-links-container">
                                 <a href="https://wikiedu.org/terms-of-service/" target="_blank">Terms of Service.</a>
                                 <a href="https://wikiedu.org/privacy-policy/" target="_blank">Privacy Policy</a>
-                            </div> 
-                        <div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </footer>
