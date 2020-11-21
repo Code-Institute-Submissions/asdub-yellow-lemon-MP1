@@ -1,6 +1,7 @@
 # Yellow Lemon
 ## Milestone Project 1 
-
+![screenshot](https://github.com/asdub/yellow-lemon-MP1/blob/master/screenshot.png "Yellow Lemon Desktop Screenshot")
+<br>
 This is a webiste for a fictional band called 'Yellow Lemon'. <br>
 
 **View a live version of the website** [here](https://asdub.github.io/yellow-lemon-MP1/)

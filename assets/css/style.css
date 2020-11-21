@@ -84,7 +84,7 @@ section {
     border: 0;
     font-family: "roboto", sans-serif;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
@@ -395,7 +395,7 @@ hr.yellow-divider {
 .nav-items-small a,
 .nav-items-small a:visited {
     color: var(--theme-yellow);
-    font-size: 80%;
+    font-size: 90%;
     transition: all 0.2s ease-in-out;
 }
 
@@ -749,6 +749,10 @@ section.hero-album:hover > div > div:nth-child(2) {
     border-right: 1px solid rgba(102, 102, 102, 0.2);
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
+}
+
+.band-sessions-content-container a {
+    margin-bottom: 1rem;
 }
 
 /***** BAND NEWS - HOME *****/
