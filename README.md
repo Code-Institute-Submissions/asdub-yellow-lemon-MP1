@@ -1,4 +1,5 @@
-# Yellow Lemon - Milestone Project 1 
+# Yellow Lemon
+## Milestone Project 1 
 
 This is a webiste for a fictional band called 'Yellow Lemon'. <br>
 
@@ -18,6 +19,8 @@ This is a webiste for a fictional band called 'Yellow Lemon'. <br>
 
 ### Design & Planning
 ![logo](https://github.com/asdub/yellow-lemon-MP1/blob/master/yellow-lemon-logo-small.png "Yellow Lemon Logo")
+<br>
+<br>
 Rather than use a framework, I decided to use CSS grids in order to create a unique experience for the user. 
 The site is meant to create an easy to use and playful envirmoment for fans to enjoy client content. 
 While at the same time providing the client with a platform to showcase their latest music, advertise their 
