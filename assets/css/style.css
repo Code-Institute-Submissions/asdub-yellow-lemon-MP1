@@ -1140,6 +1140,9 @@ p.band-events-merch-text.invert-dark > a > span {
     transform: scale(1.15);
 }
 
+.social-media-icons-container > a {
+    color: var(--theme-black);
+}
 /***** FOOTER - HOME *****/
 
 .footer-content {
