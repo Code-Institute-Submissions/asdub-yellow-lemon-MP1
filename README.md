@@ -77,7 +77,7 @@ As a user,
 - We want the ability to receive enquiries about private shows. 
 
 
-## Design (UX)
+## Design
 ![logo](https://github.com/asdub/yellow-lemon-MP1/blob/master/yellow-lemon-logo-small.png "Yellow Lemon Logo")
 
 <br>
