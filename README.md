@@ -1,6 +1,6 @@
 # Yellow Lemon
 ## Milestone Project 1 
-![screenshot](https://github.com/asdub/yellow-lemon-MP1/blob/master/screenshot.png "Yellow Lemon Desktop Screenshot")
+![screenshot](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshot.png "Yellow Lemon Desktop Screenshot")
 
 **View a live version of the website** [here](https://asdub.github.io/yellow-lemon-MP1/)
 
