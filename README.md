@@ -16,7 +16,16 @@ This website’s purpose is to provide a useful resource for fans of the band to
 
 
 ## Contents 
-//Contents section to follow.
+
+* [User Experience (UX)](#user-experience-(ux))
+    * [Brief](#brief)
+        * [Website Purpose](#the-aim-of-this-website)
+        * [Client Goals](1#the-goals-of-the-band--management)
+    * [User Stories](#user-stories)
+        * [New User Stories](#new-user-stories)
+        * [Returning & Regular User Stories](#returning--regular-user-stores)
+        * [Client User Stories](#client-user-stores)
+* [Design](#design)
 
 ## User Experience (UX)
 ### Brief 
@@ -68,11 +77,9 @@ As a user,
 - We want the ability to receive enquiries about private shows. 
 
 
-
- 
-
-### Design & Planning
+## Design (UX)
 ![logo](https://github.com/asdub/yellow-lemon-MP1/blob/master/yellow-lemon-logo-small.png "Yellow Lemon Logo")
+
 <br>
 <br>
 Rather than use a framework, I decided to use CSS grids in order to create a unique experience for the user. 
