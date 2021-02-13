@@ -78,7 +78,37 @@ As a user,
 
 
 ## Design
-![logo](https://github.com/asdub/yellow-lemon-MP1/blob/master/yellow-lemon-logo-small.png "Yellow Lemon Logo")
+
+As with any band, they are very much identity & brand focused.\
+Their image and how it is portrayed is of importance. 
+
+To ensure a unique and a cohesive brand centric identity thoughout the website,\
+I used a custom colour palette, produced bespoke artwork and incorporated complementary iconography. 
+The artwork created was further incorporated into the merchandise being sold, via the [Merch]section(https://asdub.github.io/yellow-lemon-MP1/merchandise.html).
+
+### Colours
+A simple palette of colours was chosen. 
+
+#### Primary Colours
+Yellow - *#dfc548*\
+![Yellow](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/yellow.png"Yellow - #dfc548")
+
+Black - *#191919*\
+![Black](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/black.png"Black - #191919")
+
+Red - *#f87b70*\
+![Red](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/red.png"Red - #f87b70")
+
+Off White - *#fafafa*\
+![Off White](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/off-white.png"Off White - #fafafa")
+
+White - *#ffffff*\
+![White](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/white.png"White - #ffffff")
+
+#### Secondary Colours
+
+Spotify Green - *#1db954*\
+![Spotify Green](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/green.png"Spotify Green - #1db954")
 
 <br>
 <br>
