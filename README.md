@@ -29,11 +29,11 @@ The bands management are interested in selling more of their music/merchandisean
 
 
 #### The aim of this website
-- Provide a useful rescource for band fans to keep to to date.\
-> *Including*
->  - Band News.
->  - Tickets to upcomming band shows.
->  - Ability to book band for events.
+Provide a useful rescource for band fans to keep to to date.\
+*Including*
+- Band News.
+- Tickets to upcomming band shows.
+ - Ability to book band for events.
 - Provide a branding centric and cohesive experience.
 - Provide users with the abilty to listen to recent band tracks from anywhere on the site. 
 
