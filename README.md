@@ -10,7 +10,7 @@
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/yellow-lemon-mobile.png" width="150" alt="Yellow Lemon Mobile Screenshot"/>
 
 A responsive mobile first website for Yellow Lemon\
-Yellow Lemon are a well known band. Their fanbase stem from a variety of different age groups and music tastes. Owing to their diverse makeup and history.\
+Yellow Lemon are a well known band. Their fanbase stem from a variety of different age groups and music tastes, owing to their diverse makeup and history.\
 \
 This website’s purpose is to provide a useful resource for fans of the band to explore and also meet the requirements requested by the bands management team. 
 
@@ -37,7 +37,7 @@ The bands management are interested in selling more of their music/merchandisean
 - Provide a branding centric and cohesive experience.
 - Provide users with the abilty to listen to recent band tracks from anywhere on the site. 
 
-## In addition 
+**In addition**
 Owing to the pandemic related cancelations of all band shows.\
 An area was created for band members to showcase their 'studio sessions'. Allowing fans to still enjoy and interact with the band. 
 And providing the bands management team with referals for the band YouTube channel. 
