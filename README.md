@@ -1,10 +1,18 @@
 # Yellow Lemon
 ## Milestone Project 1 
 ![screenshot](https://github.com/asdub/yellow-lemon-MP1/blob/master/screenshot.png "Yellow Lemon Desktop Screenshot")
-<br>
-This is a webiste for a fictional band called 'Yellow Lemon'. <br>
 
 **View a live version of the website** [here](https://asdub.github.io/yellow-lemon-MP1/)
+
+## Project Description
+*This is a webiste for a fictional band called 'Yellow Lemon'.*\
+\
+A responsive mobile first website for Yellow Lemon\
+\
+Yellow Lemon are a well known band. Their fanbase stem from a variety of different age groups and music tastes. Owing to their diverse makeup and history.\
+\
+This website’s purpose is to provide a useful resource for fans of the band to explore and also meet the requirements requested by the bands management team. 
+
 
 ### Site aim & purpose
 *User Experience*
