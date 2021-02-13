@@ -29,27 +29,46 @@ The bands management are interested in selling more of their music/merchandisean
 
 
 #### The aim of this website
-- Provide a useful rescource for band fans to keep to to date.
-    *Including*
-    - Band News.
-    - Tickets to upcomming band shows.
-    - Ability to book band for events.
+- Provide a useful rescource for band fans to keep to to date.\
+> *Including*
+>  - Band News.
+>  - Tickets to upcomming band shows.
+>  - Ability to book band for events.
 - Provide a branding centric and cohesive experience.
 - Provide users with the abilty to listen to recent band tracks from anywhere on the site. 
 
-**In addition**
+**In addition**\
 Owing to the pandemic related cancelations of all band shows.\
 An area was created for band members to showcase their 'studio sessions'. Allowing fans to still enjoy and interact with the band. 
 And providing the bands management team with referals for the band YouTube channel. 
 
 #### The goals of the band & management
 The website owners have highlighted,
-- selling more of their music & merchandise
-- getting more gigs
+- Selling more of their music & merchandise
+- Getting more 
+
+### User Stories
+#### New User Stories
+As a user, 
+- I want information on each band member.
+- I want the ability to book band shows or events.
+- I want to keep to to date on band news. 
+- I want easy access to band social media.
+- I can't attend shows, I want to interact with the band. 
+
+#### Returning & Regular User Stores
+- I want easily check recent news. 
+- I want to easily check new events. 
+
+#### Client User Stores
+- We want the bands branding to be forefront. 
+- We want to sell the bands merchandise. 
+- We want the bands music to be available. 
+- We want to sell tickets to shows. 
+- We want the ability to receive enquiries about private shows. 
 
 
 
-// User stories to follow
  
 
 ### Design & Planning
