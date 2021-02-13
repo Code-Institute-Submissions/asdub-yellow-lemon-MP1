@@ -91,24 +91,24 @@ A simple palette of colours was chosen.
 
 #### Primary Colours
 Yellow - *#dfc548*\
-![Yellow](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/yellow.png"Yellow - #dfc548")
+![Yellow](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/yellow.png "Yellow - #dfc548")
 
 Black - *#191919*\
-![Black](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/black.png"Black - #191919")
+![Black](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/black.png "Black - #191919")
 
 Red - *#f87b70*\
-![Red](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/red.png"Red - #f87b70")
+![Red](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/red.png "Red - #f87b70")
 
 Off White - *#fafafa*\
-![Off White](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/off-white.png"Off White - #fafafa")
+![Off White](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/off-white.png "Off White - #fafafa")
 
 White - *#ffffff*\
-![White](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/white.png"White - #ffffff")
+![White](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/white.png "White - #ffffff")
 
 #### Secondary Colours
 
 Spotify Green - *#1db954*\
-![Spotify Green](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/green.png"Spotify Green - #1db954")
+![Spotify Green](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/green.png "Spotify Green - #1db954")
 
 <br>
 <br>
