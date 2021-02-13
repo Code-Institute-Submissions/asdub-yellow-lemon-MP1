@@ -7,7 +7,7 @@
 ## Project Description
 *This is a webiste for a fictional band called 'Yellow Lemon'.*\
 
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/readme/screenshots/yellow-lemon-mobile.png" width="50" alt="Yellow Lemon Mobile Screenshot"/>
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/yellow-lemon-mobile.png" width="50" alt="Yellow Lemon Mobile Screenshot"/>
 
 A responsive mobile first website for Yellow Lemon\
 Yellow Lemon are a well known band. Their fanbase stem from a variety of different age groups and music tastes. Owing to their diverse makeup and history.\
