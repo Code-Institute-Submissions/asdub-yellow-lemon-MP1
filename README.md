@@ -5,9 +5,9 @@
 **View a live version of the website** [here](https://asdub.github.io/yellow-lemon-MP1/)
 
 ## Project Description
-*This is a webiste for a fictional band called 'Yellow Lemon'.*\
+*This is a webiste for a fictional band called 'Yellow Lemon'.*
 
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/yellow-lemon-mobile.png" width="100" alt="Yellow Lemon Mobile Screenshot"/>
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/yellow-lemon-mobile.png" width="150" alt="Yellow Lemon Mobile Screenshot"/>
 
 A responsive mobile first website for Yellow Lemon\
 Yellow Lemon are a well known band. Their fanbase stem from a variety of different age groups and music tastes. Owing to their diverse makeup and history.\
@@ -19,19 +19,38 @@ This website’s purpose is to provide a useful resource for fans of the band to
 //Contents section to follow.
 
 ## User Experience (UX)
+### Brief 
+
+The site's users are fans and potential fans who wish to learn more
+about the band's history and the band members, and possibly book
+them for shows.\
+\
+The bands management are interested in selling more of their music/merchandiseand getting more gigs.
 
 
-### Site aim & purpose
-*User Experience*
- - Primary users will be fans, wishing to learn about,
-    - bands history
-    - band members
-    - bookings
+#### The aim of this website
+- Provide a useful rescource for band fans to keep to to date.
+    *Including*
+    - Band News.
+    - Tickets to upcomming band shows.
+    - Ability to book band for events.
+- Provide a branding centric and cohesive experience.
+- Provide users with the abilty to listen to recent band tracks from anywhere on the site. 
 
-*Client Experience*
-- The website owners have highlighted,
-    - selling more of their music & merchandise
-    - getting more gigs 
+## In addition 
+Owing to the pandemic related cancelations of all band shows.\
+An area was created for band members to showcase their 'studio sessions'. Allowing fans to still enjoy and interact with the band. 
+And providing the bands management team with referals for the band YouTube channel. 
+
+#### The goals of the band & management
+The website owners have highlighted,
+- selling more of their music & merchandise
+- getting more gigs
+
+
+
+// User stories to follow
+ 
 
 ### Design & Planning
 ![logo](https://github.com/asdub/yellow-lemon-MP1/blob/master/yellow-lemon-logo-small.png "Yellow Lemon Logo")
