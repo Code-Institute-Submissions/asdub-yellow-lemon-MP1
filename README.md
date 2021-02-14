@@ -195,25 +195,36 @@ A custome icon was used for the events alert:\
 ### Artwork
 
 Custom artwork created for the project:\
-*Used on the Get in touch page/ Private events*\
+
+**Used on the Get in touch page/ Private events**\
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/contact-artwork.png" width="250" alt="Bag some lemons">
 
-*Used on the Follow/ Social Media section*\
+**Used on the Follow/ Social Media section**\
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-artwork.png" width="250" alt="Follow Yellow Lemnon">
 
-*Used on the Merchandise page*\
+**Used on the Merchandise page**\
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-hat.svg" width="150" alt="Merchandise Hat">
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-mask.svg" width="150" alt="Merchandise Mask">
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-mug.svg" width="150" alt="Merchandise Mug">
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-tshirt.svg" width="150" alt="Merchandise Tshirt">
 
 
+### Responsive Design 
+Yellow Lemon was designed as a mobile first website. 
 
-// Content will be relocated // 
-Rather than use a framework, I decided to use CSS grids in order to create a unique experience for the user. 
-The site is meant to create an easy to use and playful envirmoment for fans to enjoy client content. 
-While at the same time providing the client with a platform to showcase their latest music, advertise their 
-events and sell theiur merchandise.
+Rather than use a framework, I decided to use [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).\
+This allowed me to create a besoke layout while still being easily adaptable to various screen sizes, thanks to extensive configurability afforded by grids. 
+
+There are three distinct layouts: 
+* Mobile - Default
+* Tablet - Displays wider than 768px
+* Large Tablet/ Small desktop - Displays wider than 992px
+* Desktop -  - Displays wider than 1200px
+
+Testing the responsiveness of the webiste is condected in the [testing section](#testing) below. 
+
+
+
 
 
 ### Summary
