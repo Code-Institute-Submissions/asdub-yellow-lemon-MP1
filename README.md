@@ -470,7 +470,7 @@ I have noted this in the [known bugs secton](#known-bugs) below.
         - Confirm overlay occupies same amount of space as 'Latest Release' CTA.
         - Confirm Spotify embed playing music as expected. 
         - When active confirm Spotify 'headphones' button changed colour to green.
-        - On Body scroll confirm Spotify overlay position aligns with header and orignal top margin maintained.
+        - On Body scroll confirm Spotify overlay position aligns with header and original top margin maintained.
         - When 'X' or 'Close' is tapped. Confirm overlay closes. 
     - Confirm hamburger menu icon present and visible. 
     - Mobile Menu checks:
@@ -478,7 +478,7 @@ I have noted this in the [known bugs secton](#known-bugs) below.
         - Confirm body excluding header dims. 
         - Confirm each link functions correctly. 
         - Confirm link hover/ focus transitions to text colour theme red. 
-        - Confirm on Body scroll, menu overlay position aligns with header and orignal top margin maintained.
+        - Confirm on Body scroll, menu overlay position aligns with header and original top margin maintained.
         - confirm menu overlay has z-index preference over Spotify overlay. 
     - On scroll down confirm header height reduces to 75px. 
     - Confirm scroll to top header height increase to 100px. 
@@ -496,11 +496,11 @@ I have noted this in the [known bugs secton](#known-bugs) below.
     - Confirm 'More' link directs to sessions.html. 
 
     Section Dividers 
-    - Confirm 'Lemon' icon with full with line is present at end of each section.
+    - Confirm 'Lemon' icon with full width line is present at end of each section.
     - Confirm spacing is uniform. 
 
     Band News Section 
-    - Confirm section title is visable, display and spaced correctly.
+    - Confirm section title is visible, display and spaced correctly.
     - (Mobile Only - under 768px) Confirm band news articles are text only. 
     - Confirm four articles are present.
     - Confirm Title, Date, Text is visible, correctly displayed and spaced. 
@@ -510,33 +510,41 @@ I have noted this in the [known bugs secton](#known-bugs) below.
 
 
     Events Section
-    - Confirm section title is visable, display and spaced correctly.
+    - Confirm section title is visible, display and spaced correctly.
     - (Mobile Only - under 768px) Confirm 'User Notice/ Alert' is visible above the events section. 
     - (Tablet Only - over 768px) Confirm 'User Notice/ Alert' is visible below the events section title.
-    - Confirm section text is visable in all links are directing to the correct anchor, page or external link. 
-    - Confrtim section text styling conforms with stylesheet. 
+    - Confirm section text is visible in all links are directing to the correct anchor, page or external link. 
+    - Confirm section text styling conforms with stylesheet. 
     - Event Section event items: 
         - Confirm div is scrollable. 
         - Confirm four events are present. 
-        - Confirm event item section heading and subheadings are visable and display correctly. 
-        - Confirm event item content is visable and displaying per stylesheet. 
+        - Confirm event item section heading and subheadings are visible and display correctly. 
+        - Confirm event item content is visible and displaying per stylesheet. 
         - Confirm all four 'Tickets' buttons direct to an external link 
-        - Confirm at the end of the event items scrollable secton, the 'More Dates' link is viable and directing to the correct extrernal rescource. 
+        - Confirm at the end of the event items scrollable section, the 'More Dates' link is viable and directing to the correct external resource. 
         - (Tablet Only - over 768px) Confirm event items rearrange into a grid of four. 
      - Event Section 'Book Yellow Lemon' link directs to contact/ get in touch page.  
 
     Follow Section
-    - (Mobile Only - under 768px) Confirm all content is alligned in a column. 
-    - Confirm 'Follow Yellow Lemon' Artwork is visable and displaying correctly. 
-    - Confirm section text is visable and displaying correctly. 
+    - (Mobile Only - under 768px) Confirm all content is aligned in a column. 
+    - Confirm 'Follow Yellow Lemon' Artwork is visible and displaying correctly. 
+    - Confirm section text is visible and displaying correctly. 
     - Confirm section text span is displaying correct font. 
-    - Confirm four Social Media icons are present. Fully visabke and aligned correctly. 
+    - Confirm four Social Media icons are present. Fully visible and aligned correctly. 
     - Confirm four Social Media icons transitions in scale & colour on focus/ hover. 
     - Confirm four Social Media icons direct to external links. 
     - (Tablet Only - over 768px) Confirm content layout:
-        - Artwork positioned on left. Visable, displayed and aligned correctly. 
+        - Artwork positioned on left. visible, displayed and aligned correctly. 
         - Section text & Social media icons are position on the right and aligned correctly in a column. 
         - Both section should be aligned and spaced evenly. 
+    
+    Footer
+    - Confirm footer position at bottom of page. 
+    - Confirm footer text content is visible, displaying and aligned correctly. 
+    - Confirm copyright & policies links are positioned bottom right. 
+    - Confirm copyright & policies links direct to external resource. 
+    - Confirm section divider is positioned below copyright & policies.
+    - Confirm section divider is visible, displaying and aligned correctly. 
 
 
 
