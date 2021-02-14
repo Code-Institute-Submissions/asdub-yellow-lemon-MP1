@@ -460,7 +460,10 @@ I have noted this in the [known bugs section](#known-bugs) below.
 #### Manual Testing Processes
 
 ##### Mobile / Tablet
-    Homepage
+    ************
+    * homepage *
+    ************
+    
     Header
     - On load check the header height 100px. 
     - 'Yellow Lemon' text and 'Lemon' icon displaying correctly (per mockup).
