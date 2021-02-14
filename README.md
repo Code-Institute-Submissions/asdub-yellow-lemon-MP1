@@ -459,9 +459,8 @@ I have noted this in the [known bugs section](#known-bugs) below.
 
 #### Manual Testing Processes
 
-##### Mobile / Tablet
     ************
-    * homepage *
+    * Homepage *
     ************
     
     Header
@@ -503,7 +502,7 @@ I have noted this in the [known bugs section](#known-bugs) below.
     - Confirm spacing is uniform. 
 
     Band News Section 
-    - Confirm section title is visible, display and spaced correctly.
+    - Confirm section title is visible, displayed and spaced correctly.
     - (Mobile Only - under 768px) Confirm band news articles are text only. 
     - Confirm four articles are present.
     - Confirm Title, Date, Text is visible, correctly displayed and spaced. 
@@ -513,7 +512,7 @@ I have noted this in the [known bugs section](#known-bugs) below.
 
 
     Events Section
-    - Confirm section title is visible, display and spaced correctly.
+    - Confirm section title is visible, displayed and spaced correctly.
     - (Mobile Only - under 768px) Confirm 'User Notice/ Alert' is visible above the events section. 
     - (Tablet Only - over 768px) Confirm 'User Notice/ Alert' is visible below the events section title.
     - Confirm section text is visible in all links are directing to the correct anchor, page or external link. 
@@ -550,9 +549,33 @@ I have noted this in the [known bugs section](#known-bugs) below.
     - Confirm section divider is visible, displaying and aligned correctly. 
 
 
+    ******************
+    * The Band       *
+    * /the-band.html *
+    ******************
+    
+    Header
+    - Follow above header steps. 
+
+    - (Mobile/Tablet Only - under 992px) Confirm Hero Image Artwork. 
+        - SVG Artwork is visible, displaying and aligned correctly. 
+    - Confirm section title is visible, displayed and spaced correctly.
+    - Confirm section text is visible and styling conforms with stylesheet.
+    - Band Member info section items: 
+        - Confirm div is scrollable. 
+        - Confirm four band member items are present. 
+        - Confirm event item section heading and subheading is visible and displays correctly. 
+        - Confirm event item content is visible and displaying per stylesheet. 
+        - Confirm all four 'More Information' links direct to an external link 
+     - (Mobile/Tablet Only - under 992px) Confirm band history information content is positioned beneath Band Member Section. 
+     - Confirm band history information section 'Read More' links direct to an external link. 
+
+     Footer
+     - Follow footer steps above.
 
 
-**Displaying correctly = Adhering to CSS rules specified on stylesheet.css*
+    **Displaying correctly = Adhering to CSS rules specified on stylesheet.css*
+
 
 #### User Story Testing
 
