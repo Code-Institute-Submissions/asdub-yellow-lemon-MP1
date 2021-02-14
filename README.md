@@ -184,10 +184,10 @@ A variety of font-weights were used:\
 Icons in this project are from [Font Awesome](https://fontawesome.com/).
 
 The following icons have been used:\
-![Icons](https://github.com/asdub/5yellow-lemon-MP1/blob/master/readme/icons_fa.png "Icons")
+![Icons](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/icons_fa.png "Icons")
 
 A custome icon was used for the events alert:\
-<img src="https://github.com/asdub/yellow-lemon-MP1/assets/svg/covid.svg" width="150" alt="Coronavirus Icon">
+<img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/covid.svg" width="150" alt="Coronavirus Icon">
 
 
 ### Artwork
