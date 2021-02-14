@@ -525,9 +525,23 @@ I have noted this in the [known bugs secton](#known-bugs) below.
         - (Tablet Only - over 768px) Confirm event items rearrange into a grid of four. 
      - Event Section 'Book Yellow Lemon' link directs to contact/ get in touch page.  
 
+    Follow Section
+    - (Mobile Only - under 768px) Confirm all content is alligned in a column. 
+    - Confirm 'Follow Yellow Lemon' Artwork is visable and displaying correctly. 
+    - Confirm section text is visable and displaying correctly. 
+    - Confirm section text span is displaying correct font. 
+    - Confirm four Social Media icons are present. Fully visabke and aligned correctly. 
+    - Confirm four Social Media icons transitions in scale & colour on focus/ hover. 
+    - Confirm four Social Media icons direct to external links. 
+    - (Tablet Only - over 768px) Confirm content layout:
+        - Artwork positioned on left. Visable, displayed and aligned correctly. 
+        - Section text & Social media icons are position on the right and aligned correctly in a column. 
+        - Both section should be aligned and spaced evenly. 
 
 
 
+
+**Displaying correctly = Adhering to CSS rules specified on stylesheet.css*
 
 #### User Story Testing
 
