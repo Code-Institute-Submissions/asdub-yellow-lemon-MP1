@@ -36,8 +36,10 @@ This website’s purpose is to provide a useful resource for fans of the band to
     * [Responsive Design](#responsive-design)
 * [Features](#features)
     * [Existing Features](#existing-features)
+    * [Additional Features](#additional-features)
     * [Future Features](#future-features)
-
+* [Technologies](#technologies)
+    * [Languages](#languages)
 
 
 ## User Experience (UX)
@@ -285,6 +287,14 @@ And the ability to follow through to the bands spotify page to discover more mus
 **Future Features:** 
 - Remove third parties and have direct ticket and merchandise sales. 
 - Expand on the studio sessions page to include articles with each video. 
+
+## Technologies
+*Languages, libraries and version control*
+
+### Languages
+- **[HTML5](https://html.com/html5/)**
+- **[CSS3](https://www.w3schools.com/css/)**
+- **[Javascript](https://www.javascript.com/)**
 
 
 
