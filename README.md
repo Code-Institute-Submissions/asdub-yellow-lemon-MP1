@@ -1,5 +1,5 @@
 # Yellow Lemon
-## Milestone Project 1 
+This project was made as part of the Code Institute Full Stack Development Course (MP1)
 ![screenshot](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/screenshot-desktop.png "Yellow Lemon Desktop Screenshot")
 
 **View a live version of the website** [here](https://asdub.github.io/yellow-lemon-MP1/)
@@ -9,15 +9,15 @@
 
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/yellow-lemon-mobile.png" width="150" alt="Yellow Lemon Mobile Screenshot"/>
 
-A responsive mobile first website for Yellow Lemon\
-Yellow Lemon are a well known band. Their fanbase stem from a variety of different age groups and music tastes, owing to their diverse makeup and history.\
+A responsive mobile first website for Yellow Lemon. Yellow Lemon are a well known band. 
+Their fanbase stem from a variety of different age groups and music tastes, owing to their diverse makeup and history.\
 \
 This website’s purpose is to provide a useful resource for fans of the band to explore and also meet the requirements requested by the bands management team. 
 
 
 ## Contents 
 
-* [User Experience (UX)](#user-experience-(ux))
+* [User Experience (UX)](#user-experience-ux)
     * [Brief](#brief)
         * [Website Purpose](#the-aim-of-this-website)
         * [Client Goals](1#the-goals-of-the-band--management)
@@ -47,27 +47,27 @@ The site's users are fans and potential fans who wish to learn more
 about the band's history and the band members, and possibly book
 them for shows.\
 \
-The bands management are interested in selling more of their music/merchandiseand getting more gigs.
+The bands management are interested in selling more of their music/ merchandise and getting more gigs.
 
 
 #### The aim of this website
 Provide a useful rescource for band fans to keep to to date.\
-*Including*
+*Including:*
 - Band News.
 - Tickets to upcomming band shows.
- - Ability to book band for events.
+- Ability to book band for events.
 - Provide a branding centric and cohesive experience.
 - Provide users with the abilty to listen to recent band tracks from anywhere on the site. 
 
 **In addition**\
-Owing to the pandemic related cancelations of all band shows.\
-An area was created for band members to showcase their 'studio sessions'. Allowing fans to still enjoy and interact with the band. 
-And providing the bands management team with referals for the band YouTube channel. 
+Owing to the pandemic related cancelations of all band shows. An area was created for band members
+to showcase their 'studio sessions'. Allowing fans to still enjoy and interact with the band. 
+And providing the bands management team with a with referals for the band YouTube channel. 
 
 #### The goals of the band & management
 The website owners have highlighted,
-- Selling more of their music & merchandise
-- Getting more 
+- Selling more of their music & merchandise. 
+- Getting more gigs/ bookings. 
 
 ### User Stories
 #### New User Stories
@@ -79,7 +79,7 @@ As a user,
 - I can't attend shows, I want to interact with the band. 
 
 #### Returning & Regular User Stores
-- I want easily check recent news. 
+- I want to easily check recent news. 
 - I want to easily check new events. 
 
 #### Client User Stores
@@ -92,15 +92,15 @@ As a user,
 
 ## Design
 
-As with any band, they are very much identity & brand focused.\
-Their image and how it is portrayed is of importance. 
+As with any band, they are very much identity & brand focused.
+Their image and how it is portrayed is of high importance. 
 
 To ensure a unique and a cohesive brand centric identity thoughout the website,\
 I used a custom colour palette, produced bespoke artwork and incorporated complementary iconography. 
-The artwork created was further incorporated into the merchandise being sold, via the [Merch Page](https://asdub.github.io/yellow-lemon-MP1/merchandise.html).
+The artwork created was further incorporated into the merchandise being sold, via the [Merchandise Page](https://asdub.github.io/yellow-lemon-MP1/merchandise.html).
 
 ### Colours
-A simple palette of colours was chosen. 
+A vivid palette of colours was chosen. 
 
 #### Primary Colours
 Yellow - *#dfc548*\
@@ -126,9 +126,9 @@ Spotify Green - *#1db954*\
 
 ### Wireframes
 ![mockup](https://github.com/asdub/yellow-lemon-MP1/blob/master/mockups_screenshot.png "Yellow Lemon Logo")
-Mobile, Tablet & Desktop mockups  - [View in full here](https://xd.adobe.com/view/17b30f70-61ed-4e79-a028-648b3cdb0ab8-42e0/grid)
+Mobile, Tablet & Desktop mockups  - [View in full](https://xd.adobe.com/view/17b30f70-61ed-4e79-a028-648b3cdb0ab8-42e0/grid).
 
-A comprehensive set of mock-ups/ wireframes were created.\
+A comprehensive set of mock-ups/ wireframes were created.
 Layouts and styling for mobile, tablet & desktop devices.
 
 Mockup/ Wireframe Pages include:
@@ -157,15 +157,15 @@ Mockup/ Wireframe Pages include:
 - Band News Article 
 - Getting in Touch / Private Events 
 
-I didn't create mockups for each device variation.\
-The mockup content produced reflects the layouts and styling applied throughout the site. 
+I didn't create mockups for each device variation.
+Aspects of both the mobile and desktop design are applied to tablet layouts.  
 
 **Production Design Changes to Note** 
-- Initially, I was planning on having only two news articles on mobile layout, a further news page 
+- Initially, I was planning on having only two news articles display on the home page, a further news page 
 containing a number of recent articles and a further page for individual articles.\
 This was amended, the live mobile site now only shows text articles, removing the images allowed
 for four articles to be placed in the same space. Negating the need for a dedicated page to list recent news articles. 
-On larger dispalys such as tablets and desktops the article images will appear. 
+On larger dispalys such as tablets and desktops the article images will appear. And the image size and amount of initial copy was reduced. 
 - Black was used instead of red for article headings. Due to contrast issues against a white background. 
 
 ### Typography
@@ -174,28 +174,28 @@ This website uses both [Google Fonts](https://fonts.google.com/) and [Adobe Type
 
 The Google font in use:\
 **Roboto** \
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/roboto.png" width="150" alt="Google Fonts - Roboto" />
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/roboto.png" width="100" alt="Google Fonts - Roboto" />
 
 The Adobe Typekit font in use:\
 **Effra** \
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/effra.png" width="150" alt="Adobe Typekit - Effra" />
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/effra.png" width="100" alt="Adobe Typekit - Effra" />
 
 **Rockwell** \
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/rockwell.png" width="150" alt="Adobe Typekit - Rockwell" />
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/rockwell.png" width="100" alt="Adobe Typekit - Rockwell" />
 
-A variety of font-weights were used:\
+The following font-weights were used:\
 100, 400, 500 & 700.
 
 
 ### Iconography
 
 A custom icon was used for the events alert:\
-<img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/covid.svg" width="100" alt="Coronavirus Icon">
+<img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/covid.svg" width="75" alt="Coronavirus Icon">
 
 All other icons in this project are from [Font Awesome](https://fontawesome.com/).
 
-The following icons have been used:\
-![Icons](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/icons_fa.png "Icons")
+The following Font Awesome icons have been used:\
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/icons_fa.png" width="450" alt="Font Awesome Icons">
 
 
 ### Artwork
@@ -222,24 +222,69 @@ Rather than use a framework, I decided to use [CSS Grid](https://developer.mozil
 This allowed me to create a besoke layout while still being easily adaptable to various screen sizes, thanks to extensive configurability afforded by grids. 
 
 There are three distinct layouts: 
-* Mobile - Default
-* Tablet - Displays wider than 768px
-* Large Tablet/ Small desktop - Displays wider than 992px
-* Desktop - Displays wider than 1200px
+* Mobile 
+    - Default
+* Tablet 
+    - Displays wider than 768px
+* Large Tablet/ Small desktop 
+    - Displays wider than 992px
+* Desktop 
+    - Displays wider than 1200px
 
-Testing the responsiveness of the webiste is condected in the [testing section](#testing) below. 
+Testing the responsiveness of the webiste is conducted in the [testing section](#testing) below. 
 
 
 ## Features 
 
 Yellow Lemon is a mobile first fully responsive website with the following features. \
 **Existing Features:** 
-- One
-- Two
+- Responsive Navigation,
+    - (Mobile) The header height and logo reduces in size as the user scrolls. 
+    - (Mobile) Menu navigation overlay with hamburger icon animation. 
+    - (Mobile) Menu navigation overlay adjusts position on user scroll also. 
+    - (Mobile) Menu navigation overlay when active dims underlyng homepage until exited (header excluded).
+    - (Large Tablet/ Desktop) On larger screens a full text menu is displayed in the header. 
+    - (Large Tablet/ Desktop) Header/ Nav Bar and logo reduces in size as the user scrolls. 
+- Extensive home page, 
+    featuring: 
+    - Primary call to action promoting bands latest release. 
+    - Secondary call to action promoting the bands new Studio Sessions. 
+    - Most recent band news. 
+        - (Mobile) Images are removed to create more room for additional articles within the same user scroll - promoting further engagement. 
+    - Upcomming band ticketed events. 
+        - Responsively displaying the next four events. 
+        - With links to either purchase a ticket from a third party vendor or check for more dates via the third party. 
+    - User updates alert within events section. 
+        - The position of which varies depending on the display size. 
+    - Follow Section promoting the bands Social Media accounts. 
+    - A site wide footer containing,
+        - A further CTA regarding contact for private events. 
+        - Copyright notice and links to Terms of Service & Privacy Policies.
+- An immersive 'The Band' page detailing information on band history and each band member.
+    - The page provides two distinct layouts and colour schemes depending on display width. 
+    - Customised imagary of each band member.
+    - Links to discover further information on each band member. 
+- Individual news article pages containing the full content of the articles displayed on the home page. 
+- A Studio Sessions page for the band to share YouTube clips of their latest work. 
+    - This page provides a different colour theme, creating a feeling and look of a venue. 
+    - The user can immediately see the latest video. 
+    - Explore the most recent videos via a scollable list. 
+    - Or discover additional videos on YouTube.  
+- A Merchandise or Merch page, containing an array of products being sold by the band. 
+    - User ability to purchase merchandise via a third party vendor. 
+- A Contact/ Get in Touch page featuring,
+    - A custom hero image. 
+    - A contact form, for enquiries regarding private events. 
+
+**Additional Features**\ 
+The bands music is accessable from anywhere on the site. 
+Via the primary call to action or the headphones icon located on the header/ navbar. 
+This toggles a [Spotify](https://developer.spotify.com/documentation/widgets/generate/embed/) popup detailing the bands latest releases. 
+And the ability to follow through to the bands spotify page to discover more music. 
 
 **Future Features:** 
-- One
-- Two
+- Remove third parties and have direct ticket and merchandise sales. 
+- Expand on the studio sessions page to include articles with each video. 
 
 
 
