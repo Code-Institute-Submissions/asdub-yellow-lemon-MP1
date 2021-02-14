@@ -314,6 +314,33 @@ And the ability to follow through to the bands spotify page to discover more mus
 - [Safari Web Development Tools](https://developer.apple.com/safari/tools/)
 
 
+## Deployment 
+
+This app has been deployed on GitHub Pages.\
+You can view a live version of the app [here](https://asdub.github.io/5km-parks-MP2/).
+
+#### GitHub Pages
+Deployong on Github pages is very straight forward.
+1. [Login](https://github.com/login) to your GitHub account([or join](https://github.com/join)).
+2. Navigate to or create the repository, in this case [5km-parks-MP2](https://github.com/asdub/5km-parks-MP2).
+3. On the menu below the repository title click on the settings cog. 
+4. Then scroll down to GitHub Pages and select 'master' or 'main' branch.
+5. Leave the default folder as '/root'.
+6. Once ready, the URL will appear in the green banner above source.
+
+#### Fork
+1. [Login](https://github.com/login) to your GitHub account([or join](https://github.com/join)).
+2. Go to the repo by clicking [here](https://github.com/asdub/5km-parks-MP2).
+3. Click fork in the top right corner of the screen. 
+
+#### Clone (Locally)
+1. [Login](https://github.com/login) to your GitHub account([or join](https://github.com/join)).
+2. Go to the repo by clicking [here](https://github.com/asdub/5km-parks-MP2).
+3. On the main page of the repository click on 'Code'. 
+4. Click on the 'Clipboard'/ copy icopy the clone URL (Clone with HTTPs). 
+4. In your local environment open your terminal, navigate to or create a directory.
+5. Paste the URL into your terminal and enter. The repo should be successfully cloned.  
+
 ## Testing
 - All links on the site have been tested. 
 - Menu and popups checked on mobile & desktop. 
