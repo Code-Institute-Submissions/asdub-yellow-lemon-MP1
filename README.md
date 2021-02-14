@@ -256,7 +256,7 @@ Testing the responsiveness of the website is conducted in the [testing section](
 ## Features 
 
 Yellow Lemon is a mobile first fully responsive website with the following features. \
-**Existing Features:** 
+#### Existing Features:
 - Responsive Navigation,
     - (Mobile) The header height and logo reduces in size as the user scrolls. 
     - (Mobile) Menu navigation overlay with hamburger icon animation. 
@@ -295,13 +295,13 @@ Yellow Lemon is a mobile first fully responsive website with the following featu
     - A custom hero image. 
     - A contact form, for enquiries regarding private events. 
 
-**Additional Features** 
+#### Additional Features
 The band's music is accessible from anywhere on the site. 
 Via the primary call to action or the headphones icon located on the header/ navbar. 
 This toggles a [Spotify](https://developer.spotify.com/documentation/widgets/generate/embed/) popup detailing the bands latest releases. 
 And the ability to follow through to the bands Spotify page to discover more music. 
 
-**Future Features:** 
+#### Future Features:
 - Remove third parties and have direct ticket and merchandise sales. 
 - Expand on the studio sessions page to include articles with each video. 
 
@@ -385,7 +385,7 @@ Five warnings:
 - [ ] Three unused variables {menuOverlay line 12} + {menuUnderlay line 34} + {spotifyOverlay line 40}.
 
 As JS is not a requirement of MP1, and these warnings are not having a huge impact on site functionality.
-I will apply fixes at a later date. I have noted the likelt effect these errors are causing in the [known bugs secton](#known-bugs) below.  
+I will apply fixes at a later date. I have noted the likely effect these errors are causing in the [known bugs section](#known-bugs) below.  
 
 
 ### Manual Testing
@@ -444,8 +444,8 @@ The following display sizes were tested:
 |Google Pixel	  |1080 x 1920	|412 x 732 |
 
 
-I was unable to test Internet Exployer. \
-As I am using CSS Grids, it's assummed the site will render incorectly if viewed via Internet Exployer.
+I was unable to test Internet Explorer. \
+As I am using CSS Grids, it's assumed the site will render incorrectly if viewed via Internet Explorer.
 
 [Can I Use It](https://caniuse.com/) was used extensively during production of the CSS grid layout to ensure support accross all modern web browsers. 
 
@@ -453,7 +453,7 @@ As I am using CSS Grids, it's assummed the site will render incorectly if viewed
 **Results Noted:**\
 The site behaved well on almost all display sizes.\
 Some issues were found on larger tablet display sizes where the news article image becomes stretched. 
-I have noted this in the [known bugs secton](#known-bugs) below.  
+I have noted this in the [known bugs section](#known-bugs) below.  
 
 
 
