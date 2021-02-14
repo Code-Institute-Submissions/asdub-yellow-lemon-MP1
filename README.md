@@ -221,15 +221,15 @@ The following Font Awesome icons have been used:\
 
 Custom artwork created for the project:
 
-**Used on the Get in Touch Page/ Private Events**\
+*Used on the Get in Touch Page/ Private Events*\
 \
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/contact-artwork.png" width="350" alt="Bag some lemons">
 
-**Used on the Follow/ Social Media Section**\
+*Used on the Follow/ Social Media Section*\
 \
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-artwork.png" width="350" alt="Follow Yellow Lemnon">
 
-**Used on the Merchandise Page**\
+*Used on the Merchandise Page*\
 \
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-hat.svg" width="150" alt="Merchandise Hat">
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-mask.svg" width="150" alt="Merchandise Mask">
@@ -404,7 +404,7 @@ The following physical devices were tested.\
 |Samsung Galaxy s21 | Chrome     | -         | -         |
 |MacBook Pro        | Chrome     | Safari    | Firefox   |
 |Chromebook         | Chrome     | N/a       | -         |
-|Dell (Win10)       | Chrome     | Edge      | Firefox.  | 
+|Dell (Win10)       | Chrome     | Edge      | Firefox   | 
 
 
 Using Chrome Dev Tools & Safari Web Tools.\
