@@ -459,6 +459,38 @@ I have noted this in the [known bugs secton](#known-bugs) below.
 
 #### Manual Testing Processes
 
+##### Mobile
+ Header
+    - On load check the header height 100px. 
+    - 'Yellow Lemon' text and 'Lemon' icon displaying correctly (per mockup).
+    - Confirm Spotify 'headphones' button is visible. 
+    - Check Spotify functionality:
+        - When active confirm overlay present with Spotify embed present. 
+        - Confirm overlay occupies same amount of space as 'Latest Release' CTA.
+        - Confirm Spotify embed playing music as expected. 
+        - When active confirm Spotify 'headphones' button changed colour to green.
+        - On Body scroll confirm Spotify overlay position aligns with header and orignal top margin maintained.
+        - When 'X' or 'Close' is tapped. Confirm overlay closes. 
+    - Confirm hamburger menu icon present and visible. 
+    - Mobile Menu checks:
+        - Confirm when menu active, menu overlay appears. 
+        - Confirm body excluding header dims. 
+        - Confirm each link functions correctly. 
+        - Confirm link hover/ focus transitions to text colour theme red. 
+        - Confirm on Body scroll, menu overlay position aligns with header and orignal top margin maintained.
+        - confirm menu overlay has z-index preference over Spotify overlay. 
+    - On scroll down confirm header height reduces to 75px. 
+    - Confirm scroll to top header height increase to 100px. 
+    - On sessions.html, confirm header background is black. Logo text, headphones & hamburger icons are yellow. 
+    - Confirm when Logo link active, it directs user back to home. 
+
+ Primary CTA (Latest release)
+    - confirm background image is visible. 
+    - Confirm hero text is visible and the layout is correct. 
+    - confirm 'Play' button activates Spotify overlay. 
+
+ Secondary CTA (Studio sessions)
+
 #### User Story Testing
 
 ## Known Bugs 
