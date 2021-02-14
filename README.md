@@ -459,7 +459,7 @@ I have noted this in the [known bugs secton](#known-bugs) below.
 
 #### Manual Testing Processes
 
-##### Mobile
+##### Mobile / Tablet
     Header
     - On load check the header height 100px. 
     - 'Yellow Lemon' text and 'Lemon' icon displaying correctly (per mockup).
@@ -497,6 +497,15 @@ I have noted this in the [known bugs secton](#known-bugs) below.
     Section Dividers 
     - Confirm 'Lemon' icon with full with line is present at end of each section.
     - Confirm spacing is uniform. 
+
+    Band News Section 
+    - (Mobile Only - under 768px) Confirm band news articles are text only. 
+    - Confirm four articles are present.
+    - Confirm Title, Date, Text is visible, correctly displayed and spaced. 
+    - Confirm 'More' button on each articles directs to the correct news article .html.  
+    - (Tablet Only - over 768px) Confirm band news articles feature an image and is displayed correctly. 
+
+    
 
 #### User Story Testing
 
