@@ -200,13 +200,13 @@ The following icons have been used:\
 
 ### Artwork
 
-Custom artwork created for the project:\
+Custom artwork created for the project:
 
 **Used on the Get in touch page/ Private events**\
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/contact-artwork.png" width="250" alt="Bag some lemons">
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/contact-artwork.png" width="350" alt="Bag some lemons">
 
 **Used on the Follow/ Social Media section**\
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-artwork.png" width="250" alt="Follow Yellow Lemnon">
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-artwork.png" width="350" alt="Follow Yellow Lemnon">
 
 **Used on the Merchandise page**\
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-hat.svg" width="150" alt="Merchandise Hat">
@@ -233,11 +233,11 @@ Testing the responsiveness of the webiste is condected in the [testing section](
 ## Features 
 
 Yellow Lemon is a mobile first fully responsive website with the following features. \
-**Existing Features** \
+**Existing Features:** 
 - One
 - Two
 
-**Future Features** \
+**Future Features:** 
 - One
 - Two
 
