@@ -333,8 +333,8 @@ And the ability to follow through to the bands Spotify page to discover more mus
 
 ## Deployment 
 
-This app has been deployed on GitHub Pages.\
-You can view a live version of the app [here](https://asdub.github.io/yellow-lemon-MP1).
+This site has been deployed on GitHub Pages.\
+You can view a live version of the site [here](https://asdub.github.io/yellow-lemon-MP1).
 
 #### GitHub Pages
 Deployong on Github pages is very straight forward.
@@ -393,7 +393,7 @@ I will apply fixes at a later date. I have noted the likelt effect these errors 
 #### Responsive Testing 
 
 The following physical devices were tested.\
-**Desktops & Browsers** *(Physical devices)*
+**Physical Mobile Devices & Hardware** 
 
 | Device            | Browser    | Browser 2 | Browser 3 |
 | ----------------- |:----------:| ---------:| ---------:|
