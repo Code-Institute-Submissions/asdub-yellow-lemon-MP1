@@ -104,7 +104,7 @@ As a user,
 As with any band, they are very much identity & brand focused.
 Their image and how it is portrayed is of high importance. 
 
-To ensure a unique and a cohesive brand centric identity thoughout the website,\
+To ensure a unique and a cohesive brand centric identity throughout the website,\
 I used a custom colour palette, produced bespoke artwork and incorporated complementary iconography. 
 The artwork created was further incorporated into the merchandise being sold, via the [Merchandise Page](https://asdub.github.io/yellow-lemon-MP1/merchandise.html).
 
@@ -174,7 +174,7 @@ Aspects of both the mobile and desktop design are applied to tablet layouts.
 containing a number of recent articles and a further page for individual articles.\
 This was amended, the live mobile site now only shows text articles, removing the images allowed
 for four articles to be placed in the same space. Negating the need for a dedicated page to list recent news articles. 
-On larger dispalys such as tablets and desktops the article images will appear. And the image size and amount of initial copy was reduced. 
+On larger displays such as tablets and desktops the article images will appear. And the image size and amount of initial copy was reduced. 
 - Black was used instead of red for article headings. Due to contrast issues against a white background. 
 
 ### Typography
@@ -211,13 +211,13 @@ The following Font Awesome icons have been used:\
 
 Custom artwork created for the project:
 
-**Used on the Get in touch page/ Private events**\
+**Used on the Get in Touch Page/ Private Events**\
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/contact-artwork.png" width="350" alt="Bag some lemons">
 
-**Used on the Follow/ Social Media section**\
+**Used on the Follow/ Social Media Section**\
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-artwork.png" width="350" alt="Follow Yellow Lemnon">
 
-**Used on the Merchandise page**\
+**Used on the Merchandise Page**\
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-hat.svg" width="150" alt="Merchandise Hat">
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-mask.svg" width="150" alt="Merchandise Mask">
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-mug.svg" width="150" alt="Merchandise Mug">
@@ -228,7 +228,7 @@ Custom artwork created for the project:
 Yellow Lemon was designed as a mobile first website. 
 
 Rather than use a framework, I decided to use [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).\
-This allowed me to create a besoke layout while still being easily adaptable to various screen sizes, thanks to extensive configurability afforded by grids. 
+This allowed me to create a bespoke layout while still being easily adaptable to various screen sizes, thanks to extensive configurability afforded by grids. 
 
 There are three distinct layouts: 
 * Mobile 
@@ -240,7 +240,7 @@ There are three distinct layouts:
 * Desktop 
     - Displays wider than 1200px
 
-Testing the responsiveness of the webiste is conducted in the [testing section](#testing) below. 
+Testing the responsiveness of the website is conducted in the [testing section](#testing) below. 
 
 
 ## Features 
@@ -251,16 +251,16 @@ Yellow Lemon is a mobile first fully responsive website with the following featu
     - (Mobile) The header height and logo reduces in size as the user scrolls. 
     - (Mobile) Menu navigation overlay with hamburger icon animation. 
     - (Mobile) Menu navigation overlay adjusts position on user scroll also. 
-    - (Mobile) Menu navigation overlay when active dims underlyng homepage until exited (header excluded).
+    - (Mobile) Menu navigation overlay when active dims underlying homepage until exited (header excluded).
     - (Large Tablet/ Desktop) On larger screens a full text menu is displayed in the header. 
-    - (Large Tablet/ Desktop) Header/ Nav Bar and logo reduces in size as the user scrolls. 
-- An extensive [home page](https://asdub.github.io/yellow-lemon-MP1), 
+    - (Large Tablet/ Desktop) Header/ Navbar and logo reduces in size as the user scrolls. 
+- An extensive [Home Page](https://asdub.github.io/yellow-lemon-MP1), 
     featuring: 
     - Primary call to action promoting bands latest release. 
     - Secondary call to action promoting the bands new Studio Sessions. 
-    - Most recent [band news](https://asdub.github.io/yellow-lemon-MP1/#news). 
+    - Most recent [Band News](https://asdub.github.io/yellow-lemon-MP1/#news). 
         - (Mobile) Images are removed to create more room for additional articles within the same user scroll - promoting further engagement. 
-    - Upcomming band [ticketed events](https://asdub.github.io/yellow-lemon-MP1/#events). 
+    - Upcoming band [Ticketed Events](https://asdub.github.io/yellow-lemon-MP1/#events). 
         - Responsively displaying the next four events. 
         - With links to either purchase a ticket from a third party vendor or check for more dates via the third party. 
     - User updates alert within events section. 
@@ -271,9 +271,9 @@ Yellow Lemon is a mobile first fully responsive website with the following featu
         - Copyright notice and links to Terms of Service & Privacy Policies.
 - An immersive [The Band](https://asdub.github.io/yellow-lemon-MP1/the-band.html) page detailing information on band history and each band member.
     - The page provides two distinct layouts and colour schemes depending on display width. 
-    - Customised imagary of each band member.
+    - Customised imagery of each band member.
     - Links to discover further information on each band member. 
-- Individual [news article](https://asdub.github.io/yellow-lemon-MP1/news/new-store-products-added-21-07-2020.html) pages containing the full content of the articles displayed on the home page. 
+- Individual [News Articles](https://asdub.github.io/yellow-lemon-MP1/news/new-store-products-added-21-07-2020.html) pages containing the full content of the articles displayed on the home page. 
 - A [Studio Sessions](https://asdub.github.io/yellow-lemon-MP1/sessions.html) page for the band to share YouTube clips of their latest work. 
     - This page provides a different colour theme, creating a feeling and look of a venue. 
     - The user can immediately see the latest video. 
@@ -286,10 +286,10 @@ Yellow Lemon is a mobile first fully responsive website with the following featu
     - A contact form, for enquiries regarding private events. 
 
 **Additional Features** 
-The bands music is accessable from anywhere on the site. 
+The band's music is accessible from anywhere on the site. 
 Via the primary call to action or the headphones icon located on the header/ navbar. 
 This toggles a [Spotify](https://developer.spotify.com/documentation/widgets/generate/embed/) popup detailing the bands latest releases. 
-And the ability to follow through to the bands spotify page to discover more music. 
+And the ability to follow through to the bands Spotify page to discover more music. 
 
 **Future Features:** 
 - Remove third parties and have direct ticket and merchandise sales. 
@@ -304,13 +304,13 @@ And the ability to follow through to the bands spotify page to discover more mus
 - **[Javascript](https://www.javascript.com/)**
 
 ### Libraries
-[Font Awesome](https://fontawesome.com/) is the the only external library used. 
+[Font Awesome](https://fontawesome.com/) is the only external library used. 
 
-### Version Control & Managment
+### Version Control & Management
 - [Git](https://git-scm.com/)
 - [Github](https://github.com/)
 
-### Other software/ tools Used
+### Other Software/ Tools Used
 - [Adobe Illustrator](https://en.wikipedia.org/wiki/Adobe_Illustrator)
 - [Adobe InDesign](https://en.wikipedia.org/wiki/Adobe_InDesign)
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com/)
