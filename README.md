@@ -179,6 +179,19 @@ A variety of font-weights were used:\
 100, 400, 500 & 700.
 
 
+### Iconography
+
+Icons in this project are from [Font Awesome](https://fontawesome.com/).
+
+The following icons have been used:\
+![Icons](https://github.com/asdub/5yellow-lemon-MP1/blob/master/readme/icons_fa.png "Icons")
+
+A custome icon was used for the events alert:\
+<img src="https://github.com/asdub/yellow-lemon-MP1/assets/svg/covid.svg" width="150" alt="Coronavirus Icon">
+
+
+### Artwork
+
 // Content will be relocated // 
 Rather than use a framework, I decided to use CSS grids in order to create a unique experience for the user. 
 The site is meant to create an easy to use and playful envirmoment for fans to enjoy client content. 
