@@ -351,15 +351,15 @@ Deployong on Github pages is very straight forward.
 ## Testing
 
 ### Automated Testing
-[WC3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fasdub.github.io%2Fyellow-lemon-MP1%2F)
-**Results**\
+[WC3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fasdub.github.io%2Fyellow-lemon-MP1%2F)\
+**Results**
 - No errors or warnings to show.
 
-[WC3 CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fasdub.github.io%2Fyellow-lemon-MP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-**Results**\
+[WC3 CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fasdub.github.io%2Fyellow-lemon-MP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)\
+**Results**
 - No errors (CSS level 3 + SVG)
 
-[JS Hint](https://jshint.com/)
+[JS Hint](https://jshint.com/)\
 **Results**
 *menubar.js*\
 One warning:
