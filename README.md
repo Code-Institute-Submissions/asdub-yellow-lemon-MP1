@@ -360,12 +360,12 @@ Deployong on Github pages is very straight forward.
 - No errors (CSS level 3 + SVG)
 
 [JS Hint](https://jshint.com/)\
-**Results**
+**Results**\
 *menubar.js*\
 One warning:
 - [ ] Missing semicolon (line 29).
 
-*menuoverlay.js*
+*menuoverlay.js*\
 Five warnings:
 - [ ] Missing semicolon (line 7, 29, 30, 31).
 - [ ] Expected an assignment or function call and instead saw an expression (line 9).
