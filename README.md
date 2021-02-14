@@ -196,10 +196,10 @@ A custome icon was used for the events alert:\
 
 Custom artwork created for the project:\
 *Used on the Get in touch page/ Private events*\
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/contact_artwork.png" width="150" alt="Bag some lemons">
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/contact-artwork.png" width="150" alt="Bag some lemons">
 
 *Used on the Follow/ Social Media section*\
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow_artwork.png" width="150" alt="Follow Yellow Lemnon">
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-artwork.png" width="150" alt="Follow Yellow Lemnon">
 
 *Used on the Merchandise page*\
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-hat.svg" width="150" alt="Merchandise Hat">
