@@ -31,6 +31,8 @@ This website’s purpose is to provide a useful resource for fans of the band to
         * [Secondary](#secondary-colours)
     * [Wireframes](#wireframes)
     * [Typography](#typography)
+    * [Iconography](#iconography)
+    * [Artwork](#artwork)
 
 ## User Experience (UX)
 ### Brief 
@@ -191,6 +193,21 @@ A custome icon was used for the events alert:\
 
 
 ### Artwork
+
+Custom artwork created for the project:\
+*Used on the Get in touch page/ Private events*\
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/contact_artwork.png" width="150" alt="Bag some lemons">
+
+*Used on the Follow/ Social Media section*\
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow_artwork.png" width="150" alt="Follow Yellow Lemnon">
+
+*Used on the Merchandise page*\
+<img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-hat.svg" width="150" alt="Merchandise Hat">
+<img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-mask.svg" width="150" alt="Merchandise Mask">
+<img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-mug.svg" width="150" alt="Merchandise Mug">
+<img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-tshirt.svg" width="150" alt="Merchandise Tshirt">
+
+
 
 // Content will be relocated // 
 Rather than use a framework, I decided to use CSS grids in order to create a unique experience for the user. 
