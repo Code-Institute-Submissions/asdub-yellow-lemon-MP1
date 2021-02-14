@@ -221,15 +221,15 @@ The following Font Awesome icons have been used:\
 
 Custom artwork created for the project:
 
-*Used on the Get in Touch Page/ Private Events*\
+*Used on the Get in Touch Page/ Private Events:*\
 \
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/contact-artwork.png" width="350" alt="Bag some lemons">
 
-*Used on the Follow/ Social Media Section*\
+*Used on the Follow/ Social Media Section:*\
 \
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-artwork.png" width="350" alt="Follow Yellow Lemnon">
 
-*Used on the Merchandise Page*\
+*Used on the Merchandise Page:*\
 \
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-hat.svg" width="150" alt="Merchandise Hat">
 <img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/merch-mask.svg" width="150" alt="Merchandise Mask">
@@ -467,7 +467,7 @@ I have noted this in the [known bugs section](#known-bugs) below.
     ************
     
     Header
-    - On load check the header height 100px. 
+    - On load check the header height is 100px. 
     - 'Yellow Lemon' text and 'Lemon' icon displaying correctly (per mockup).
     - Confirm Spotify 'headphones' button is visible. 
     - Check Spotify functionality:
@@ -611,7 +611,7 @@ I have noted this in the [known bugs section](#known-bugs) below.
     Header
     - Follow above header steps. 
 
-    Merch Here Artwork. Confirm that, 
+    Merch Hero Artwork. Confirm that, 
     - SVG Artwork is visible, displaying and aligned correctly. 
     Merch content. Confirm that, 
     - Section title is visible, displayed and spaced correctly.
