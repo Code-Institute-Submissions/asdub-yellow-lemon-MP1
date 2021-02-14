@@ -574,6 +574,31 @@ I have noted this in the [known bugs section](#known-bugs) below.
      - Follow footer steps above.
 
 
+    *******************
+    * Studio Sessions *
+    * /sessions.html  *
+    *******************
+    
+    Header
+    - Follow above header steps. 
+
+    Main Content - Latest Video
+     - (Mobile/Tablet Only - under 992px) Confirm layout is correct - content appears in a column. 
+     - Confirm Recent Video Titles, subheadings, icons, copy/ text & date are visible and displaying per stylesheet. 
+     - Confirm transitions on play icon - scale & colour. 
+     - Confirm link to YouTube is functioning. 
+     - Most recent sessions section items: 
+        - Confirm div is scrollable. 
+        - Confirm four additional recent session items are present. 
+        - Confirm event item section heading and subheading is visible and displays correctly. 
+        - Confirm event item content is visible and displaying per stylesheet. 
+        - Confirm Thumbnails are visible, displaying and aligning correctly. 
+        - Confirm all four 'Play' buttons direct to an external YouTube link 
+     - Confirm 'View more on YouTube' Link at bottom of section directs to YouTube channel. 
+
+    Footer
+     - Follow footer steps above.
+
     **Displaying correctly = Adhering to CSS rules specified on stylesheet.css*
 
 
