@@ -33,6 +33,12 @@ This website’s purpose is to provide a useful resource for fans of the band to
     * [Typography](#typography)
     * [Iconography](#iconography)
     * [Artwork](#artwork)
+    * [Responsive Design](#responsive-design)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Future Features](#future-features)
+
+
 
 ## User Experience (UX)
 ### Brief 
@@ -183,13 +189,13 @@ A variety of font-weights were used:\
 
 ### Iconography
 
-Icons in this project are from [Font Awesome](https://fontawesome.com/).
+A custom icon was used for the events alert:\
+<img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/covid.svg" width="100" alt="Coronavirus Icon">
+
+All other icons in this project are from [Font Awesome](https://fontawesome.com/).
 
 The following icons have been used:\
 ![Icons](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/icons_fa.png "Icons")
-
-A custome icon was used for the events alert:\
-<img src="https://asdub.github.io/yellow-lemon-MP1/assets/svg/covid.svg" width="150" alt="Coronavirus Icon">
 
 
 ### Artwork
@@ -219,11 +225,21 @@ There are three distinct layouts:
 * Mobile - Default
 * Tablet - Displays wider than 768px
 * Large Tablet/ Small desktop - Displays wider than 992px
-* Desktop -  - Displays wider than 1200px
+* Desktop - Displays wider than 1200px
 
 Testing the responsiveness of the webiste is condected in the [testing section](#testing) below. 
 
 
+## Features 
+
+Yellow Lemon is a mobile first fully responsive website with the following features. \
+**Existing Features** \
+- One
+- Two
+
+**Future Features** \
+- One
+- Two
 
 
 
