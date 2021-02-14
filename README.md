@@ -248,34 +248,34 @@ Yellow Lemon is a mobile first fully responsive website with the following featu
     - (Mobile) Menu navigation overlay when active dims underlyng homepage until exited (header excluded).
     - (Large Tablet/ Desktop) On larger screens a full text menu is displayed in the header. 
     - (Large Tablet/ Desktop) Header/ Nav Bar and logo reduces in size as the user scrolls. 
-- Extensive home page, 
+- An extensive [home page](https://asdub.github.io/yellow-lemon-MP1), 
     featuring: 
     - Primary call to action promoting bands latest release. 
     - Secondary call to action promoting the bands new Studio Sessions. 
-    - Most recent band news. 
+    - Most recent [band news](https://asdub.github.io/yellow-lemon-MP1/#news). 
         - (Mobile) Images are removed to create more room for additional articles within the same user scroll - promoting further engagement. 
-    - Upcomming band ticketed events. 
+    - Upcomming band [ticketed events](https://asdub.github.io/yellow-lemon-MP1/#events). 
         - Responsively displaying the next four events. 
         - With links to either purchase a ticket from a third party vendor or check for more dates via the third party. 
     - User updates alert within events section. 
         - The position of which varies depending on the display size. 
-    - Follow Section promoting the bands Social Media accounts. 
+    - [Follow Section](https://asdub.github.io/yellow-lemon-MP1/#follow) promoting the bands Social Media accounts. 
     - A site wide footer containing,
         - A further CTA regarding contact for private events. 
         - Copyright notice and links to Terms of Service & Privacy Policies.
-- An immersive 'The Band' page detailing information on band history and each band member.
+- An immersive [The Band](https://asdub.github.io/yellow-lemon-MP1/the-band.html) page detailing information on band history and each band member.
     - The page provides two distinct layouts and colour schemes depending on display width. 
     - Customised imagary of each band member.
     - Links to discover further information on each band member. 
-- Individual news article pages containing the full content of the articles displayed on the home page. 
-- A Studio Sessions page for the band to share YouTube clips of their latest work. 
+- Individual [news article](https://asdub.github.io/yellow-lemon-MP1/news/new-store-products-added-21-07-2020.html) pages containing the full content of the articles displayed on the home page. 
+- A [Studio Sessions](https://asdub.github.io/yellow-lemon-MP1/sessions.html) page for the band to share YouTube clips of their latest work. 
     - This page provides a different colour theme, creating a feeling and look of a venue. 
     - The user can immediately see the latest video. 
     - Explore the most recent videos via a scollable list. 
     - Or discover additional videos on YouTube.  
-- A Merchandise or Merch page, containing an array of products being sold by the band. 
+- A Merchandise or [Merch page](https://asdub.github.io/yellow-lemon-MP1/merchandise.html), containing an array of products being sold by the band. 
     - User ability to purchase merchandise via a third party vendor. 
-- A Contact/ Get in Touch page featuring,
+- A [Contact/ Get in Touch page](https://asdub.github.io/yellow-lemon-MP1/bag-some-lemons.html) featuring,
     - A custom hero image. 
     - A contact form, for enquiries regarding private events. 
 
