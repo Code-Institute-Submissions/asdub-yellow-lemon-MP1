@@ -347,20 +347,34 @@ Deployong on Github pages is very straight forward.
 4. In your local environment open your terminal, navigate to or create a directory.
 5. Paste the URL into your terminal and enter. The repo should be successfully cloned.  
 
-// Content below to be updated // 
-## Testing
-- All links on the site have been tested. 
-- Menu and popups checked on mobile & desktop. 
-- Site viewed in mobile, tablet, deskop resolutions with different aspect ratios to confirm layout rendering. 
-- HTML & CSS validated with W3C Validator. 
 
-<p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="Valid CSS!" />
-    </a>
-</p>
+## Testing
+
+### Automated Testing
+[WC3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fasdub.github.io%2F5km-parks-MP2%2F)
+**Results**\
+- No errors or warnings to show.
+
+[WC3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fasdub.github.io%2F5km-parks-MP2%2F)
+**Results**\
+- No errors (CSS level 3 + SVG)
+
+[JS Hint](https://jshint.com/)
+**Results**
+*menubar.js*\
+One warning:
+- [ ] Missing semicolon (line 29).
+
+*menuoverlay.js*
+Five warnings:
+- [ ] Missing semicolon (line 7, 29, 30, 31).
+- [ ] Expected an assignment or function call and instead saw an expression (line 9).
+- [ ] Missing semicolon (line 29).
+- [ ] Two undefined variables {'spotify' line 8 & 41} + {'headphones' line 9 & 14}.
+- [ ] Three unused variables {menuOverlay line 12} + {menuUnderlay line 34} + {spotifyOverlay line 40}.
+
+As JS is not a requirement of MP1, and these warnings are not having a huge impact on site functionality.
+I will apply fixes at a later date. 
 
 
 
@@ -369,6 +383,6 @@ Deployong on Github pages is very straight forward.
 - [ ] In some tablet aspect ratios images can become horizontally stretched. 
 
 **Site URL:**
-[https://asdub.github.io/yellow-lemon-MP1](https://asdub.github.io/yellow-lemon-MP1) 
+[https://asdub.github.io/yellow-lemon-MP1](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fasdub.github.io%2Fyellow-lemon-MP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
 
