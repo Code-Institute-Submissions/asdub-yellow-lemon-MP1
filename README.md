@@ -40,6 +40,7 @@ This website’s purpose is to provide a useful resource for fans of the band to
     * [Future Features](#future-features)
 * [Technologies](#technologies)
     * [Languages](#languages)
+    * [Libraries](#libraries)
 
 
 ## User Experience (UX)
@@ -296,6 +297,8 @@ And the ability to follow through to the bands spotify page to discover more mus
 - **[CSS3](https://www.w3schools.com/css/)**
 - **[Javascript](https://www.javascript.com/)**
 
+### Libraries
+[Font Awesome](https://fontawesome.com/) is the the only external library used. 
 
 
 ### Summary
@@ -311,7 +314,7 @@ And the ability to follow through to the bands spotify page to discover more mus
  for the group to keep in touch and their fans updated during lockdown.
 
 ### Frameworks
-[Font Awesome](https://fontawesome.com/) is the the only external library used. 
+
 
 Layouts were created using CSS Grid. 
 
