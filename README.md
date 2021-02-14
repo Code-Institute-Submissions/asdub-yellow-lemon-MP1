@@ -113,9 +113,9 @@ Spotify Green - *#1db954*\
 
 ### Wireframes
 ![mockup](https://github.com/asdub/yellow-lemon-MP1/blob/master/mockups_screenshot.png "Yellow Lemon Logo")
-Mobile, Tablet & Desktop mockups  - [View in full here](https://xd.adobe.com/view/17b30f70-61ed-4e79-a028-648b3cdb0ab8-42e0/grid)
+Mobile, Tablet & Desktop mockups  - [View in full here](https://xd.adobe.com/view/17b30f70-61ed-4e79-a028-648b3cdb0ab8-42e0/grid)\
 \
-A comprehensive set of mock-ups/ wireframes were created.\ 
+A comprehensive set of mock-ups/ wireframes were created.\
 Layouts and styling for mobile, tablet & desktop devices.
 
 Mockup/ Wireframe Pages include:\
