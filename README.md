@@ -460,6 +460,7 @@ I have noted this in the [known bugs secton](#known-bugs) below.
 #### Manual Testing Processes
 
 ##### Mobile / Tablet
+    Homepage
     Header
     - On load check the header height 100px. 
     - 'Yellow Lemon' text and 'Lemon' icon displaying correctly (per mockup).
@@ -499,13 +500,34 @@ I have noted this in the [known bugs secton](#known-bugs) below.
     - Confirm spacing is uniform. 
 
     Band News Section 
+    - Confirm section title is visable, display and spaced correctly.
     - (Mobile Only - under 768px) Confirm band news articles are text only. 
     - Confirm four articles are present.
     - Confirm Title, Date, Text is visible, correctly displayed and spaced. 
     - Confirm 'More' button on each articles directs to the correct news article .html.  
     - (Tablet Only - over 768px) Confirm band news articles feature an image and is displayed correctly. 
+    - (Tablet Only - over 768px) Confirm event items rearrange into a grid of four. 
 
-    
+
+    Events Section
+    - Confirm section title is visable, display and spaced correctly.
+    - (Mobile Only - under 768px) Confirm 'User Notice/ Alert' is visible above the events section. 
+    - (Tablet Only - over 768px) Confirm 'User Notice/ Alert' is visible below the events section title.
+    - Confirm section text is visable in all links are directing to the correct anchor, page or external link. 
+    - Confrtim section text styling conforms with stylesheet. 
+    - Event Section event items: 
+        - Confirm div is scrollable. 
+        - Confirm four events are present. 
+        - Confirm event item section heading and subheadings are visable and display correctly. 
+        - Confirm event item content is visable and displaying per stylesheet. 
+        - Confirm all four 'Tickets' buttons direct to an external link 
+        - Confirm at the end of the event items scrollable secton, the 'More Dates' link is viable and directing to the correct extrernal rescource. 
+        - (Tablet Only - over 768px) Confirm event items rearrange into a grid of four. 
+     - Event Section 'Book Yellow Lemon' link directs to contact/ get in touch page.  
+
+
+
+
 
 #### User Story Testing
 
