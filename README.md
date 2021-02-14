@@ -389,13 +389,13 @@ I will apply fixes at a later date. I have noted the likelt effect these errors 
 
 ### Manual Testing
 
-## Responsive Testing 
+#### Responsive Testing 
 
-## Manual Testing Processes
+#### Manual Testing Processes
 
-## User Story Testing
+#### User Story Testing
 
-### Known Bugs 
+## Known Bugs 
 - [ ] Issue with active menu item. 
 - [ ] In some tablet aspect ratios images can become horizontally stretched.
 - [ ] Issue with Spotify headphone indicating active or note (likely due to the JS hint errors observed above). 
