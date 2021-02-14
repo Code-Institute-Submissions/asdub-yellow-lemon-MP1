@@ -26,6 +26,11 @@ This website’s purpose is to provide a useful resource for fans of the band to
         * [Returning & Regular User Stories](#returning--regular-user-stores)
         * [Client User Stories](#client-user-stores)
 * [Design](#design)
+    * [Colours](#colours)
+        * [Primary](#primary-colours)
+        * [Secondary](#secondary-colours)
+    * [Wireframes](#wireframes)
+    * [Typography](#typography)
 
 ## User Experience (UX)
 ### Brief 
@@ -84,7 +89,7 @@ Their image and how it is portrayed is of importance.
 
 To ensure a unique and a cohesive brand centric identity thoughout the website,\
 I used a custom colour palette, produced bespoke artwork and incorporated complementary iconography. 
-The artwork created was further incorporated into the merchandise being sold, via the [Merch]section(https://asdub.github.io/yellow-lemon-MP1/merchandise.html).
+The artwork created was further incorporated into the merchandise being sold, via the [Merch Page](https://asdub.github.io/yellow-lemon-MP1/merchandise.html).
 
 ### Colours
 A simple palette of colours was chosen. 
