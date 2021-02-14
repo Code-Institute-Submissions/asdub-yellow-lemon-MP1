@@ -41,6 +41,12 @@ This website’s purpose is to provide a useful resource for fans of the band to
 * [Technologies](#technologies)
     * [Languages](#languages)
     * [Libraries](#libraries)
+    * [Version Control & Managment](#version-control--managment)
+    * [Other Software/ Tools](#other-software-tools-used)
+* [Deployment](#deployment)
+    * [Github Pages](#github-Pages)
+    * [Fork](#fork)
+    * [Clone Locally](#clone-locally)
 
 
 ## User Experience (UX)
@@ -341,6 +347,7 @@ Deployong on Github pages is very straight forward.
 4. In your local environment open your terminal, navigate to or create a directory.
 5. Paste the URL into your terminal and enter. The repo should be successfully cloned.  
 
+// Content below to be updated // 
 ## Testing
 - All links on the site have been tested. 
 - Menu and popups checked on mobile & desktop. 
@@ -357,15 +364,9 @@ Deployong on Github pages is very straight forward.
 
 
 
-**Following issues discovered and still outstanding**
+**Following issues discovered and are still outstanding**
 - [ ] Issue with active menu item. 
 - [ ] In some tablet aspect ratios images can become horizontally stretched. 
-
-
-
-### Deployment
-The site has been deployed on Github pages. 
-The process is very very straight forward - [all the information needed is here](https://pages.github.com/) 
 
 **Site URL:**
 [https://asdub.github.io/yellow-lemon-MP1](https://asdub.github.io/yellow-lemon-MP1) 
