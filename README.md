@@ -110,18 +110,59 @@ White - *#ffffff*\
 Spotify Green - *#1db954*\
 ![Spotify Green](https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/colours/green.png "Spotify Green - #1db954")
 
-<br>
-<br>
+
+### Wireframes
+![mockup](https://github.com/asdub/yellow-lemon-MP1/blob/master/mockups_screenshot.png "Yellow Lemon Logo")
+Mobile, Tablet & Desktop mockups  - [View in full here](https://xd.adobe.com/view/17b30f70-61ed-4e79-a028-648b3cdb0ab8-42e0/grid)
+\
+A comprehensive set of mock-ups/ wireframes were created.\ 
+Layouts and styling for mobile, tablet & desktop devices.
+
+Mockup/ Wireframe Pages include: 
+**Mobile** 
+- Home 
+- Home - Band News section
+- Home - Events Section 
+- Home - Follow Section
+- Menu Overlay
+- The Band
+- Merchandise
+- Band News Article 
+- Getting in Touch / Private Events 
+
+**Tablet**
+- Home 
+- Studio Sessions 
+
+**Tablet**
+- Home - including Band News Section
+- Home - Events Section
+- Home - Follow Section
+- The Band
+- Studio sessions
+- Merchandise
+- Band News Article 
+- Getting in Touch / Private Events 
+
+I didn't create mockups for each device variation.\
+The mockup content produced reflects the layouts and styling applied throughout the site. 
+
+*Production Design Changes to Note* 
+- Initially, I was planning on having only two news articles on mobile layout, a further news page 
+containing a number of recent articles and a further page for individual articles.\
+This was amended, the live mobile site now only shows text articles, removing the images allowed
+for four articles to be placed in the same space. Negating the need for a dedicated page to list recent news articles. 
+On larger dispalys such as tablets and desktops the article images will appear. 
+- Black was used instead of red for article headings. Due to contrast issues against a white background. 
+
+### Typography
+
+
+// Content will be relocated // 
 Rather than use a framework, I decided to use CSS grids in order to create a unique experience for the user. 
 The site is meant to create an easy to use and playful envirmoment for fans to enjoy client content. 
 While at the same time providing the client with a platform to showcase their latest music, advertise their 
 events and sell theiur merchandise.
-
-**Site Mock-Ups/ Wire Frames**
-
-![mockup](https://github.com/asdub/yellow-lemon-MP1/blob/master/mockups_screenshot.png "Yellow Lemon Logo")
-Mobile, Tablet & Desktop mockups  - [View in full here](https://xd.adobe.com/view/17b30f70-61ed-4e79-a028-648b3cdb0ab8-42e0/grid)
-
 
 
 ### Summary
