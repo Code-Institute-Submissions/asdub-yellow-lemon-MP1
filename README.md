@@ -279,7 +279,7 @@ Yellow Lemon is a mobile first fully responsive website with the following featu
     - A custom hero image. 
     - A contact form, for enquiries regarding private events. 
 
-**Additional Features**\ 
+**Additional Features** 
 The bands music is accessable from anywhere on the site. 
 Via the primary call to action or the headphones icon located on the header/ navbar. 
 This toggles a [Spotify](https://developer.spotify.com/documentation/widgets/generate/embed/) popup detailing the bands latest releases. 
