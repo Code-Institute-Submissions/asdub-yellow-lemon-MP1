@@ -118,8 +118,8 @@ Mobile, Tablet & Desktop mockups  - [View in full here](https://xd.adobe.com/vie
 A comprehensive set of mock-ups/ wireframes were created.\ 
 Layouts and styling for mobile, tablet & desktop devices.
 
-Mockup/ Wireframe Pages include: 
-**Mobile** 
+Mockup/ Wireframe Pages include:\
+*Mobile* 
 - Home 
 - Home - Band News section
 - Home - Events Section 
@@ -130,11 +130,11 @@ Mockup/ Wireframe Pages include:
 - Band News Article 
 - Getting in Touch / Private Events 
 
-**Tablet**
+*Tablet*
 - Home 
 - Studio Sessions 
 
-**Desktop**
+*Desktop*
 - Home - including Band News Section
 - Home - Events Section
 - Home - Follow Section
@@ -147,7 +147,7 @@ Mockup/ Wireframe Pages include:
 I didn't create mockups for each device variation.\
 The mockup content produced reflects the layouts and styling applied throughout the site. 
 
-*Production Design Changes to Note* 
+**Production Design Changes to Note** 
 - Initially, I was planning on having only two news articles on mobile layout, a further news page 
 containing a number of recent articles and a further page for individual articles.\
 This was amended, the live mobile site now only shows text articles, removing the images allowed
