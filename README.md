@@ -300,25 +300,21 @@ And the ability to follow through to the bands spotify page to discover more mus
 ### Libraries
 [Font Awesome](https://fontawesome.com/) is the the only external library used. 
 
+### Version Control & Managment
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
 
-### Summary
- The site meets the aims of both user & client.<br>
- Through a heavily brand focused theme and experience, users can view informaiton on band members, 
- both their history and the groups. And view upcomming events. <br>
-
- The client will be able to showcase their latest tracks via a Spotify popup.<br> 
- Provide fans with details on their [upcomming events](https://asdub.github.io/yellow-lemon-MP1/#events), with external links to booking partners.<br> 
- And an area to showcase their [latest merchandise](https://asdub.github.io/yellow-lemon-MP1/merchandise.html) for sale. <br>
-
- While not on the orginal brief, a dedicated area - [Sessions](https://asdub.github.io/yellow-lemon-MP1/sessions.html)
- for the group to keep in touch and their fans updated during lockdown.
-
-### Frameworks
+### Other software/ tools Used
+- [Adobe Illustrator](https://en.wikipedia.org/wiki/Adobe_Illustrator)
+- [Adobe InDesign](https://en.wikipedia.org/wiki/Adobe_InDesign)
+- [Microsoft Visual Studio](https://visualstudio.microsoft.com/)
+- [Gitpod](https://gitpod.io)
+- [JSfiffle](https://jsfiddle.net/)
+- [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+- [Safari Web Development Tools](https://developer.apple.com/safari/tools/)
 
 
-Layouts were created using CSS Grid. 
-
-### Testing
+## Testing
 - All links on the site have been tested. 
 - Menu and popups checked on mobile & desktop. 
 - Site viewed in mobile, tablet, deskop resolutions with different aspect ratios to confirm layout rendering. 
