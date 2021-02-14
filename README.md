@@ -134,7 +134,7 @@ Mockup/ Wireframe Pages include:
 - Home 
 - Studio Sessions 
 
-**Tablet**
+**Desktop**
 - Home - including Band News Section
 - Home - Events Section
 - Home - Follow Section
