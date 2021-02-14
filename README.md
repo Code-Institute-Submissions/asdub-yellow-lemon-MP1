@@ -460,7 +460,7 @@ I have noted this in the [known bugs secton](#known-bugs) below.
 #### Manual Testing Processes
 
 ##### Mobile
- Header
+    Header
     - On load check the header height 100px. 
     - 'Yellow Lemon' text and 'Lemon' icon displaying correctly (per mockup).
     - Confirm Spotify 'headphones' button is visible. 
@@ -484,12 +484,19 @@ I have noted this in the [known bugs secton](#known-bugs) below.
     - On sessions.html, confirm header background is black. Logo text, headphones & hamburger icons are yellow. 
     - Confirm when Logo link active, it directs user back to home. 
 
- Primary CTA (Latest release)
-    - confirm background image is visible. 
+    Primary CTA (Latest release)
+    - Confirm background image is visible. 
     - Confirm hero text is visible and the layout is correct. 
     - confirm 'Play' button activates Spotify overlay. 
 
- Secondary CTA (Studio sessions)
+    Secondary CTA (Studio sessions)
+    - Confirm background image is visible. 
+    - Confirm overlay with Headings, Title, Span Test & Lemon Icon display correctly. 
+    - Confirm 'More' link directs to sessions.html. 
+
+    Section Dividers 
+    - Confirm 'Lemon' icon with full with line is present at end of each section.
+    - Confirm spacing is uniform. 
 
 #### User Story Testing
 
