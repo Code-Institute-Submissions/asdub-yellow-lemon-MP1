@@ -160,14 +160,14 @@ On larger dispalys such as tablets and desktops the article images will appear.
 This website uses both [Google Fonts](https://fonts.google.com/) and [Adobe Typekit](https://fonts.adobe.com/). 
 
 The Google font in use:\
-**Roboto** 
+**Roboto** \
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/roboto.png" width="150" alt="Google Fonts - Roboto" />
 
 The Adobe Typekit font in use:\
-**Effra** 
+**Effra** \
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/effra.png" width="150" alt="Adobe Typekit - Effra" />
 
-**Rockwell**
+**Rockwell** \
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/rockwell.png" width="150" alt="Adobe Typekit - Rockwell" />
 
 A variety of font-weights were used:\
