@@ -351,11 +351,11 @@ Deployong on Github pages is very straight forward.
 ## Testing
 
 ### Automated Testing
-[WC3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fasdub.github.io%2F5km-parks-MP2%2F)
+[WC3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fasdub.github.io%2Fyellow-lemon-MP1%2F)
 **Results**\
 - No errors or warnings to show.
 
-[WC3 HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fasdub.github.io%2F5km-parks-MP2%2F)
+[WC3 CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fasdub.github.io%2Fyellow-lemon-MP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 **Results**\
 - No errors (CSS level 3 + SVG)
 
@@ -374,15 +374,16 @@ Five warnings:
 - [ ] Three unused variables {menuOverlay line 12} + {menuUnderlay line 34} + {spotifyOverlay line 40}.
 
 As JS is not a requirement of MP1, and these warnings are not having a huge impact on site functionality.
-I will apply fixes at a later date. 
+I will apply fixes at a later date. I have noted the likelt effect these errors are causing in the [known bugs secton](#known-bugs) below.  
 
 
 
-**Following issues discovered and are still outstanding**
+### Known Bugs 
 - [ ] Issue with active menu item. 
-- [ ] In some tablet aspect ratios images can become horizontally stretched. 
+- [ ] In some tablet aspect ratios images can become horizontally stretched.
+- [ ] Issue with Spotify headphone indicating active or note (likely due to the JS hint errors observed above). 
 
 **Site URL:**
-[https://asdub.github.io/yellow-lemon-MP1](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fasdub.github.io%2Fyellow-lemon-MP1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
+[https://asdub.github.io/yellow-lemon-MP1](https://asdub.github.io/yellow-lemon-MP1) 
 
 
