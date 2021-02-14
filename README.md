@@ -564,8 +564,8 @@ I have noted this in the [known bugs section](#known-bugs) below.
     - Band Member info section items: 
         - Confirm div is scrollable. 
         - Confirm four band member items are present. 
-        - Confirm event item section heading and subheading is visible and displays correctly. 
-        - Confirm event item content is visible and displaying per stylesheet. 
+        - Confirm band member item section heading and subheading is visible and displays correctly. 
+        - Confirm band member item content is visible and displaying per stylesheet. 
         - Confirm all four 'More Information' links direct to an external link 
      - (Mobile/Tablet Only - under 992px) Confirm band history information content is positioned beneath Band Member Section. 
      - Confirm band history information section 'Read More' links direct to an external link. 
@@ -590,11 +590,37 @@ I have noted this in the [known bugs section](#known-bugs) below.
      - Most recent sessions section items: 
         - Confirm div is scrollable. 
         - Confirm four additional recent session items are present. 
-        - Confirm event item section heading and subheading is visible and displays correctly. 
-        - Confirm event item content is visible and displaying per stylesheet. 
+        - Confirm session item section heading and subheading is visible and displays correctly. 
+        - Confirm session item content is visible and displaying per stylesheet. 
         - Confirm Thumbnails are visible, displaying and aligning correctly. 
         - Confirm all four 'Play' buttons direct to an external YouTube link 
      - Confirm 'View more on YouTube' Link at bottom of section directs to YouTube channel. 
+
+    Footer
+     - Follow footer steps above.
+
+
+    *********************
+    * Merchandise       *
+    * /merchandise.html *
+    *********************
+    
+    Header
+    - Follow above header steps. 
+
+    Merch Here Artwork. Confirm that, 
+    - SVG Artwork is visible, displaying and aligned correctly. 
+    Merch content. Confirm that, 
+    - Section title is visible, displayed and spaced correctly.
+    - Merchandise section items: 
+        - Confirm div is scrollable. 
+        - Confirm four additional merchandise items are present. 
+        - Confirm merchandise item section heading and subheading is visible and displays correctly. 
+        - Confirm merchandise item content is visible and displaying per stylesheet. 
+        - Confirm Thumbnails are visible, displaying and aligning correctly. 
+        - Confirm all four 'Buy' buttons direct to an external link 
+    - Confirm additional text content below scrollable div is present. 
+    - Confirm content is visible and displaying per stylesheet. 
 
     Footer
      - Follow footer steps above.
