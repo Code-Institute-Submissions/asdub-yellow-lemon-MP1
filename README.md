@@ -161,14 +161,14 @@ This website uses both [Google Fonts](https://fonts.google.com/) and [Adobe Type
 
 The Google font in use:\
 **Roboto** 
-<img src="https://github.com/asdub/5km-parks-MP2/blob/master/readme/screenshots/roboto.png" width="150" alt="Google Fonts - Roboto" />
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/roboto.png" width="150" alt="Google Fonts - Roboto" />
 
 The Adobe Typekit font in use:\
 **Effra** 
-<img src="https://github.com/asdub/5km-parks-MP2/blob/master/readme/screenshots/effra.png" width="150" alt="Adobe Typekit - Effra" />
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/effra.png" width="150" alt="Adobe Typekit - Effra" />
 
 **Rockwell**
-<img src="https://github.com/asdub/5km-parks-MP2/blob/master/readme/screenshots/rockwell.png" width="150" alt="Adobe Typekit - Rockwell" />
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/rockwell.png" width="150" alt="Adobe Typekit - Rockwell" />
 
 A variety of font-weights were used:\
 100, 400, 500 & 700.
