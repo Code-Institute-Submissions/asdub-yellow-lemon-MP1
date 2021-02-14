@@ -444,15 +444,15 @@ The following display sizes were tested:
 |Google Pixel	  |1080 x 1920	|412 x 732 |
 
 
-I was unable to test Internet Exployer. 
+I was unable to test Internet Exployer. \
 As I am using CSS Grids, it's assummed the site will render incorectly if viewed via Internet Exployer.
 
 [Can I Use It](https://caniuse.com/) was used extensively during production of the CSS grid layout to ensure support accross all modern web browsers. 
 
 
-**Resutls Noted:**
+**Results Noted:**\
 The site behaved well on almost all display sizes.\
-Some issues were found on large tablet display sizes where the news article image becomes stretched. 
+Some issues were found on larger tablet display sizes where the news article image becomes stretched. 
 I have noted this in the [known bugs secton](#known-bugs) below.  
 
 
