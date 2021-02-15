@@ -5,7 +5,7 @@ This project was made as part of the Code Institute Full Stack Development Cours
 **View a live version of the website** [here](https://asdub.github.io/yellow-lemon-MP1/)
 
 ## Project Description
-*This is a webiste for a fictional band called 'Yellow Lemon'.*
+*This is a website for a fictional band called 'Yellow Lemon'.*
 
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/yellow-lemon-mobile.png" width="150" alt="Yellow Lemon Mobile Screenshot"/>
 
@@ -20,7 +20,7 @@ This website’s purpose is to provide a useful resource for fans of the band to
 * [User Experience (UX)](#user-experience-ux)
     * [Brief](#brief)
         * [Website Purpose](#the-aim-of-this-website)
-        * [Client Goals](1#the-goals-of-the-band--management)
+        * [Client Goals](#the-goals-of-the-band--management)
     * [User Stories](#user-stories)
         * [New User Stories](#new-user-stories)
         * [Returning & Regular User Stories](#returning--regular-user-stores)
@@ -41,7 +41,7 @@ This website’s purpose is to provide a useful resource for fans of the band to
 * [Technologies](#technologies)
     * [Languages](#languages)
     * [Libraries](#libraries)
-    * [Version Control & Managment](#version-control--managment)
+    * [Version Control & Management](#version-control--management)
     * [Other Software/ Tools](#other-software-tools-used)
 * [Deployment](#deployment)
     * [Github Pages](#github-Pages)
@@ -71,13 +71,13 @@ The bands management are interested in selling more of their music/ merchandise 
 
 
 #### The aim of this website
-Provide a useful rescource for band fans to keep to to date.\
+Provide a useful resource for band fans to keep to to date.\
 *Including:*
 - Band News.
-- Tickets to upcomming band shows.
-- Ability to book band for events.
+- Tickets to upcoming band shows.
+- Ability to book the band for events.
 - Provide a branding centric and cohesive experience.
-- Provide users with the abilty to listen to recent band tracks from anywhere on the site. 
+- Provide users with the ability to listen to recent band tracks from anywhere on the site. 
 
 **In addition**\
 Owing to the pandemic related cancelations of all band shows. An area was created for band members
@@ -291,7 +291,7 @@ Yellow Lemon is a mobile first fully responsive website with the following featu
 - A [Studio Sessions](https://asdub.github.io/yellow-lemon-MP1/sessions.html) page for the band to share YouTube clips of their latest work. 
     - This page provides a different colour theme, creating a feeling and look of a venue. 
     - The user can immediately see the latest video. 
-    - Explore the most recent videos via a scollable list. 
+    - Explore the most recent videos via a scrollable list. 
     - Or discover additional videos on YouTube.  
 - A Merchandise or [Merch page](https://asdub.github.io/yellow-lemon-MP1/merchandise.html), containing an array of products being sold by the band. 
     - User ability to purchase merchandise via a third party vendor. 
@@ -341,7 +341,7 @@ This site has been deployed on GitHub Pages.\
 You can view a live version of the site [here](https://asdub.github.io/yellow-lemon-MP1).
 
 #### GitHub Pages
-Deployong on Github pages is very straight forward.
+Deploying on Github pages is very straight forward.
 1. [Login](https://github.com/login) to your GitHub account([or join](https://github.com/join)).
 2. Navigate to or create the repository, in this case [yellow-lemon-MP1](https://github.com/asdub/yellow-lemon-MP1).
 3. On the menu below the repository title click on the settings cog. 
@@ -415,7 +415,7 @@ The following display sizes were tested:
 | Device         | Pixel Size   | Viewport  |
 | -------------- |:------------:|:---------:|
 |iPhone XR       |828 x 1792    |414 x 896  |
-|iPhone XS       |1125 x 2436   |375 x 812. |
+|iPhone XS       |1125 x 2436   |375 x 812  |
 |iPhone XS Max   |1242 x 2688   |414 x 896  |
 |iPhone X	     |1125 x 2436	|375 x 812  |
 |iPhone 8 Plus   |1080 x 1920	|414 x 736  |
@@ -433,7 +433,7 @@ The following display sizes were tested:
 |iPad Mini  	 |768 x 1024	|768 x 1024 |
 
 
-**Anroid Mobile & Tablet devices**
+**Android Mobile & Tablet devices**
 | Device          | Pixel Size  | Viewport |
 | --------------- |:-----------:|:--------:|
 |Nexus 6P	      |1440 x 2560	|412 x 732 |
@@ -451,7 +451,7 @@ The following display sizes were tested:
 I was unable to test Internet Explorer. \
 As I am using CSS Grids, it's assumed the site will render incorrectly if viewed via Internet Explorer.
 
-[Can I Use It](https://caniuse.com/) was used extensively during production of the CSS grid layout to ensure support accross all modern web browsers. 
+[Can I Use It](https://caniuse.com/) was used extensively during production of the CSS grid layout to ensure support across all modern web browsers. 
 
 
 **Results Noted:**\
@@ -673,9 +673,9 @@ I have noted this in the [known bugs section](#known-bugs) below.
     **Displaying correctly = Adhering to CSS rules specified on stylesheet.css*
 
 
-#### User Story Testing
+### User Story Testing
 
-##### [New User Stories](#new-user-stories) Testing:
+#### [New User Stories](#new-user-stories) Testing:
 
 **1. I want information on each band member.**
 
@@ -686,7 +686,7 @@ Also included are links to discover further information via external sources.
 **2. I want the ability to book band shows or events.**
 
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/events-section-screenshot.png" width="350" alt="Ticketed Events">
-A responsive event section allows users to see upcomming ticketed events, which can be purchased through a third party. 
+A responsive event section allows users to see upcoming ticketed events, which can be purchased through a third party. 
 Within this section a link brings the user to a third party and searched for additional dates.
 
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/get-in-touch-screenshot.png" width="350" alt="Private Events">
@@ -701,16 +701,16 @@ Recent band news articles are available on the home page.
 **4. I want easy access to band social media.**
 
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-section-screenshot.png" width="350" alt="Private Events">
-A dedicated 'Follow' section is located at the bottom of the homepage. Accessible from the webiste menu. 
+A dedicated 'Follow' section is located at the bottom of the homepage. Accessible from the website menu. 
 There are social media links for Twitter, YouTube, Instagram & Facebook.
 
 **5. I can't attend shows, I want to interact with the band.**
 
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/sessions-screenshot.png" width="350" alt="Private Events">
-A 'Studio Sessions' page and CTA were created to users with a new way to interact with the band while shows are cancelled.
+A 'Studio Sessions' page and CTA were created for users as new way to interact with the band while shows are cancelled.
 
 
-##### [Returning & Regular User Stories](#returning--regular-user-stores) Testing:
+#### [Returning & Regular User Stories](#returning--regular-user-stores) Testing:
 
 **1. I want to easily check recent news.**
 
@@ -724,11 +724,11 @@ Which links to full individual news articles.
 **2. I want to easily check new events.**
 
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/events-section-screenshot.png" width="350" alt="Ticketed Events">
-As referred to above, the event section allows users to see upcomming ticketed events, which can be purchased through a third party. 
+As referred to above, the event section allows users to see upcoming ticketed events, which can be purchased through a third party. 
 Within this section a link brings the user to a third party and searched for additional dates.
 
 
-##### [Client User Stories](#client-user-stores) Testing: 
+#### [Client User Stories](#client-user-stores) Testing: 
 
 **1. We want the bands branding to be forefront.**
 
@@ -747,7 +747,7 @@ Visually, the use of a lemon icon was repeated throughout the site to reinforce 
 
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/merchandise-screenshot.png" width="350" alt="Merch Page">
 
-Band merchandise is availale to purchase via a thrid party on [Merch](https://asdub.github.io/yellow-lemon-MP1/merchandise.html) page. 
+Band merchandise is available to purchase via a third party on [Merch](https://asdub.github.io/yellow-lemon-MP1/merchandise.html) page. 
 
 
 **3. We want the bands music to be available.**
@@ -759,7 +759,7 @@ A Spotify popup is available from anywhere on the site. Allowing users to listen
 **4. We want to sell tickets to shows.**
 
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/events-section-screenshot.png" width="350" alt="Ticketed Events">
-As referred to above, the event section allows users to see upcomming ticketed events, which can be purchased through a third party. 
+As referred to above, the event section allows users to see upcoming ticketed events, which can be purchased through a third party. 
 Within this section a link brings the user to a third party and searched for additional dates.
 
 **5. We want the ability to receive enquiries about private shows.**
