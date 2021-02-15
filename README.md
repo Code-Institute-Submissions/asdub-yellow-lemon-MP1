@@ -689,7 +689,7 @@ A responsive event section allows users to see upcomming ticketed events, which 
 Within this section a link brings the user to a third party and searched for additional dates.
 
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/get-in-touch-screenshot.png" width="350" alt="Private Events">
-The ability to enquiry about private events is also available via the contact form on the 'Get in Touch' page.
+The ability to make an enquiry about private events is also available via the contact form on the 'Get in Touch' page.
 
 
 **3. I want to keep to to date on band news.**
@@ -730,6 +730,7 @@ Within this section a link brings the user to a third party and searched for add
 ##### [Client User Stories](#client-user-stores) Testing: 
 
 **1. We want the bands branding to be forefront.**
+
 Cohesive branding and styling was used throughout the site.\
 The bands identity is signalled through the [colour scheme](#colours) used. 
 
@@ -743,14 +744,28 @@ Visually, the use of a lemon icon was repeated throughout the site to reinforce 
 
 **2. We want to sell the bands merchandise.**
 
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/merchandise-screenshot.png" width="350" alt="Merch Page">
+
+Band merchandise is availale to purchase via a thrid party on [Merch](https://asdub.github.io/yellow-lemon-MP1/merchandise.html) page. 
+
 
 **3. We want the bands music to be available.**
 
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/spotify-screenshot.png" width="350" alt="Merch Page">
+
+A Spotify popup is available from anywhere on the site. Allowing users to listen to the bands music. 
 
 **4. We want to sell tickets to shows.**
 
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/events-section-screenshot.png" width="350" alt="Ticketed Events">
+As referred to above, the event section allows users to see upcomming ticketed events, which can be purchased through a third party. 
+Within this section a link brings the user to a third party and searched for additional dates.
 
 **5. We want the ability to receive enquiries about private shows.**
+
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/get-in-touch-screenshot.png" width="350" alt="Private Events">
+The ability to make an enquiry about private events is also available via the contact form on the 'Get in Touch' page.
+
 
 ## Known Bugs 
 - [ ] Issue with active menu item. 
