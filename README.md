@@ -701,8 +701,7 @@ Recent band news articles are available on the home page.
 
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-section-screenshot.png" width="350" alt="Private Events">
 A dedicated 'Follow' section is located at the bottom of the homepage. Accessible from the webiste menu. 
-There are social media links for Twitter, YouTube, Instagram & Facebook.\
-\
+There are social media links for Twitter, YouTube, Instagram & Facebook.
 
 **5. I can't attend shows, I want to interact with the band.**
 
@@ -713,6 +712,7 @@ A 'Studio Sessions' page and CTA were created to users with a new way to interac
 ##### [Returning & Regular User Stories](#returning--regular-user-stores) Testing:
 
 **1. I want to easily check recent news.**
+
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/band-news-screenshot.png" width="350" alt="Private Events">
 Recent band news articles are available on the home page.
 
@@ -721,6 +721,7 @@ Which links to full individual news articles.
 
 
 **2. I want to easily check new events.**
+
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/events-section-screenshot.png" width="350" alt="Ticketed Events">
 As referred to above, the event section allows users to see upcomming ticketed events, which can be purchased through a third party. 
 Within this section a link brings the user to a third party and searched for additional dates.
@@ -732,9 +733,11 @@ Within this section a link brings the user to a third party and searched for add
 Cohesive branding and styling was used throughout the site.\
 The bands identity is signalled through the [colour scheme](#colours) used. 
 
-Visually, the use of a lemon icon was repeated throughout the site to reinforce the Yellow Lemon brand 
+Visually, the use of a lemon icon was repeated throughout the site to reinforce the Yellow Lemon brand:\
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/lemon-divider-screenshot.png" width="250" alt="Site Divider">
+
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/lemon-title-screenshot.png" width="250" alt="Site Title">
+
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/lemon-title-alt-screenshot.png" width="250" alt="Site Title Alt">
 
 
