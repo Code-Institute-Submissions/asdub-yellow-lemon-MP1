@@ -57,6 +57,7 @@ This website’s purpose is to provide a useful resource for fans of the band to
         * [Manual Processes](#manual-testing-processes)
         * [User Stories](#user-story-testing)
 * [Known Bugs](#known-bugs)
+* [Credits](#credits)
 
 
 ## User Experience (UX)
@@ -772,7 +773,10 @@ The ability to make an enquiry about private events is also available via the co
 - [ ] In some tablet aspect ratios images can become horizontally stretched.
 - [ ] Issue with Spotify headphone indicating active or note (likely due to the JS hint errors observed above). 
 
-**Site URL:**
-[https://asdub.github.io/yellow-lemon-MP1](https://asdub.github.io/yellow-lemon-MP1) 
+
+## Credits 
+- I found this documentation very helpful, [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+- Mobile Menu Overlay - https://stackoverflow.com/a/48217369 
+- Menu Height adjust on scroll - http://jsfiddle.net/cgdoh1bo/1 
 
 
