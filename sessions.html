@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Load Fontawesome & Stylesheet-->
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -14,6 +15,7 @@
         <title>Yellow Lemon | Studio Sessions</title>
     </head>
     <body>
+        <!-- Header/ Navbar Start-->
         <header id="navbar" class="black">
             <div class="menu-logo black">
                 <a href="./">
@@ -23,6 +25,7 @@
                     </h1>
                 </a>
             </div>
+            <!-- Desktop Nav -->
             <div class="nav-container">
                 <div id="menudesktop" class="nav-menu-desktop black">
                     <ul class="nav-items-desktop">
@@ -42,6 +45,7 @@
                 <i onclick="spotifyOverlay()" id="headphones-sm" class="fas fa-headphones-alt spotify-headphones black small" title="Spotify Open"></i>
                 <div class="nav-menu">
                     <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
+                        <!-- SVG for mobile menu toggle-->
                         <svg width="100%" height="100%" viewBox="0 0 100 100">
                             <path
                                 class="line line1 black"
@@ -56,7 +60,9 @@
                     </button>
                 </div>
             </div>
+         <!-- Header End -->
         </header>
+         <!-- Mobile Nav -->
         <div id="menuunderlay" onclick="menuUnderlay()" class="nav-menu-underlay nav-display container-animate"></div>
         <div id="menuoverlay" class="nav-menu-overlay nav-display container-animate">
             <ul class="nav-items">
@@ -74,10 +80,12 @@
                 </li>
             </ul>
         </div>
+        <!-- Spotify Popup -->
         <div id="spotify" class="spotify-overlay container-animate">
             <div onclick="spotifyOverlay()" class="spotify-close-background"><i id="spotify-close" class="fas fa-times"></i></div>
             <iframe src="https://open.spotify.com/embed/playlist/5a2OuIJ1kEttA8X3PaewlI" allow="encrypted-media"></iframe>
         </div>
+        <!-- Main Content Layout -->
         <div class="sessions-grid-container">
             <section class="latest-session">
                 <div class="section-container sessions">
@@ -113,6 +121,7 @@
                     </div>
                 </div>
             </section>
+            <!-- Main Content Scrollable -->
             <section class="the-band sessions-layout">
                 <div class="section-container black-container">
                     <h2 class="section-title invert-dark">
@@ -255,6 +264,7 @@
                     </div>
                 </div>
             </section>
+            <!-- Footer -->
             <footer class="page-footer">
                 <div class="section-container footer-container">
                     <div class="footer-content">
@@ -277,6 +287,7 @@
                 </div>
             </footer>
         </div>
+        <!-- Load JS -->
         <script src="./assets/js/menubar.js"></script>
         <script src="./assets/js/menuoverlay.js"></script>
     </body>
