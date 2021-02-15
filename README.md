@@ -716,7 +716,7 @@ A 'Studio Sessions' page and CTA were created to users with a new way to interac
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/band-news-screenshot.png" width="350" alt="Private Events">
 Recent band news articles are available on the home page.
 
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/band-article-item-screenshot.png" width="350" alt="Private Events">
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/news-article-item-screenshot.png" width="350" alt="Private Events">
 Which links to full individual news articles. 
 
 
