@@ -674,6 +674,34 @@ I have noted this in the [known bugs section](#known-bugs) below.
 
 #### User Story Testing
 
+Testing [New User Stories](#new-user-stories):
+
+1. I want information on each band member.
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/the-band-screenshot.png" width="350" alt="The Band Page ">
+
+A responsive band information page provides general band information and details on each band member. 
+Also included are links to discover further information via external sources.  
+
+2. I want the ability to book band shows or events.
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/events-section-screenshot.png" width="350" alt="Ticketed Events">
+
+A responsive event section allows users to see upcomming ticketed events, which can be purchased through a third party. 
+Within this section a link brings the user to a third party and searched for additional dates. 
+
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/get-in-touch-screenshot.png" width="350" alt="Private Events">
+The ability to enquiry about private events is also available via the contact form on the 'Get in Touch' page. 
+
+
+3. I want to keep to to date on band news. 
+
+
+4. I want easy access to band social media.
+
+
+5. I can't attend shows, I want to interact with the band. 
+
+
+
 ## Known Bugs 
 - [ ] Issue with active menu item. 
 - [ ] In some tablet aspect ratios images can become horizontally stretched.
