@@ -647,10 +647,10 @@ I have noted this in the [known bugs section](#known-bugs) below.
      - Follow footer steps above.
 
 
-    *******************
-    * Contact page *
+    **************************
+    * Contact page           *
     * /bag-some-lemons.html  *
-    *******************
+    **************************
     
     Header
     - Follow above header steps. 
