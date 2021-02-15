@@ -699,7 +699,7 @@ Recent band news articles are available on the home page.
 
 **4. I want easy access to band social media.**
 
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-section-screenshot" width="350" alt="Private Events">
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-section-screenshot.png" width="350" alt="Private Events">
 A dedicated 'Follow' section is located at the bottom of the homepage. Accessible from the webiste menu. 
 There are social media links for Twitter, YouTube, Instagram & Facebook. 
 
