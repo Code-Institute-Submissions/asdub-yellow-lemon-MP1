@@ -258,7 +258,7 @@ Testing the responsiveness of the website is conducted in the [testing section](
 
 ## Features 
 
-Yellow Lemon is a mobile first fully responsive website with the following features. \
+Yellow Lemon is a mobile first fully responsive website with the following features. 
 #### Existing Features:
 - Responsive Navigation,
     - (Mobile) The header height and logo reduces in size as the user scrolls. 
@@ -751,7 +751,7 @@ Band merchandise is availale to purchase via a thrid party on [Merch](https://as
 
 **3. We want the bands music to be available.**
 
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/spotify-screenshot.png" width="350" alt="Merch Page">
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/spotify-screenshot.png" width="350" alt="Spotify Popup">
 
 A Spotify popup is available from anywhere on the site. Allowing users to listen to the bands music. 
 

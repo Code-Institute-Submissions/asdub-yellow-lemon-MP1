@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Load Fontawesome & Stylesheet-->
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -13,6 +14,7 @@
         <title>Yellow Lemon | Offical</title>
     </head>
     <body>
+        <!-- Header/ Navbar Start-->
         <header id="navbar">
             <div class="menu-logo">
                 <a href="/">
@@ -22,6 +24,7 @@
                     </h1>
                 </a>
             </div>
+             <!-- Desktop Nav -->
             <nav class="nav-container">
                 <div id="menudesktop" class="nav-menu-desktop">
                     <ul class="nav-items-desktop">
@@ -41,6 +44,7 @@
                 <i onclick="spotifyOverlay()" id="headphones-sm" class="fas fa-headphones-alt spotify-headphones small" title="Spotify Open"></i>
                 <div class="nav-menu">
                     <button id="mobilemenu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), menuOverlay()" aria-label="Main Menu">
+                        <!-- SVG for mobile menu toggle-->
                         <svg width="100%" height="100%" viewBox="0 0 100 100">
                             <path
                                 class="line line1"
@@ -55,7 +59,9 @@
                     </button>
                 </div>
             </nav>
+         <!-- Header End -->
         </header>
+         <!-- Mobile Nav -->
         <div id="menuunderlay" onclick="menuUnderlay()" class="nav-menu-underlay nav-display container-animate"></div>
         <div id="menuoverlay" class="nav-menu-overlay nav-display container-animate">
             <ul class="nav-items">
@@ -73,12 +79,14 @@
                 </li>
             </ul>
         </div>
+        <!-- Spotify Popup -->
         <div id="spotify" class="spotify-overlay container-animate">
             <div onclick="spotifyOverlay()" class="spotify-close-background">
                 <i id="spotify-close" class="fas fa-times" title="Spotify Close"></i>
             </div>
             <iframe src="https://open.spotify.com/embed/playlist/5a2OuIJ1kEttA8X3PaewlI" allow="encrypted-media"></iframe>
         </div>
+        <!-- Main Content Layout -->
         <div id="home" class="main-grid-container">
             <section class="hero-album">
                 <div class="hero-album-overlay">
@@ -87,12 +95,13 @@
                         <h2>Lemonade</h2>
                         <span>Listen Now</span>
                     </div>
+                    <!-- Spotify Popup trigger -->
                     <div onclick="spotifyOverlay()" class="hero-play">
                         <i class="fas fa-play" title="Play latest release"></i>
                     </div>
                 </div>
             </section>
-
+              <!-- Studio Sessions CTA -->
             <section class="band-sessions">
                 <div class="band-sessions-container">
                     <div class="band-sessions-overlay">
@@ -115,9 +124,11 @@
                     </div>
                 </div>
             </section>
+            <!-- Section Divider -->
             <div class="section-footer in-layout">
                 <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
             </div>
+            <!-- Band News Section -->
             <section id="news" class="band-news">
                 <div class="section-container">
                     <h2 class="section-title">
@@ -170,16 +181,18 @@
                         </article>
                     </div>
                 </div>
+                <!-- Section Divider -->
                 <div class="section-footer">
                     <i class="fas fa-lemon yellow-lemon" aria-hidden="true"></i>
                 </div>
             </section>
-
+            <!-- Events Section -->
             <section id="events" class="band-events">
                 <div class="covid-alert outer">
                     <div class="covid-alert-icon">
                         <img src="./assets/svg/covid.svg" alt="Coronavirus Icon" />
                     </div>
+                     <!-- User Alert -->
                     <div class="covid-alert-content">
                         <span>
                             <i class="fas fa-exclamation-triangle"></i>
@@ -208,6 +221,7 @@
                             </p>
                         </div>
                     </div>
+                    <!-- Event Section Content -->
                     <div class="band-events-content">
                         <p class="invert-dark">
                             <span>Keep up to date</span>
@@ -226,6 +240,7 @@
                             </a>
                         </p>
                     </div>
+                    <!-- Event Section Items Container -->
                     <div class="band-events-post-layout">
                         <div class="events-title-container">
                             <h3 class="events-title">2020 Tour Dates</h3>
@@ -339,7 +354,7 @@
                     </div>
                 </div>
             </section>
-
+            <!-- Follow Section -->
             <section id="follow" class="band-follow">
                 <h3 style="display: none;">Follow Yellow Lemon</h3>
                 <div class="section-container band-follow-container">
@@ -365,6 +380,7 @@
                     <hr class="white-divider" />
                 </div>
             </section>
+            <!-- Footer Section -->
             <footer class="page-footer">
                 <div class="section-container footer-container">
                     <div class="footer-content">
@@ -387,6 +403,7 @@
                 </div>
             </footer>
         </div>
+        <!-- Load JS -->
         <script src="./assets/js/menubar.js"></script>
         <script src="./assets/js/menuoverlay.js"></script>
     </body>
