@@ -485,6 +485,8 @@ I have noted this in the [known bugs section](#known-bugs) below.
         - Confirm link hover/ focus transitions to text colour theme red. 
         - Confirm on Body scroll, menu overlay position aligns with header and original top margin maintained.
         - confirm menu overlay has z-index preference over Spotify overlay. 
+    - (On displays over 992 px) Confirm text navigation is visible, displayed and aligned correctly. 
+        - Confirm navigaion transitions - scale / colour change on focus/ hover + border bottom. 
     - On scroll down confirm header height reduces to 75px. 
     - Confirm scroll to top header height increase to 100px. 
     - On sessions.html, confirm header background is black. Logo text, headphones & hamburger icons are yellow. 
@@ -494,11 +496,13 @@ I have noted this in the [known bugs section](#known-bugs) below.
     - Confirm background image is visible. 
     - Confirm hero text is visible and the layout is correct. 
     - confirm 'Play' button activates Spotify overlay. 
+    - (On displays over 992 px) Confirm primary CTA covers 2/3 of screen area.
 
     Secondary CTA (Studio sessions)
     - Confirm background image is visible. 
     - Confirm overlay with Headings, Title, Span Test & Lemon Icon display correctly. 
     - Confirm 'More' link directs to sessions.html. 
+    - (On displays over 992 px) Confirm primary CTA covers 1/3 of screen area.
 
     Section Dividers 
     - Confirm 'Lemon' icon with full width line is present at end of each section.
@@ -512,6 +516,7 @@ I have noted this in the [known bugs section](#known-bugs) below.
     - Confirm 'More' button on each articles directs to the correct news article .html.  
     - (Tablet Only - over 768px) Confirm band news articles feature an image and is displayed correctly. 
     - (Tablet Only - over 768px) Confirm event items rearrange into a grid of four. 
+    - (On displays over 992 px) Confirm four news articles with images are present. 
 
 
     Events Section
@@ -528,7 +533,8 @@ I have noted this in the [known bugs section](#known-bugs) below.
         - Confirm all four 'Tickets' buttons direct to an external link 
         - Confirm at the end of the event items scrollable section, the 'More Dates' link is viable and directing to the correct external resource. 
         - (Tablet Only - over 768px) Confirm event items rearrange into a grid of four. 
-     - Event Section 'Book Yellow Lemon' link directs to contact/ get in touch page.  
+     - Event Section 'Book Yellow Lemon' link directs to contact/ get in touch page.
+     - (On displays over 992 px) Confirm the four ticket items align in a row of one. 
 
     Follow Section
     - (Mobile Only - under 768px) Confirm all content is aligned in a column. 
@@ -542,6 +548,7 @@ I have noted this in the [known bugs section](#known-bugs) below.
         - Artwork positioned on left. visible, displayed and aligned correctly. 
         - Section text & Social media icons are position on the right and aligned correctly in a column. 
         - Both section should be aligned and spaced evenly. 
+    - (On displays over 992 px) Confirm artwork, content and social media links are displayed and aligned correctly. 
     
     Footer
     - Confirm footer position at bottom of page. 
@@ -550,6 +557,7 @@ I have noted this in the [known bugs section](#known-bugs) below.
     - Confirm copyright & policies links direct to external resource. 
     - Confirm section divider is positioned below copyright & policies.
     - Confirm section divider is visible, displaying and aligned correctly. 
+    - (On displays over 992 px) Confirm footer content and links are displayed and aligned correctly. 
 
 
     ******************
@@ -572,6 +580,10 @@ I have noted this in the [known bugs section](#known-bugs) below.
         - Confirm all four 'More Information' links direct to an external link 
      - (Mobile/Tablet Only - under 992px) Confirm band history information content is positioned beneath Band Member Section. 
      - Confirm band history information section 'Read More' links direct to an external link. 
+     - (On displays over 992 px) Confirm theme change (background colour)
+     - (On displays over 992 px) Confirm positioning of logo (to left) in body and hiding in header. 
+     - (On displays over 1200 px) Confirm positioning of logo (to center) 
+     - (On displays over 992 px) Confirm content is visible and displays correctly. 
 
      Footer
      - Follow footer steps above.
@@ -598,6 +610,9 @@ I have noted this in the [known bugs section](#known-bugs) below.
         - Confirm Thumbnails are visible, displaying and aligning correctly. 
         - Confirm all four 'Play' buttons direct to an external YouTube link 
      - Confirm 'View more on YouTube' Link at bottom of section directs to YouTube channel. 
+     - (On displays over 992 px) Confirm layout changes to row. 
+        - More current video to appear on left side, recent video selecton to appear on right. 
+        - Confirm content is is visible and displays correctly. 
 
     Footer
      - Follow footer steps above.
@@ -624,9 +639,35 @@ I have noted this in the [known bugs section](#known-bugs) below.
         - Confirm all four 'Buy' buttons direct to an external link 
     - Confirm additional text content below scrollable div is present. 
     - Confirm content is visible and displaying per stylesheet. 
+    - (On displays over 992 px) Confirm layout changes to row. 
+        - Hero artwork to appear on left side, merchandise selecton to appear on right. 
+        - Confirm content is is visible and displays correctly. 
 
     Footer
      - Follow footer steps above.
+
+
+    *******************
+    * Contact page *
+    * /bag-some-lemons.html  *
+    *******************
+    
+    Header
+    - Follow above header steps. 
+
+    Contact Hero Artwork. Confirm that, 
+        - SVG Artwork is visible, displaying and aligned correctly. 
+    - Confirm section title is visible, displayed and spaced correctly.
+    - Confirm section text content is visible, displayed and spaced correctly.
+    - Confirm form input fields are displaying and aligned correctly. 
+    - Confrim data entry into form input feilds. 
+    - Confirm data entered is styled per stylesheet. 
+    - Confirm email form input field validates data entered. 
+    - Confirm form submit button is functioning. 
+    - (Mobile/Tablet Only - under 992px) - Confirm content is arranged in a column. 
+    - (On displays over 992 px) Confirm layout changes to row. 
+        - Hero artwork to appear on left side, contact form to appear on right. 
+        - Confirm content is is visible and displays correctly. 
 
     **Displaying correctly = Adhering to CSS rules specified on stylesheet.css*
 
