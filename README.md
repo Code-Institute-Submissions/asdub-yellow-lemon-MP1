@@ -674,17 +674,17 @@ I have noted this in the [known bugs section](#known-bugs) below.
 
 #### User Story Testing
 
-Testing [New User Stories](#new-user-stories):
+##### [New User Stories](#new-user-stories) Testing:
 
-1. I want information on each band member.
+**1. I want information on each band member.**
+
 <img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/the-band-screenshot.png" width="350" alt="The Band Page ">
-
 A responsive band information page provides general band information and details on each band member. 
 Also included are links to discover further information via external sources.  
 
-2. I want the ability to book band shows or events.
-<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/events-section-screenshot.png" width="350" alt="Ticketed Events">
+**2. I want the ability to book band shows or events.**
 
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/events-section-screenshot.png" width="350" alt="Ticketed Events">
 A responsive event section allows users to see upcomming ticketed events, which can be purchased through a third party. 
 Within this section a link brings the user to a third party and searched for additional dates. 
 
@@ -692,15 +692,47 @@ Within this section a link brings the user to a third party and searched for add
 The ability to enquiry about private events is also available via the contact form on the 'Get in Touch' page. 
 
 
-3. I want to keep to to date on band news. 
+**3. I want to keep to to date on band news.**
+
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/band-news-screenshot.png" width="350" alt="Private Events">
+Recent band news articles are available on the home page. 
+
+**4. I want easy access to band social media.**
+
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/follow-section-screenshot" width="350" alt="Private Events">
+A dedicated 'Follow' section is located at the bottom of the homepage. Accessible from the webiste menu. 
+There are social media links for Twitter, YouTube, Instagram & Facebook. 
 
 
-4. I want easy access to band social media.
+**5. I can't attend shows, I want to interact with the band.**
+
+<img src="https://github.com/asdub/yellow-lemon-MP1/blob/master/readme/screenshots/sessions-screenshot.png" width="350" alt="Private Events">
+A 'Studio Sessions' page and CTA were created to users with a new way to interact with the band while shows are cancelled. 
 
 
-5. I can't attend shows, I want to interact with the band. 
+##### [Returning & Regular User Stories](#returning--regular-user-stores) Testing:
+
+**1. I want to easily check recent news.**
 
 
+**2.I want to easily check new events.**
+
+
+##### [Client User Stories](#client-user-stores) Testing: 
+
+**1. We want the bands branding to be forefront.**
+
+
+**2. We want to sell the bands merchandise.**
+
+
+**3. We want the bands music to be available.**
+
+
+**4. We want to sell tickets to shows.**
+
+
+**5. We want the ability to receive enquiries about private shows.**
 
 ## Known Bugs 
 - [ ] Issue with active menu item. 
